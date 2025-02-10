@@ -193,7 +193,7 @@ class HomeState extends State<Home> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   ListTile(
-                    titleTextStyle: Dimen.getSidebarTextStyle(context),
+                      titleTextStyle: Dimen.getSidebarTextStyle(context),
                       leading: Icon(Icons.picture_as_pdf,
                           color:
                               Theme.of(context).textTheme.headlineSmall?.color),
@@ -204,7 +204,7 @@ class HomeState extends State<Home> {
                               builder: (context) => PDFView(
                                   filePath: 'assets/syllabus.pdf',
                                   title: 'BTech Syllabus',
-                                  isAsset: true)))),
+                                  fileType: 1)))),
                   const SizedBox(height: 8),
                   const Divider(height: Dimen.sidebar_divider_thickness),
                   ListTile(

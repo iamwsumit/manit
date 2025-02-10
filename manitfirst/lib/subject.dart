@@ -6,7 +6,6 @@ import 'package:crypto/crypto.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:manitfirst/comps/list.dart';
-
 import 'package:manitfirst/utils/theme.dart';
 import 'package:manitfirst/utils/utility.dart';
 import 'package:path_provider/path_provider.dart';
@@ -26,33 +25,35 @@ class SubjectState extends State<Subject> {
   late Utils utils;
   bool isLoading = true;
   Map<String, dynamic> data = {};
-
+  List<Tab> tabs = [];
+  Map<String, List<dynamic>> tabValues = {};
   late String dirPath;
 
   @override
   void initState() {
+    super.initState();
     utils = Utils(context: context);
     initialize();
-    super.initState();
   }
 
   void initialize() async {
     dirPath = (await getApplicationSupportDirectory()).path;
     data = widget.data;
     final Map<String, dynamic> sData = data['data'] ?? {};
+
     if (sData.keys.isEmpty) {
       Future.microtask(() {
         Utils.showToast(msg: 'Invalid Subject or data not found');
         if (context.mounted) {
-          Navigator.pop(context);
+          dismissDialog();
         }
       });
       return;
     }
+
     for (final e in sData.entries) {
       tabs.add(Tab(text: e.key));
-      final List<dynamic> values = e.value;
-      children.add(buildWidget(values));
+      tabValues[e.key] = List<dynamic>.from(e.value);
     }
 
     setState(() {
@@ -61,35 +62,37 @@ class SubjectState extends State<Subject> {
   }
 
   Widget buildWidget(List<dynamic> values) {
-    return LayoutBuilder(builder: (context, constraints) {
-      double maxW = constraints.maxWidth;
-      int crossAxisCount =
-          maxW < 900 ? 1 : (maxW < 1504 ? 2 : (maxW < 1800 ? 3 : 4));
-      return AutoHeightGridView(
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        double maxW = constraints.maxWidth;
+        int crossAxisCount = maxW < 900 ? 1 : (maxW < 1504 ? 2 : (maxW < 1800 ? 3 : 4));
+
+        return AutoHeightGridView(
           padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 15),
           crossAxisCount: crossAxisCount,
           itemCount: values.length,
           builder: (context, index) {
+            final item = values[index];
             return ListCard(
-                index: index,
-                title: values.elementAt(index)['title'],
-                desc: values.elementAt(index)['desc'],
-                isDownloaded: isDownloaded(values.elementAt(index)['title']),
-                download: download,
-                removeFile: removeFile,
-                link: values.elementAt(index)['link']);
-          });
-    });
+              key: ValueKey('${item['title']}_$index'), // Add a unique key
+              index: index,
+              title: item['title'],
+              desc: item['desc'],
+              isDownloaded: isDownloaded(item['title']),
+              download: download,
+              removeFile: removeFile,
+              link: item['link'],
+            );
+          },
+        );
+      },
+    );
   }
-
-  final List<Tab> tabs = [];
-  final List<Widget> children = [];
 
   bool isDownloaded(String fileName) {
     try {
       fileName = getFileName(fileName);
       final file = File('$dirPath/$fileName');
-      debugPrint(file.path);
       return file.existsSync();
     } catch (e) {
       debugPrint("Error checking if file is downloaded: $e");
@@ -103,20 +106,20 @@ class SubjectState extends State<Subject> {
     return '$hash.pdf';
   }
 
-  void removeFile(String name) async {
+  void removeFile(ListCard card) async {
     try {
-      final fileName = getFileName(name);
+      final fileName = getFileName(card.title);
       final filePath = '$dirPath/$fileName';
 
       final file = File(filePath);
       if (await file.exists()) {
         await file.delete();
         Utils.showToast(msg: 'File deleted successfully');
+
+        setState(() {});
       } else {
         Utils.showToast(msg: 'File not found for deletion');
       }
-
-      setState(() {});
     } catch (e) {
       dismissDialog();
       debugPrint("Error during removing file operation: $e");
@@ -125,16 +128,19 @@ class SubjectState extends State<Subject> {
   }
 
   void dismissDialog() {
-    Navigator.pop(context);
+    if (context.mounted) {
+      Navigator.pop(context);
+    }
   }
 
-  void download(String name, String link) async {
+  void download(ListCard card) async {
     try {
+      final name = card.title;
+      final link = card.link;
       final fileName = getFileName(name);
       final filePath = '$dirPath/$fileName';
 
       Dio dio = Dio();
-
       int received = 0;
       int total = 1;
 
@@ -144,18 +150,18 @@ class SubjectState extends State<Subject> {
       }
 
       final file = File(filePath);
-
       final dialogKey = GlobalKey<DownloadDialogState>();
 
-      showDialog(
-        context: context,
-        barrierDismissible: false,
-        builder: (context) => DownloadDialog(
-          key: dialogKey,
-          title: 'Download PDF',
-          subtitle: name,
-        ),
-      );
+      if (context.mounted) {
+        showDialog(
+          context: context,
+          barrierDismissible: false,
+          builder: (context) => DownloadDialog(
+            key: dialogKey,
+            title: name,
+          ),
+        );
+      }
 
       await dio.download(
         link,
@@ -165,7 +171,8 @@ class SubjectState extends State<Subject> {
             received = count;
             total = totalSize;
             double progress = (received / total);
-            dialogKey.currentState?.updateProgress(progress);
+            String download = '${formatFileSize(received)} of ${formatFileSize(total)}';
+            dialogKey.currentState?.updateProgress(progress, download);
           }
         },
       );
@@ -181,26 +188,52 @@ class SubjectState extends State<Subject> {
     }
   }
 
+  String formatFileSize(int bytes) {
+    const int kb = 1024;
+    const int mb = kb * 1024;
+    const int gb = mb * 1024;
+
+    if (bytes < kb) {
+      return '$bytes B';
+    } else if (bytes < mb) {
+      double sizeInKb = bytes / kb;
+      return '${sizeInKb.toStringAsFixed(1)}KB';
+    } else if (bytes < gb) {
+      double sizeInMb = bytes / mb;
+      return '${sizeInMb.toStringAsFixed(1)}MB';
+    } else {
+      double sizeInGb = bytes / gb;
+      return '${sizeInGb.toStringAsFixed(1)}GB';
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    return isLoading
-        ? const Center(child: CircularProgressIndicator(color: MyTheme.primary))
-        : DefaultTabController(
-            length: tabs.length,
-            child: Scaffold(
-                appBar: AppBar(
-                  bottom: MyTabBar(
-                    tabs: tabs,
-                  ),
-                  leading: IconButton(
-                      icon: const Icon(Icons.arrow_back),
-                      onPressed: () => Navigator.pop(context)),
-                  title: Text(data['name']),
-                ),
-                resizeToAvoidBottomInset: false,
-                backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-                body: TabBarView(
-                  children: children,
-                )));
+    if (isLoading) {
+      return const Scaffold(
+        body: Center(
+          child: CircularProgressIndicator(color: MyTheme.primary),
+        ),
+      );
+    }
+
+    return DefaultTabController(
+      length: tabs.length,
+      child: Scaffold(
+        appBar: AppBar(
+          bottom: MyTabBar(tabs: tabs),
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () => Navigator.pop(context),
+          ),
+          title: Text(data['name']),
+        ),
+        resizeToAvoidBottomInset: false,
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        body: TabBarView(
+          children: tabs.map((tab) => buildWidget(tabValues[tab.text] ?? [])).toList(),
+        ),
+      ),
+    );
   }
 }

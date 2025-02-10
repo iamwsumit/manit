@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:manitfirst/utils/theme.dart';
 
 import '../utils/dimen.dart';
 
 class DownloadDialog extends StatefulWidget {
   final String title;
-  final String subtitle;
 
-  const DownloadDialog(
-      {super.key, required this.title, required this.subtitle});
+  const DownloadDialog({super.key, required this.title});
 
   @override
   State<DownloadDialog> createState() => DownloadDialogState();
@@ -15,79 +14,67 @@ class DownloadDialog extends StatefulWidget {
 
 class DownloadDialogState extends State<DownloadDialog> {
   double progress = 0;
-  void updateProgress(double progress){
+  String download = '';
+
+  void updateProgress(double progress, String download) {
     setState(() {
       this.progress = progress;
+      this.download = download;
     });
   }
+
   @override
   Widget build(BuildContext context) {
-    final progressColor = Theme.of(context).primaryColor;
-
+    double width = MediaQuery.of(context).size.width;
+    width = width > 400 ? 400 : width;
     return Dialog(
       backgroundColor: Theme.of(context).dialogTheme.backgroundColor,
       shape: const RoundedRectangleBorder(
         borderRadius: Dimen.listViewCardRadius,
       ),
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            SizedBox(
-              height: 150,
-              width: 150,
-              child: Stack(
-                alignment: Alignment.center,
-                children: [
-                  SizedBox(
-                    height: 120,
-                    width: 120,
-                    child: CircularProgressIndicator(
-                      value: 1,
-                      valueColor: AlwaysStoppedAnimation<Color>(
-                        progressColor.withOpacity(0.2),
-                      ),
-                      strokeWidth: 8,
+      child: SizedBox(
+          width: width,
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Downloading ${widget.title}...',
+                  style: Dimen.getListViewTitleStyle(context)
+                      .copyWith(fontSize: 16),
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
+                LinearProgressIndicator(
+                    borderRadius: BorderRadius.circular(8),
+                    backgroundColor: MyTheme.halkaPrimary,
+                    color: MyTheme.primary,
+                    value: progress),
+                const SizedBox(height: 4),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      download,
+                      style: Dimen.getListViewSubTitleStyle(context),
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      textAlign: TextAlign.center,
                     ),
-                  ),
-                  SizedBox(
-                    height: 120,
-                    width: 120,
-                    child: CircularProgressIndicator(
-                      strokeCap: StrokeCap.round,
-                      value: progress,
-                      valueColor: AlwaysStoppedAnimation<Color>(progressColor),
-                      strokeWidth: 8,
+                    Text(
+                      '${(progress * 100).toStringAsFixed(0)}%',
+                      style: Dimen.getListViewSubTitleStyle(context),
+                      maxLines: 1,
+                      textAlign: TextAlign.center,
                     ),
-                  ),
-                  Text(
-                    '${(progress * 100).toInt()}%',
-                    style: TextStyle(
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
-                      color: Theme.of(context).textTheme.headlineSmall?.color,
-                    ),
-                  ),
-                ],
-              ),
+                  ],
+                )
+              ],
             ),
-            const SizedBox(height: 16),
-            Text(
-              widget.title,
-              style: Dimen.getListViewTitleStyle(context),
-            ),
-            const SizedBox(height: 4),
-            Text(
-              widget.subtitle,
-              style: Dimen.getListViewSubTitleStyle(context),
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-              textAlign: TextAlign.center,
-            ),
-          ],
-        ),
-      ),
+          )),
     );
   }
 }

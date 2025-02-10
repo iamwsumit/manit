@@ -28,7 +28,7 @@ class Dimen {
 
   static TextStyle getListViewSubTitleStyle(BuildContext context) {
     return TextStyle(
-        fontSize: 16,
+        fontSize: 14,
         fontWeight: FontWeight.w600,
         color: Theme.of(context).unselectedWidgetColor);
   }
