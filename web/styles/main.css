@@ -1,0 +1,27 @@
+.head-container h1{
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 600 !important;
+    text-align: center;
+}
+
+.head-container {
+    padding: 30px 0;
+}
+
+footer li i {
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    background-color: var(--bs-primary);
+}
+
+header {
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    header {
+        justify-content: center;
+    }
+}

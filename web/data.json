@@ -1,0 +1,23 @@
+{
+    "maths1": {
+        "name": "Mathematics 1",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Notes" : [],
+            "PYPs" : [],
+            "Books" : [
+                {
+                    "title" : "",
+                    "desc" : "",
+                    "link" : ""
+                }
+            ]
+        }
+    }
+}

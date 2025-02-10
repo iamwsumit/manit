@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="styles/headers.css" />
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <script src="scripts/main.js"></script>
+    <script src="scripts/subject.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <title>NIT Bhopal Study Portal</title>
+  </head>
+  <style>
+    .head-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    select {
+      padding: 0.375rem 1.25rem 0.375rem 0.75rem;
+      margin: 0 3px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: border-color 0.3s;
+    }
+    select:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+  </style>
+  <body onload="loadData()">
+    <div class="header-bg">
+      <div class="container">
+        <header class="d-flex flex-wrap py-3 mb-4">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none"
+            style="justify-content: center !important"
+          >
+            <img
+              src="assets/manit.png"
+              alt="manit logo"
+              height="45px"
+              style="margin: 10px 20px 10px 0px"
+            />
+            <span class="fs-4" style="font-weight: 600"
+              >MANIT Study Resources</span
+            >
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="#" class="nav-link nav-active" aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/tutorials" class="nav-link">Tutorials</a>
+            </li>
+            <li class="nav-item">
+              <a href="/contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item" style="padding-left: 10px">
+              <a
+                href="https://github.com/iamwsumit/manit"
+                type="button"
+                target="_blank"
+                class="btn btn-success"
+                >Contribute</a
+              >
+            </li>
+          </ul>
+        </header>
+      </div>
+    </div>
+
+    <div class="container head-container">
+      <h1>Subject Name</h1>
+      <select id="types">
+      </select>
+    </div>
+    <div class="container subj-container"></div>
+  </body>
+</html>
