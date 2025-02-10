@@ -1,0 +1,17 @@
+{
+    "comment" : [
+        "This JSON will contain the announcements that will be shown in app as well as in website",
+        "App and website shall ignore this comment key pair",
+        "notification key will contains all the notifications, each object of notification will contain the author, date, title, description and link. If you are adding a notification then it should be added on top",
+        "Leave the link key empty if you do not want to launch any URL on clicking the notification, or use a valid URL if you want to redirect user."
+    ],
+    "notifications" : [
+        {
+            "author" : "By Sumit Kumar",
+            "date" : "10 Feb 2025",
+            "title" : "MANIT Study Portal",
+            "desc" : "If you want to add some resources related to study, please create a PR on MANIT project on GitHub, it will be added after reviewing.",
+            "link" : "https://github.com/iamwsumit/manit"
+        }
+    ]
+}

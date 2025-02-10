@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:manitfirst/announcement.dart';
 import 'package:manitfirst/comps/subject_card.dart';
 import 'package:manitfirst/pdfview.dart';
 import 'package:manitfirst/subject.dart';
@@ -148,6 +149,12 @@ class HomeState extends State<Home> {
             ),
             actions: [
               IconButton(
+                  onPressed: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const Announcement())),
+                  icon: Icon(size: 32, Icons.notifications)),
+              IconButton(
                   onPressed: theme.setTheme,
                   icon: Icon(
                     Utils.isDarkTheme() ? Icons.sunny : Icons.nightlight,
@@ -192,9 +199,15 @@ class HomeState extends State<Home> {
                                 ?.color),
                         title: Text('Syllabus',
                             style: Dimen.getSidebarTextStyle(context)),
-                        onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => PDFView(filePath: 'assets/syllabus.pdf', title: 'BTech Syllabus', isAsset: true)))),
-                const SizedBox(height: 8),
-                const Divider(height: Dimen.sidebar_divider_thickness),
+                        onTap: () => Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => PDFView(
+                                    filePath: 'assets/syllabus.pdf',
+                                    title: 'BTech Syllabus',
+                                    isAsset: true)))),
+                    const SizedBox(height: 8),
+                    const Divider(height: Dimen.sidebar_divider_thickness),
                     ListTile(
                         leading: Icon(Icons.share,
                             color: Theme.of(context)
@@ -255,8 +268,15 @@ class HomeState extends State<Home> {
             padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 15),
             child: LayoutBuilder(builder: (context, constraints) {
               double maxW = constraints.maxWidth;
-              int crossAxisCount =
-                  maxW < 400 ? 1 : (maxW < 604 ? 2 : (maxW < 1091 ? 3 : maxW < 1300 ? 4 : 5));
+              int crossAxisCount = maxW < 400
+                  ? 1
+                  : (maxW < 604
+                      ? 2
+                      : (maxW < 1091
+                          ? 3
+                          : maxW < 1300
+                              ? 4
+                              : (maxW < 1600 ? 5 : 6)));
               List<Widget> children = [];
               int i = 0;
               while (i < items.length) {

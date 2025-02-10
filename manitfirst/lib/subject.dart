@@ -32,14 +32,16 @@ class SubjectState extends State<Subject> {
     if (sData.keys.isEmpty) {
       Future.microtask(() {
         Utils.showToast(msg: 'Invalid Subject or data not found');
-        Navigator.pop(context);
+        if (context.mounted) {
+          Navigator.pop(context);
+        }
       });
       return;
     }
     for (final e in sData.entries) {
       tabs.add(Tab(text: e.key));
       children.add(Column(
-        children: [const CircularProgressIndicator()],
+        children: [const Text('data')],
       ));
     }
 
