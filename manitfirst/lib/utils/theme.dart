@@ -26,7 +26,7 @@ class MyTheme extends ChangeNotifier {
           fontWeight: FontWeight.bold,
           fontSize: 20,
           color: Colors.black,
-          fontFamily: 'open'),
+          fontFamily: 'regular'),
       contentTextStyle: TextStyle(color: Colors.black),
     ),
     drawerTheme: const DrawerThemeData(backgroundColor: Color(0xfff4f4f4)),
@@ -43,7 +43,7 @@ class MyTheme extends ChangeNotifier {
         borderRadius: BorderRadius.circular(10),
       ),
     ),
-    textTheme: const TextTheme(headlineSmall: TextStyle(color: Colors.black)),
+    textTheme: TextTheme(headlineSmall: TextStyle(color: Colors.black), bodySmall: TextStyle(fontFamily: 'regular', fontSize: 12, color: Colors.grey[600])),
   );
 
   static final darkTheme = ThemeData(
@@ -91,7 +91,7 @@ class MyTheme extends ChangeNotifier {
       ),
       margin: EdgeInsets.zero,
     ),
-    textTheme: const TextTheme(headlineSmall: TextStyle(color: Colors.white)),
+    textTheme: const TextTheme(headlineSmall: TextStyle(color: Colors.white), bodySmall: TextStyle(fontFamily: 'regular', fontSize: 12, color: Colors.white)),
   );
 
   ThemeMode get themeMode => mode;
@@ -122,7 +122,7 @@ class MyTheme extends ChangeNotifier {
   }
 
   static const Color halkaPrimary =
-      Color(0x260067ff); // Lighter blue, fully opaque
+  Color(0x42388E3C); // Lighter blue, fully opaque
   static const Color primary = Color(0xFF388E3C);
   static const Color errorColor = Color(0xFFD32F2F);
   static const Color errorLightColor = Color(0x40D32F2F);

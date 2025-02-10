@@ -27,64 +27,68 @@ class _SubjectCardState extends State<SubjectCard> {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: MouseRegion(
-        cursor: SystemMouseCursors.click,
-        onEnter: (_) => setState(() => isHovered = true),
-        onExit: (_) => setState(() => isHovered = false),
-        child: AnimatedContainer(
-          duration: const Duration(milliseconds: 200),
-          child: GestureDetector(
-            onTap: () => Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => Subject(data: widget.data)),
-            ),
-            child: Card(
-              shape: RoundedRectangleBorder(
-                side: BorderSide(
-                  color: isHovered
-                      ? MyTheme.primary
-                      : Utils.isDarkTheme()
-                      ? const Color(0x26ffffff)
-                      : const Color(0xffE9EEF2),
-                  width: 2,
-                ),
-                borderRadius: BorderRadius.circular(10),
+    return MouseRegion(
+      cursor: SystemMouseCursors.click,
+      onEnter: (_) => setState(() => isHovered = true),
+      onExit: (_) => setState(() => isHovered = false),
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 200),
+        child: GestureDetector(
+          onTap: () =>
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => Subject(data: widget.data)),
               ),
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 30),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    AnimatedContainer(
-                      duration: const Duration(milliseconds: 100),
-                      child: CircleAvatar(
-                        backgroundColor: isHovered
-                            ? MyTheme.primary
-                            : MyTheme.halkaPrimary,
-                        radius: 30,
-                        child: FaIcon(
-                          widget.icon,
-                          size: 32,
-                          color: isHovered ? Colors.white : MyTheme.primary,
-                        ),
+          child: Card(
+            shape: RoundedRectangleBorder(
+              side: BorderSide(
+                color: isHovered
+                    ? MyTheme.primary
+                    : Utils.isDarkTheme()
+                    ? const Color(0x26ffffff)
+                    : const Color(0xffE9EEF2),
+                width: 2,
+              ),
+              borderRadius: BorderRadius.circular(10),
+            ),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 30),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  AnimatedContainer(
+                    duration: const Duration(milliseconds: 100),
+                    child: CircleAvatar(
+                      backgroundColor: isHovered
+                          ? MyTheme.primary
+                          : MyTheme.halkaPrimary,
+                      radius: 30,
+                      child: FaIcon(
+                        widget.icon,
+                        size: 32,
+                        color: isHovered ? Colors.white : MyTheme.primary,
                       ),
                     ),
-                    const SizedBox(height: 12),
-                    Text(
-                      widget.text,
-                      softWrap: true,
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontFamily: 'regular',
-                        fontWeight: FontWeight.bold,
-                        fontSize: 22,
-                        color: Theme.of(context).textTheme.headlineSmall?.color,
-                      ),
+                  ),
+                  const SizedBox(height: 12),
+                  Text(
+                    widget.text,
+                    softWrap: true,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontFamily: 'regular',
+                      fontWeight: FontWeight.bold,
+                      fontSize: 22,
+                      color: Theme
+                          .of(context)
+                          .textTheme
+                          .headlineSmall
+                          ?.color,
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
             ),
           ),

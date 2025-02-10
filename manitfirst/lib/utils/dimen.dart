@@ -14,6 +14,7 @@ class Dimen {
         fontFamily: 'regular',
         fontWeight: FontWeight.w600,
         fontSize: Dimen.sidebar_item_font_size,
+        height: 1,
         color: Theme.of(context).textTheme.headlineSmall?.color);
   }
 
