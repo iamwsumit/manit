@@ -152,7 +152,7 @@ class SubjectState extends State<Subject> {
       final file = File(filePath);
       final dialogKey = GlobalKey<DownloadDialogState>();
 
-      debugPrint('Downloading file : $name from\nURL : $link');
+      debugPrint('Downloading file : $fileName from\nURL : $link');
 
       if (context.mounted) {
         showDialog(

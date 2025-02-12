@@ -43,14 +43,17 @@ class MyTheme extends ChangeNotifier {
         borderRadius: BorderRadius.circular(10),
       ),
     ),
-    textTheme: TextTheme(headlineSmall: TextStyle(color: Colors.black), bodySmall: TextStyle(fontFamily: 'regular', fontSize: 12, color: Colors.grey[600])),
+    textTheme: TextTheme(
+        headlineSmall: TextStyle(color: Colors.black),
+        bodySmall: TextStyle(
+            fontFamily: 'regular', fontSize: 12, color: Colors.grey[600])),
   );
 
   static final darkTheme = ThemeData(
     useMaterial3: true,
     disabledColor: Colors.grey[850],
     unselectedWidgetColor: const Color(0xffF7F2FA),
-    scaffoldBackgroundColor: const Color(0xff212529),
+    scaffoldBackgroundColor: const Color(0xff212121),
     primaryColor: MyTheme.primary,
     dialogTheme: DialogTheme(
       backgroundColor: const Color(0xff212529),
@@ -61,7 +64,7 @@ class MyTheme extends ChangeNotifier {
           fontWeight: FontWeight.bold,
           fontSize: 20,
           color: Colors.white,
-          fontFamily: 'open'),
+          fontFamily: 'regular'),
       contentTextStyle: const TextStyle(color: Colors.white),
     ),
     radioTheme: const RadioThemeData(
@@ -77,7 +80,7 @@ class MyTheme extends ChangeNotifier {
         fontSize: 20,
       ),
     ),
-    fontFamily: 'Open',
+    fontFamily: 'regular',
     chipTheme: ChipThemeData(
         backgroundColor: Colors.grey[850],
         side: const BorderSide(width: 1, color: Color(0xffF7F2FA))),
@@ -86,12 +89,14 @@ class MyTheme extends ChangeNotifier {
       elevation: 0,
       shadowColor: null,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(10),
-        side: BorderSide(color: const Color(0x26ffffff))
-      ),
+          borderRadius: BorderRadius.circular(10),
+          side: BorderSide(color: const Color(0x26ffffff))),
       margin: EdgeInsets.zero,
     ),
-    textTheme: const TextTheme(headlineSmall: TextStyle(color: Colors.white), bodySmall: TextStyle(fontFamily: 'regular', fontSize: 12, color: Colors.white)),
+    textTheme: TextTheme(
+        headlineSmall: TextStyle(color: Colors.white),
+        bodySmall: TextStyle(
+            fontFamily: 'regular', fontSize: 12, color: Colors.white)),
   );
 
   ThemeMode get themeMode => mode;
@@ -122,7 +127,7 @@ class MyTheme extends ChangeNotifier {
   }
 
   static const Color halkaPrimary =
-  Color(0x42388E3C); // Lighter blue, fully opaque
+      Color(0x42388E3C); // Lighter blue, fully opaque
   static const Color primary = Color(0xFF388E3C);
   static const Color errorColor = Color(0xFFD32F2F);
   static const Color errorLightColor = Color(0x40D32F2F);

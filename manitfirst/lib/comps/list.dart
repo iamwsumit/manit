@@ -3,6 +3,7 @@ import 'package:manitfirst/pdfview.dart';
 import 'package:manitfirst/subject.dart';
 import '../utils/dimen.dart';
 import '../utils/theme.dart';
+import 'package:path_provider/path_provider.dart';
 
 class ListCard extends StatelessWidget {
   final int index;
@@ -23,19 +24,27 @@ class ListCard extends StatelessWidget {
       required this.link,
       required this.download});
 
+  void openPDFView(context) async {
+    String filePath = link;
+    if (isDownloaded) {
+      final dirPath = (await getApplicationSupportDirectory()).path;
+      filePath = '$dirPath/${SubjectState.getFileName(filePath)}';
+    }
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => PDFView(
+                filePath: filePath,
+                title: title,
+                fileType: isDownloaded ? 2 : 0)));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Card(
       child: InkWell(
-        borderRadius: BorderRadius.circular(10),
-          onTap: () => Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (context) => PDFView(
-                      filePath:
-                          isDownloaded ? SubjectState.getFileName(link) : link,
-                      title: title,
-                      fileType: isDownloaded ? 2 : 0))),
+          borderRadius: BorderRadius.circular(10),
+          onTap: () => openPDFView(context),
           child: Dimen.getListViewPadding(
               child: Row(
             spacing: Dimen.listViewRowSpacing,
@@ -86,6 +95,10 @@ class ListCard extends StatelessWidget {
                           vertical: 10, horizontal: 20),
                       child: Text(
                         isDownloaded ? 'Remove' : 'Download',
+                        style: Theme.of(context)
+                            .textTheme
+                            .headlineSmall
+                            ?.copyWith(color: MyTheme.primary, fontSize: 15),
                       )))
             ],
           ))),

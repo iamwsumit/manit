@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:manitfirst/utils/utility.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
 class PDFView extends StatefulWidget {
@@ -22,6 +21,7 @@ class PDFView extends StatefulWidget {
 class PDFViewState extends State<PDFView> {
   @override
   Widget build(BuildContext context) {
+    debugPrint(widget.filePath);
     return Scaffold(
         appBar: AppBar(
           leading: IconButton(
@@ -37,11 +37,9 @@ class PDFViewState extends State<PDFView> {
             child: Container(
                 constraints: BoxConstraints(maxWidth: 600),
                 child: (widget.fileType == 1
-                    ? SfPdfViewer.asset(
-                        enableDoubleTapZooming: true, widget.filePath)
+                    ? SfPdfViewer.asset(widget.filePath)
                     : widget.fileType == 2
-                        ? SfPdfViewer.file(
-                            enableDoubleTapZooming: true, File(widget.filePath))
+                        ? SfPdfViewer.file(File(widget.filePath))
                         : SfPdfViewer.network(widget.filePath)))));
   }
 }
