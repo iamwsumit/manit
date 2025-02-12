@@ -1,0 +1,79 @@
+{
+    "maths1": {
+        "name": "Mathematics 1",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "Continuity & Differentiability (Sec G)",
+                    "desc": "Partial Differentiation Assignment of section G",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/continuity_diff_assign.pdf"
+                },
+                {
+                    "title": "Continuity & Differentiability (Sec G)",
+                    "desc": "Partial Differentiation Assignment of section G with solution",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/continuity_diff_assign_sol.pdf"
+                },
+                {
+                    "title": "Continuity & Differentiability Tutorial (Sec G)",
+                    "desc": "Continuity & Differentiability Tutorial questions of section G",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/continuity_diff_tuto.pdf"
+                },
+                {
+                    "title": "Partial Differentiation Tutorial (Sec G)",
+                    "desc": "Partial Differentiation Tutorial questions of section G",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/partial_diff_tuto.pdf"
+                },
+                {
+                    "title": "Area by Integrals Tutorial (Sec G)",
+                    "desc": "Area by Integrals Tutorials questions of section G",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/aoc_tutorial.pdf"
+                },
+                {
+                    "title": "Vector Calculus (Sec G)",
+                    "desc": "Vector Calculus Assignment of section G",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/continuity_diff_assign.pdf"
+                }
+            ],
+            "Notes" : [
+                {
+                    "title" : "Partial Differentiation",
+                    "desc" : "Partial Differentiation Notes PDF",
+                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/partial_diff.pdf"
+                },
+                {
+                    "title" : "Integrals",
+                    "desc" : "Integrals Notes PDF by Adesh",
+                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/integral_by_adesh.pdf"
+                },
+                {
+                    "title" : "Vector Calculus",
+                    "desc" : "Vector Calculus Notes PDF by Adesh",
+                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/vector.pdf"
+                }
+            ],
+            "PYPs" : [],
+            "Books" : [
+                {
+                    "title" : "BV Raman",
+                    "desc" : "Mathematics book PDF of BV Raman",
+                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/BV_Ramana.pdf"
+                },
+                {
+                    "title" : "HK Das",
+                    "desc" : "Mathematics book PDF of HK Das",
+                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/Hk_Das_.pdf"
+                },
+                {
+                    "title" : "Thomas Calculus",
+                    "desc" : "Mathematics book PDF for Thomas Calculus",
+                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/ThomasCalculus.pdf"
+                },
+                {
+                    "title" : "RK Jain and Iyenger",
+                    "desc" : "Mathematics book PDF of RK Jain and Iyenger",
+                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/content/m1/RK_Jain_and_Iyenger.pdf"
+                }
+            ]
+        }
+    }
+}
