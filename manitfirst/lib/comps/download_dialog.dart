@@ -42,6 +42,8 @@ class DownloadDialogState extends State<DownloadDialog> {
               children: [
                 Text(
                   'Downloading ${widget.title}...',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
                   style: Dimen.getListViewTitleStyle(context)
                       .copyWith(fontSize: 16),
                 ),

@@ -46,7 +46,7 @@ class SplashState extends State<Splash> {
       final client = http.Client();
       final response = await client
           .get(Uri.parse(
-              "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/data.json"))
+              "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/data.json"))
           .timeout(
         const Duration(seconds: 5),
         onTimeout: () {
@@ -76,6 +76,7 @@ class SplashState extends State<Splash> {
         return;
       }
     } catch (e) {
+      debugPrint('$e');
       String existingData = LocalStorage.getString("data");
       if (existingData.isNotEmpty) {
         openHome();

@@ -78,7 +78,7 @@ class SubjectState extends State<Subject> {
               index: index,
               title: item['title'],
               desc: item['desc'],
-              isDownloaded: isDownloaded(item['title']),
+              isDownloaded: isDownloaded(item['link']),
               download: download,
               removeFile: removeFile,
               link: item['link'],
@@ -108,7 +108,7 @@ class SubjectState extends State<Subject> {
 
   void removeFile(ListCard card) async {
     try {
-      final fileName = getFileName(card.title);
+      final fileName = getFileName(card.link);
       final filePath = '$dirPath/$fileName';
 
       final file = File(filePath);
@@ -137,7 +137,7 @@ class SubjectState extends State<Subject> {
     try {
       final name = card.title;
       final link = card.link;
-      final fileName = getFileName(name);
+      final fileName = getFileName(link);
       final filePath = '$dirPath/$fileName';
 
       Dio dio = Dio();
@@ -151,6 +151,8 @@ class SubjectState extends State<Subject> {
 
       final file = File(filePath);
       final dialogKey = GlobalKey<DownloadDialogState>();
+
+      debugPrint('Downloading file : $name from\nURL : $link');
 
       if (context.mounted) {
         showDialog(

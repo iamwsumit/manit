@@ -27,12 +27,13 @@ class ListCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       child: InkWell(
+        borderRadius: BorderRadius.circular(10),
           onTap: () => Navigator.push(
               context,
               MaterialPageRoute(
                   builder: (context) => PDFView(
                       filePath:
-                          isDownloaded ? SubjectState.getFileName(title) : link,
+                          isDownloaded ? SubjectState.getFileName(link) : link,
                       title: title,
                       fileType: isDownloaded ? 2 : 0))),
           child: Dimen.getListViewPadding(
