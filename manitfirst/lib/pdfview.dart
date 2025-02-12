@@ -36,12 +36,12 @@ class PDFViewState extends State<PDFView> {
             alignment: Alignment.center,
             child: Container(
                 constraints: BoxConstraints(maxWidth: 600),
-                child: widget.fileType == 1
+                child: (widget.fileType == 1
                     ? SfPdfViewer.asset(
                         enableDoubleTapZooming: true, widget.filePath)
                     : widget.fileType == 2
                         ? SfPdfViewer.file(
                             enableDoubleTapZooming: true, File(widget.filePath))
-                        : SfPdfViewer.network(widget.filePath))));
+                        : SfPdfViewer.network(widget.filePath)))));
   }
 }
