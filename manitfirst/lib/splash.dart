@@ -36,9 +36,23 @@ class SplashState extends State<Splash> {
             resizeToAvoidBottomInset: false,
             backgroundColor: Theme.of(context).scaffoldBackgroundColor,
             body: SafeArea(
-                child: Center(
-              child: Image.asset('assets/manit.png', height: 150, width: 150),
-            ))));
+              child: Center(
+                  child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      spacing: 15,
+                      children: [
+                    Image.asset('assets/manit.png', height: 150, width: 150),
+                    Text(
+                      'MANIT Study Portal',
+                      style: TextStyle(
+                        fontFamily: 'regular',
+                        fontWeight: FontWeight.bold,
+                        fontSize: 22,
+                        color: Theme.of(context).textTheme.headlineSmall?.color,
+                      ),
+                    )
+                  ])),
+            )));
   }
 
   Future<void> fetchData() async {

@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:auto_height_grid_view/auto_height_grid_view.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -238,14 +240,18 @@ class HomeState extends State<Home> {
                       title: Text('Contact Me',
                           style: Dimen.getSidebarTextStyle(context)),
                       onTap: () => Utils.launch("mailto:me@sumitkmr.com")),
-                  ListTile(
-                      leading: Icon(Icons.desktop_mac_outlined,
-                          color:
-                              Theme.of(context).textTheme.headlineSmall?.color),
-                      title: Text('Desktop App',
-                          style: Dimen.getSidebarTextStyle(context)),
-                      onTap: () =>
-                          Utils.launch("https://manitfirst.web.app/downloads")),
+                  Platform.isAndroid
+                      ? ListTile(
+                          leading: Icon(Icons.desktop_mac_outlined,
+                              color: Theme.of(context)
+                                  .textTheme
+                                  .headlineSmall
+                                  ?.color),
+                          title: Text('Desktop App',
+                              style: Dimen.getSidebarTextStyle(context)),
+                          onTap: () => Utils.launch(
+                              "https://manitfirst.web.app/downloads"))
+                      : const SizedBox()
                 ],
               )
             ],

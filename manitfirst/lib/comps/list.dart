@@ -42,66 +42,69 @@ class ListCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: InkWell(
-          borderRadius: BorderRadius.circular(10),
-          onTap: () => openPDFView(context),
-          child: Dimen.getListViewPadding(
-              child: Row(
-            spacing: Dimen.listViewRowSpacing,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              CircleAvatar(
-                backgroundColor: MyTheme.halkaPrimary,
-                radius: 20,
-                child: Text((index + 1).toString(),
-                    style: const TextStyle(
-                        fontWeight: FontWeight.w900,
-                        fontSize: 18,
-                        color: MyTheme.primary)),
-              ),
-              Expanded(
-                  child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(title,
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                      style: Dimen.getListViewTitleStyle(context)
-                          .copyWith(fontSize: 16)),
-                  Text(desc,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: Theme.of(context)
-                          .textTheme
-                          .bodySmall!
-                          .copyWith(fontSize: 14)),
-                ],
-              )),
-              InkWell(
-                  radius: 10,
-                  onTap: () {
-                    if (isDownloaded) {
-                      removeFile(this);
-                    } else {
-                      download(this);
-                    }
-                  },
-                  child: Container(
-                      decoration: BoxDecoration(
-                          color: MyTheme.halkaPrimary,
-                          borderRadius: BorderRadius.circular(10)),
-                      padding: const EdgeInsets.symmetric(
-                          vertical: 10, horizontal: 20),
-                      child: Text(
-                        isDownloaded ? 'Remove' : 'Download',
-                        style: Theme.of(context)
-                            .textTheme
-                            .headlineSmall
-                            ?.copyWith(color: MyTheme.primary, fontSize: 15),
-                      )))
-            ],
-          ))),
+      child: Dimen.getListViewPadding(
+          child:
+              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Text(title,
+            // maxLines: 1,
+            // overflow: TextOverflow.ellipsis,
+            style: Dimen.getListViewTitleStyle(context).copyWith(fontSize: 18)),
+        Text(desc,
+            // maxLines: 2,
+            // overflow: TextOverflow.ellipsis,
+            style:
+                Theme.of(context).textTheme.bodySmall!.copyWith(fontSize: 15)),
+        const SizedBox(height: 20),
+        Row(
+          spacing: 15,
+          children: [
+            Expanded(
+                child: InkWell(
+                    borderRadius: BorderRadius.circular(10),
+                    radius: 10,
+                    onTap: () => openPDFView(context),
+                    child: Container(
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            color: MyTheme.halkaPrimary,
+                            borderRadius: BorderRadius.circular(10)),
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 10, horizontal: 20),
+                        child: Text(
+                          'View PDF',
+                          style: Theme.of(context)
+                              .textTheme
+                              .headlineSmall
+                              ?.copyWith(color: MyTheme.primary, fontSize: 17),
+                        )))),
+            Expanded(
+                child: InkWell(
+                    borderRadius: BorderRadius.circular(10),
+                    radius: 10,
+                    onTap: () {
+                      if (isDownloaded) {
+                        removeFile(this);
+                      } else {
+                        download(this);
+                      }
+                    },
+                    child: Container(
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            color: MyTheme.halkaPrimary,
+                            borderRadius: BorderRadius.circular(10)),
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 10, horizontal: 20),
+                        child: Text(
+                          isDownloaded ? 'Remove' : 'Download',
+                          style: Theme.of(context)
+                              .textTheme
+                              .headlineSmall
+                              ?.copyWith(color: MyTheme.primary, fontSize: 17),
+                        ))))
+          ],
+        )
+      ])),
     );
   }
 }

@@ -37,12 +37,12 @@ class Dimen {
 
   static Padding getListViewPadding({required Widget child}) {
     return Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 15),
         child: child);
   }
 
   static const EdgeInsets listViewLayoutPadding =
-  EdgeInsets.symmetric(vertical: 17, horizontal: 10);
+  EdgeInsets.symmetric(vertical: 17, horizontal: 15);
   static const EdgeInsets listViewCardMargin =
   EdgeInsets.symmetric(vertical: 7, horizontal: 2);
   static const double listViewRowSpacing = 10;

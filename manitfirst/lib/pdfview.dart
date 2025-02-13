@@ -1,6 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:manitfirst/utils/theme.dart';
+import 'package:syncfusion_flutter_core/theme.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
 class PDFView extends StatefulWidget {
@@ -32,14 +34,18 @@ class PDFViewState extends State<PDFView> {
         resizeToAvoidBottomInset: false,
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         body: Container(
-            padding: const EdgeInsets.symmetric(vertical: 20),
             alignment: Alignment.center,
             child: Container(
                 constraints: BoxConstraints(maxWidth: 600),
-                child: (widget.fileType == 1
-                    ? SfPdfViewer.asset(widget.filePath)
-                    : widget.fileType == 2
-                        ? SfPdfViewer.file(File(widget.filePath))
-                        : SfPdfViewer.network(widget.filePath)))));
+                child: SfPdfViewerTheme(
+                    data: SfPdfViewerThemeData(
+                      backgroundColor: Colors.transparent,
+                      progressBarColor: MyTheme.primary,
+                    ),
+                    child: (widget.fileType == 1
+                        ? SfPdfViewer.asset(widget.filePath)
+                        : widget.fileType == 2
+                            ? SfPdfViewer.file(File(widget.filePath))
+                            : SfPdfViewer.network(widget.filePath))))));
   }
 }

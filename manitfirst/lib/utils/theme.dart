@@ -85,7 +85,8 @@ class MyTheme extends ChangeNotifier {
         backgroundColor: Colors.grey[850],
         side: const BorderSide(width: 1, color: Color(0xffF7F2FA))),
     cardTheme: CardTheme(
-      color: const Color(0xff212529),
+      color: Colors.transparent,
+      // color: const Color(0xff212529),
       elevation: 0,
       shadowColor: null,
       shape: RoundedRectangleBorder(
@@ -96,7 +97,8 @@ class MyTheme extends ChangeNotifier {
     textTheme: TextTheme(
         headlineSmall: TextStyle(color: Colors.white),
         bodySmall: TextStyle(
-            fontFamily: 'regular', fontSize: 12, color: Colors.white)),
+            fontFamily: 'regular', fontSize: 12, fontWeight: FontWeight.w400, color: Color(
+            0xbfdee2e6))),
   );
 
   ThemeMode get themeMode => mode;
@@ -126,9 +128,11 @@ class MyTheme extends ChangeNotifier {
     }
   }
 
-  static const Color halkaPrimary =
-      Color(0x42388E3C); // Lighter blue, fully opaque
-  static const Color primary = Color(0xFF388E3C);
+  // static const Color halkaPrimary = Color(0x42388E3C); // Lighter blue, fully opaque
+  static const Color primary = Colors.orange;
+  static const Color halkaPrimary = Color(0xFFFFE0B2); // Lighter blue, fully opaque
+  // static const Color primary = Color(0xFF0d6efd);
+  // static const Color primary = Color(0xFF388E3C);
   static const Color errorColor = Color(0xFFD32F2F);
   static const Color errorLightColor = Color(0x40D32F2F);
   static const Color successColor = Color(0xFF388E3C);
