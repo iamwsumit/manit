@@ -34,65 +34,527 @@
                     "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/continuity_diff_assign.pdf"
                 }
             ],
-            "Notes" : [
+            "Notes": [
                 {
-                    "title" : "Partial Differentiation",
-                    "desc" : "Partial Differentiation Notes PDF",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/partial_diff.pdf"
+                    "title": "Partial Differentiation",
+                    "desc": "Partial Differentiation Notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/partial_diff.pdf"
                 },
                 {
-                    "title" : "Integrals",
-                    "desc" : "Integrals Notes PDF by Adesh",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/integrals_by_adesh.pdf"
+                    "title": "Integrals",
+                    "desc": "Integrals Notes PDF by Adesh",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/integrals_by_adesh.pdf"
                 },
                 {
-                    "title" : "Vector Calculus",
-                    "desc" : "Vector Calculus Notes PDF by Adesh",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/vector.pdf"
+                    "title": "Vector Calculus",
+                    "desc": "Vector Calculus Notes PDF by Adesh",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/vector.pdf"
                 }
             ],
-            "PYPs" : [
+            "PYPs": [
                 {
-                    "title" : "End Term (2022-2023)",
-                    "desc" : "End term test PDF of session 2022-23",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/end_term_2022-23.pdf"
+                    "title": "End Term (2022-2023)",
+                    "desc": "End term test PDF of session 2022-23",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/end_term_2022-23.pdf"
                 },
                 {
-                    "title" : "End Term 2022",
-                    "desc" : "End term test PDF of session 2022",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/end_term_2022.pdf"
+                    "title": "End Term 2022",
+                    "desc": "End term test PDF of session 2022",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/end_term_2022.pdf"
                 },
                 {
-                    "title" : "Mid Term 2022",
-                    "desc" : "Mid term test PDF of session 2022",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/mid_term_2022.pdf"
+                    "title": "Mid Term 2022",
+                    "desc": "Mid term test PDF of session 2022",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/mid_term_2022.pdf"
                 },
                 {
-                    "title" : "Mini Test (2020-2021)",
-                    "desc" : "Mini test PDF of session 2020-21",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/mini_2020-21.pdf"
+                    "title": "Mini Test (2020-2021)",
+                    "desc": "Mini test PDF of session 2020-21",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/mini_2020-21.pdf"
                 }
             ],
-            "Books" : [
+            "Books": [
                 {
-                    "title" : "BV Raman",
-                    "desc" : "Mathematics book PDF of BV Raman",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/BV_Ramana.pdf"
+                    "title": "BV Raman",
+                    "desc": "Mathematics book PDF of BV Raman",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/BV_Ramana.pdf"
                 },
                 {
-                    "title" : "HK Das",
-                    "desc" : "Mathematics book PDF of HK Das",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/Hk_Das_.pdf"
+                    "title": "HK Das",
+                    "desc": "Mathematics book PDF of HK Das",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/Hk_Das_.pdf"
                 },
                 {
-                    "title" : "Thomas Calculus",
-                    "desc" : "Mathematics book PDF for Thomas Calculus",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/ThomasCalculus.pdf"
+                    "title": "Thomas Calculus",
+                    "desc": "Mathematics book PDF for Thomas Calculus",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/ThomasCalculus.pdf"
                 },
                 {
-                    "title" : "RK Jain and Iyenger",
-                    "desc" : "Mathematics book PDF of RK Jain and Iyenger",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/RK_Jain_and_Iyengar.pdf"
+                    "title": "RK Jain and Iyenger",
+                    "desc": "Mathematics book PDF of RK Jain and Iyenger",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/RK_Jain_and_Iyengar.pdf"
+                }
+            ]
+        }
+    },
+    "beee": {
+        "name": "Basic Electrical Eng.",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "Sample Assignment",
+                    "desc": "A sample assignment for BEE",
+                    "link": "sample_assignment.pdf"
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "Sample Notes",
+                    "desc": "Sample notes for BEE",
+                    "link": "sample_notes.pdf"
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "Sample PYP",
+                    "desc": "A sample PYP for BEE",
+                    "link": "sample_pyp.pdf"
+                }
+            ],
+            "Books": [
+                {
+                    "title": "Sample Book",
+                    "desc": "A sample book for BEE",
+                    "link": "sample_book.pdf"
+                }
+            ]
+        }
+    },
+    "m2": {
+        "name": "Mathematics 2",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "Sample Assignment",
+                    "desc": "A sample assignment for Maths 2",
+                    "link": "sample_assignment.pdf"
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "Sample Notes",
+                    "desc": "Sample notes for Maths 2",
+                    "link": "sample_notes.pdf"
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "Sample PYP",
+                    "desc": "A sample PYP for Maths 2",
+                    "link": "sample_pyp.pdf"
+                }
+            ],
+            "Books": [
+                {
+                    "title": "Sample Book",
+                    "desc": "A sample book for Maths 2",
+                    "link": "sample_book.pdf"
+                }
+            ]
+        }
+    },
+    "mechanics": {
+        "name": "Engineering Mechanics",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "Sample Assignment",
+                    "desc": "A sample assignment for Mechanics",
+                    "link": "sample_assignment.pdf"
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "Sample Notes",
+                    "desc": "Sample notes for Mechanics",
+                    "link": "sample_notes.pdf"
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "Sample PYP",
+                    "desc": "A sample PYP for Mechanics",
+                    "link": "sample_pyp.pdf"
+                }
+            ],
+            "Books": [
+                {
+                    "title": "Sample Book",
+                    "desc": "A sample book for Mechanics",
+                    "link": "sample_book.pdf"
+                }
+            ]
+        }
+    },
+    "chemistry": {
+        "name": "Engineering Chemistry",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "Sample Assignment",
+                    "desc": "A sample assignment for Chemistry",
+                    "link": "sample_assignment.pdf"
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "Sample Notes",
+                    "desc": "Sample notes for Chemistry",
+                    "link": "sample_notes.pdf"
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "Sample PYP",
+                    "desc": "A sample PYP for Chemistry",
+                    "link": "sample_pyp.pdf"
+                }
+            ],
+            "Books": [
+                {
+                    "title": "Sample Book",
+                    "desc": "A sample book for Chemistry",
+                    "link": "sample_book.pdf"
+                }
+            ]
+        }
+    },
+    "physics": {
+        "name": "Physics",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "Sample Assignment",
+                    "desc": "A sample assignment for Physics",
+                    "link": "sample_assignment.pdf"
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "Sample Notes",
+                    "desc": "Sample notes for Physics",
+                    "link": "sample_notes.pdf"
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "Sample PYP",
+                    "desc": "A sample PYP for Physics",
+                    "link": "sample_pyp.pdf"
+                }
+            ],
+            "Books": [
+                {
+                    "title": "Sample Book",
+                    "desc": "A sample book for Physics",
+                    "link": "sample_book.pdf"
+                }
+            ]
+        }
+    },
+    "evs": {
+        "name": "Environmental Science",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "Sample Assignment",
+                    "desc": "A sample assignment for EVS",
+                    "link": "sample_assignment.pdf"
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "Sample Notes",
+                    "desc": "Sample notes for EVS",
+                    "link": "sample_notes.pdf"
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "Sample PYP",
+                    "desc": "A sample PYP for EVS",
+                    "link": "sample_pyp.pdf"
+                }
+            ],
+            "Books": [
+                {
+                    "title": "Sample Book",
+                    "desc": "A sample book for EVS",
+                    "link": "sample_book.pdf"
+                }
+            ]
+        }
+    },
+    "biology": {
+        "name": "Biology for Engineers",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "Sample Assignment",
+                    "desc": "A sample assignment for Biology",
+                    "link": "sample_assignment.pdf"
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "Sample Notes",
+                    "desc": "Sample notes for Biology",
+                    "link": "sample_notes.pdf"
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "Sample PYP",
+                    "desc": "A sample PYP for Biology",
+                    "link": "sample_pyp.pdf"
+                }
+            ],
+            "Books": [
+                {
+                    "title": "Sample Book",
+                    "desc": "A sample book for Biology",
+                    "link": "sample_book.pdf"
+                }
+            ]
+        }
+    },
+    "manufacturing-science": {
+        "name": "Manufacturing Science",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "Sample Assignment",
+                    "desc": "A sample assignment for Manufacturing Science",
+                    "link": "sample_assignment.pdf"
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "Sample Notes",
+                    "desc": "Sample notes for Manufacturing Science",
+                    "link": "sample_notes.pdf"
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "Sample PYP",
+                    "desc": "A sample PYP for Manufacturing Science",
+                    "link": "sample_pyp.pdf"
+                }
+            ],
+            "Books": [
+                {
+                    "title": "Sample Book",
+                    "desc": "A sample book for Manufacturing Science",
+                    "link": "sample_book.pdf"
+                }
+            ]
+        }
+    },
+    "graphics": {
+        "name": "Engineering Graphics",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Books": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ]
+        }
+    },
+    "computer-programming": {
+        "name": "Computer Programming",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Books": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ]
+        }
+    },
+    "communication-skills": {
+        "name": "Communication Skills",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Books": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ]
+        }
+    },
+    "yoga": {
+        "name": "Yoga",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Books": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ]
+        }
+    },
+    "phe": {
+        "name": "Physical Health Education",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Books": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ]
+        }
+    },
+    "lsm": {
+        "name": "Life Skills Management",
+        "data": {
+            "Assignments": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Notes": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "PYPs": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
+                }
+            ],
+            "Books": [
+                {
+                    "title": "",
+                    "desc": "",
+                    "link": ""
                 }
             ]
         }
