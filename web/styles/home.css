@@ -1,6 +1,6 @@
 .card-icon {
   color: var(--bs-primary);
-  background-color: #0067ff30;
+  background-color: var(--halkaPrimary);
   font-size: 32px;
   display: flex;
   justify-content: center;
