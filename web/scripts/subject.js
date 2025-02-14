@@ -2,7 +2,7 @@ let data = {};
 
 async function loadData() {
     try {
-        const response = await fetch('data.json');
+        const response = await fetch('https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/data.json');
         data = await response.json();
         onPageLoad();
     } catch (error) {

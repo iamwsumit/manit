@@ -98,11 +98,6 @@ class HomeState extends State<Home> {
           icon: FontAwesomeIcons.screwdriver,
           text: 'Manufacturing Science'),
       SubjectCard(
-          id: 'language-lab',
-          data: json['language-lab'] ?? {},
-          icon: FontAwesomeIcons.language,
-          text: 'Language Lab'),
-      SubjectCard(
           id: 'graphics',
           data: json['graphics'] ?? {},
           icon: FontAwesomeIcons.houseLaptop,
@@ -117,11 +112,6 @@ class HomeState extends State<Home> {
           data: json['communication-skills'] ?? {},
           icon: FontAwesomeIcons.comments,
           text: 'Communication Skills'),
-      SubjectCard(
-          id: 'nss',
-          data: json['nss'] ?? {},
-          icon: FontAwesomeIcons.flag,
-          text: 'National Service Scheme'),
       SubjectCard(
           id: 'yoga',
           data: json['yoga'] ?? {},

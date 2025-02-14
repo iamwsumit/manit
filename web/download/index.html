@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download MANIT Study Portal</title>
+    <link rel="stylesheet" href="../styles/headers.css" />
+    <link rel="stylesheet" href="../assets/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/home.css" />
+    <script src="../scripts/main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <style>
+      :root {
+        --primary-color: #388e3c;
+        --primary-dark: #2e7d32;
+      }
+      .bg-primary-custom {
+        background-color: var(--primary-color);
+      }
+      .btn-primary-custom {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        color: white;
+      }
+      .btn-primary-custom:hover {
+        background-color: var(--primary-dark);
+        border-color: var(--primary-dark);
+        color: white;
+      }
+      .text-primary-custom {
+        color: var(--primary-color);
+      }
+      .feature-icon {
+        font-size: 2.5rem;
+        color: var(--primary-color);
+      }
+      .platform-card {
+        transition: transform 0.2s;
+      }
+      .platform-card:hover {
+        transform: translateY(-5px);
+      }
+      .screenshot-container {
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: none;
+      }
+      .screenshot-container::-webkit-scrollbar {
+        display: none;
+      }
+
+      h2 {
+        font-size: 1.75rem;
+        font-weight: 700;
+      }
+
+      .card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: 2px solid #e9eef2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 1rem;
+        text-decoration: none;
+      }
+
+      .space {
+        height: 10px;
+      }
+
+      .mac {
+        width: 700px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-bg">
+      <div class="container">
+        <header class="d-flex flex-wrap py-3 mb-4">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none"
+            style="justify-content: center !important"
+          >
+            <img
+              src="../assets/manit.png"
+              alt="manit logo"
+              height="45px"
+              style="margin: 10px 20px 10px 0px"
+            />
+            <span class="fs-4" style="font-weight: 600"
+              >MANIT Study Resources</span
+            >
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="#" class="nav-link" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="assets/syllabus.pdf" target="_blank" class="nav-link"
+                >Syllabus</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/tutorials" class="nav-link">Tutorials</a>
+            </li>
+            <li class="nav-item">
+              <a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item" style="padding-left: 10px">
+              <a
+                href="/download"
+                type="button"
+                target="_blank"
+                class="btn btn-success"
+                >Download</a
+              >
+            </li>
+          </ul>
+        </header>
+      </div>
+    </div>
+
+    <div class="container head-container" style="justify-content: center">
+      <h1 style="font-size: 2.25rem">MANIT Study Portal</h1>
+      <p class="fs-5 mb-6" style="text-align: center">
+        Download class notes, assignments, reference books and previous year
+        papers at one place
+      </p>
+    </div>
+
+    <p class="height"></p>
+    <p class="height"></p>
+    <p class="height"></p>
+
+    <section>
+      <div class="container text-center">
+        <h2>Download for your Platform</h2>
+        <div style="height: 30px;"></div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="text-center">
+                <i class="fab fa-windows feature-icon mb-3"></i>
+                <h2 class="card-title fs-3 fw-bold">Windows</h2>
+                <p class="text-muted mb-4">Compatible with Windows 10 and 11</p>
+                <button class="btn btn-primary-custom rounded-pill px-4 mb-4">
+                  Download for Windows
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <div class="text-center">
+                <i class="fab fa-apple feature-icon mb-3"></i>
+                <h2 class="card-title fs-3 fw-bold">macOS</h2>
+                <p class="text-muted mb-4">
+                  Compatible with macOS 11 and later
+                </p>
+                <button class="btn btn-primary-custom rounded-pill px-4 mb-4">
+                  Download for macOS
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <div class="text-center">
+                <i class="fab fa-android feature-icon mb-3"></i>
+                <h2 class="card-title fs-3 fw-bold">Android</h2>
+                <p class="text-muted mb-4">Android 8.0 and above</p>
+                <button class="btn btn-primary-custom rounded-pill px-4 mb-4">
+                  Download APK
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <p style="height: 50px;"></p>
+    <section>
+      <div class="container text-center">
+        <h2>App Screenshots</h2>
+        <div style="height: 30px;"></div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img class="mac" src="ss/mac1.png" alt="mac_ss1">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="header-bg py-2 mt-5">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center my-4"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-body-secondary"
+              >Made by Sumit Kumar (NITB'28)</span
+            >
+          </div>
+
+          <ul class="nav-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://linkedin.com/in/iamwsumit"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="mailto:me@sumitkmr.com"
+                ><i class="fa-regular fa-envelope"></i
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="https://github.com/iamwsumit"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

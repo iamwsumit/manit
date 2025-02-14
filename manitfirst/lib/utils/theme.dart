@@ -7,8 +7,6 @@ class MyTheme extends ChangeNotifier {
 
   static final lightTheme = ThemeData(
     useMaterial3: true,
-    disabledColor: Colors.grey,
-    unselectedWidgetColor: Colors.grey,
     scaffoldBackgroundColor: const Color(0xfff4f4f4),
     primaryColor: MyTheme.primary,
     appBarTheme: const AppBarTheme(
@@ -30,9 +28,6 @@ class MyTheme extends ChangeNotifier {
       contentTextStyle: TextStyle(color: Colors.black),
     ),
     drawerTheme: const DrawerThemeData(backgroundColor: Color(0xfff4f4f4)),
-    chipTheme: const ChipThemeData(
-        backgroundColor: Colors.white,
-        side: BorderSide(width: 1, color: Colors.grey)),
     cardTheme: CardTheme(
       margin: EdgeInsets.zero,
       color: Colors.white,
@@ -51,8 +46,6 @@ class MyTheme extends ChangeNotifier {
 
   static final darkTheme = ThemeData(
     useMaterial3: true,
-    disabledColor: Colors.grey[850],
-    unselectedWidgetColor: const Color(0xffF7F2FA),
     scaffoldBackgroundColor: const Color(0xff212121),
     primaryColor: MyTheme.primary,
     dialogTheme: DialogTheme(
@@ -67,8 +60,6 @@ class MyTheme extends ChangeNotifier {
           fontFamily: 'regular'),
       contentTextStyle: const TextStyle(color: Colors.white),
     ),
-    radioTheme: const RadioThemeData(
-        fillColor: WidgetStatePropertyAll(MyTheme.primary)),
     drawerTheme: DrawerThemeData(backgroundColor: Colors.grey[900]),
     appBarTheme: const AppBarTheme(
       elevation: 0,
@@ -81,12 +72,8 @@ class MyTheme extends ChangeNotifier {
       ),
     ),
     fontFamily: 'regular',
-    chipTheme: ChipThemeData(
-        backgroundColor: Colors.grey[850],
-        side: const BorderSide(width: 1, color: Color(0xffF7F2FA))),
     cardTheme: CardTheme(
       color: Colors.transparent,
-      // color: const Color(0xff212529),
       elevation: 0,
       shadowColor: null,
       shape: RoundedRectangleBorder(
@@ -107,7 +94,7 @@ class MyTheme extends ChangeNotifier {
     loadTheme();
   }
 
-  Future<void> loadTheme() async {
+  loadTheme() async {
     try {
       mode = Utils.isDarkTheme() ? ThemeMode.dark : ThemeMode.light;
       notifyListeners();
@@ -116,7 +103,7 @@ class MyTheme extends ChangeNotifier {
     }
   }
 
-  Future<void> setTheme() async {
+  setTheme() async {
     try {
       mode = mode == ThemeMode.light ? ThemeMode.dark : ThemeMode.light;
       notifyListeners();
