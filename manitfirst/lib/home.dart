@@ -212,7 +212,7 @@ class HomeState extends State<Home> {
                               Theme.of(context).textTheme.headlineSmall?.color),
                       title: Text('Feature Request',
                           style: Dimen.getSidebarTextStyle(context)),
-                      onTap: () => Utils.launch("mailto:me@sumitkmr.com")),
+                      onTap: () => Utils.launch("https://docs.google.com/forms/d/e/1FAIpQLScGTqZhtNvoakO-NAEW04KA2eU7AgIjaU0qpnfBYZJSuj0KRQ/viewform?usp=header")),
                   const SizedBox(height: 8),
                   const Divider(height: Dimen.sidebar_divider_thickness),
                   const SizedBox(height: 8),
@@ -229,7 +229,7 @@ class HomeState extends State<Home> {
                               Theme.of(context).textTheme.headlineSmall?.color),
                       title: Text('Contact Me',
                           style: Dimen.getSidebarTextStyle(context)),
-                      onTap: () => Utils.launch("mailto:me@sumitkmr.com")),
+                      onTap: () => Utils.launch("https://docs.google.com/forms/d/e/1FAIpQLScGTqZhtNvoakO-NAEW04KA2eU7AgIjaU0qpnfBYZJSuj0KRQ/viewform?usp=header")),
                   Platform.isAndroid
                       ? ListTile(
                           leading: Icon(Icons.desktop_mac_outlined,

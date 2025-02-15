@@ -31,6 +31,12 @@
       padding: 20px 0;
     }
 
+    @media (max-width: 576px){
+      .head-container{
+        padding: 20px 10px;
+      }
+    }
+
     select {
       padding: 0.375rem 1.25rem 0.375rem 0.75rem;
       margin: 0 3px;
@@ -38,6 +44,7 @@
       border-radius: 5px;
       font-size: 16px;
       transition: border-color 0.3s;
+      background-color: white;
     }
     select:focus {
       border-color: var(--bs-primary);
@@ -62,7 +69,6 @@
       color: #212529;
       font-weight: bold;
       text-align: start;
-      font-family: "Arial", sans-serif;
       font-size: 18px;
       margin: 0 0 8px 0;
     }
@@ -125,12 +131,16 @@
     }
   </style>
   <body onload="loadData()">
-    <div class="header-bg" id="header-container"></div>
+    
+    <div id="main-container">
+      <div class="header-bg" id="header-container"></div>
 
-    <div class="container head-container">
-      <h1>Subject Name</h1>
-      <select id="types"></select>
+      <div class="container head-container">
+        <h1>Subject Name</h1>
+        <select id="types"></select>
+      </div>
+      <div id="whole-container"></div>
     </div>
-    <div id="whole-container"></div>
+    <div class="header-bg py-2 mt-5" id="footer-container"></div>
   </body>
 </html>

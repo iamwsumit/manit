@@ -80,7 +80,7 @@ function buildTabData(tab, data) {
         document.location.href = link;
     });
     card.querySelector('#view').addEventListener('click', () => {
-        const googleDocsUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(link)}&embedded=true`;
+        const googleDocsUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(link)}`;
         window.open(googleDocsUrl, '_blank');
     });
   });

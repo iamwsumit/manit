@@ -14,13 +14,12 @@
     />
     <script type="module" src="/scripts/firebase-analytics.js"></script>
     <style>
-
       .btn-primary-custom {
         background-color: var(--bs-primary);
         color: white;
       }
 
-      .btn-primary-custom:hover{
+      .btn-primary-custom:hover {
         border: var(--bs-primary) 1px solid;
         color: var(--bs-primary);
       }
@@ -64,119 +63,91 @@
         width: 700px;
       }
 
-      .card-title{
+      .card-title {
         margin-bottom: 5px;
       }
     </style>
   </head>
   <body>
-    <div class="header-bg" id="header-container"></div>
+    <div id="main-container">
+      <div class="header-bg" id="header-container"></div>
 
-    <div class="container head-container" style="justify-content: center">
-      <h1 style="font-size: 2.25rem">MANIT Study Portal</h1>
-      <p class="fs-5 mb-6" style="text-align: center">
-        Download class notes, assignments, reference books and previous year
-        papers at one place
-      </p>
-    </div>
+      <div class="container head-container" style="justify-content: center">
+        <h1 style="font-size: 2.25rem">MANIT Study Portal</h1>
+        <p class="fs-5 mb-6" style="text-align: center">
+          Download class notes, assignments, reference books and previous year
+          papers at one place
+        </p>
+      </div>
 
-    <p class="space"></p>
+      <p class="space"></p>
 
-    <section>
-      <div class="container text-center">
-        <h2>Download for your Platform</h2>
-        <div style="height: 30px"></div>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="card">
-              <div class="text-center">
-                <i class="fab fa-windows feature-icon mb-3"></i>
-                <h2 class="card-title fs-3 fw-bold">Windows</h2>
-                <p class="text-muted mb-4">Compatible with Windows 10 and 11</p>
-                <button class="btn btn-primary-custom rounded-pill px-4">
-                  Download for Windows
-                </button>
+      <section>
+        <div class="container text-center">
+          <h2>Download for your Platform</h2>
+          <div style="height: 30px"></div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="text-center">
+                  <i class="fab fa-windows feature-icon mb-3"></i>
+                  <h2 class="card-title fs-3 fw-bold">Windows</h2>
+                  <p class="text-muted mb-4">
+                    Compatible with Windows 10 and 11
+                  </p>
+                  <button class="btn btn-primary-custom rounded-pill px-4">
+                    Download for Windows
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card">
-              <div class="text-center">
-                <i class="fab fa-apple feature-icon mb-3"></i>
-                <h2 class="card-title fs-3 fw-bold">macOS</h2>
-                <p class="text-muted mb-4">
-                  Compatible with macOS 11 and later
-                </p>
-                <button class="btn btn-primary-custom rounded-pill px-4">
-                  Download for macOS
-                </button>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="text-center">
+                  <i class="fab fa-apple feature-icon mb-3"></i>
+                  <h2 class="card-title fs-3 fw-bold">macOS</h2>
+                  <p class="text-muted mb-4">
+                    Compatible with macOS 11 and later
+                  </p>
+                  <button class="btn btn-primary-custom rounded-pill px-4">
+                    Download for macOS
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="card">
-              <div class="text-center">
-                <i class="fab fa-android feature-icon mb-3"></i>
-                <h2 class="card-title fs-3 fw-bold">Android</h2>
-                <p class="text-muted mb-4">Android 8.0 and above</p>
-                <button class="btn btn-primary-custom rounded-pill px-4">
-                  Download APK
-                </button>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="text-center">
+                  <i class="fab fa-android feature-icon mb-3"></i>
+                  <h2 class="card-title fs-3 fw-bold">Android</h2>
+                  <p class="text-muted mb-4">Android 8.0 and above</p>
+                  <button class="btn btn-primary-custom rounded-pill px-4">
+                    Download APK
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <p style="height: 50px"></p>
-    <section>
-      <div class="container text-center">
-        <h2>App Screenshots</h2>
-        <div style="height: 30px"></div>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <img class="mac" src="ss/mac1.png" alt="mac_ss1" />
+      <p style="height: 50px"></p>
+      <section>
+        <div class="container text-center">
+          <h2>App Screenshots</h2>
+          <div style="height: 30px"></div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <img class="mac" src="ss/mac1.png" alt="mac_ss1" />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <div class="header-bg py-2 mt-5">
-      <div class="container">
-        <footer
-          class="d-flex flex-wrap justify-content-between align-items-center my-4"
-        >
-          <div class="col-md-4 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 text-body-secondary"
-              >Made by Sumit Kumar (NITB'28)</span
-            >
-          </div>
-
-          <ul class="nav-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3">
-              <a
-                class="text-body-secondary"
-                href="https://linkedin.com/in/iamwsumit"
-                ><i class="fa-brands fa-linkedin-in"></i
-              ></a>
-            </li>
-            <li class="ms-3">
-              <a class="text-body-secondary" href="mailto:me@sumitkmr.com"
-                ><i class="fa-regular fa-envelope"></i
-              ></a>
-            </li>
-            <li class="ms-3">
-              <a class="text-body-secondary" href="https://github.com/iamwsumit"
-                ><i class="fa-brands fa-github"></i
-              ></a>
-            </li>
-          </ul>
-        </footer>
-      </div>
+      </section>
     </div>
+
+    <div class="header-bg py-2 mt-5" id="footer-container"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
   </body>
