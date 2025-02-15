@@ -14,36 +14,22 @@
     />
     <script type="module" src="/scripts/firebase-analytics.js"></script>
     <style>
-      :root {
-        --primary-color: #388e3c;
-        --primary-dark: #2e7d32;
-      }
-      .bg-primary-custom {
-        background-color: var(--primary-color);
-      }
+
       .btn-primary-custom {
-        background-color: var(--primary-color);
-        border-color: var(--primary-color);
+        background-color: var(--bs-primary);
         color: white;
       }
-      .btn-primary-custom:hover {
-        background-color: var(--primary-dark);
-        border-color: var(--primary-dark);
-        color: white;
+
+      .btn-primary-custom:hover{
+        border: var(--bs-primary) 1px solid;
+        color: var(--bs-primary);
       }
-      .text-primary-custom {
-        color: var(--primary-color);
-      }
+
       .feature-icon {
-        font-size: 2.5rem;
-        color: var(--primary-color);
+        font-size: 3rem;
+        color: var(--bs-primary);
       }
-      .platform-card {
-        transition: transform 0.2s;
-      }
-      .platform-card:hover {
-        transform: translateY(-5px);
-      }
+
       .screenshot-container {
         overflow-x: auto;
         white-space: nowrap;
@@ -66,7 +52,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 1rem 1rem;
+        padding: 2rem 1rem;
         text-decoration: none;
       }
 
@@ -77,56 +63,14 @@
       .mac {
         width: 700px;
       }
+
+      .card-title{
+        margin-bottom: 5px;
+      }
     </style>
   </head>
   <body>
-    <div class="header-bg">
-      <div class="container">
-        <header class="d-flex flex-wrap py-3 mb-4">
-          <a
-            href="/"
-            class="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none"
-            style="justify-content: center !important"
-          >
-            <img
-              src="../assets/manit.png"
-              alt="manit logo"
-              height="45px"
-              style="margin: 10px 20px 10px 0px"
-            />
-            <span class="fs-4" style="font-weight: 600"
-              >MANIT Study Portal</span
-            >
-          </a>
-
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a href="#" class="nav-link" aria-current="page">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="assets/syllabus.pdf" target="_blank" class="nav-link"
-                >Syllabus</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="/tutorials" class="nav-link">Tutorials</a>
-            </li>
-            <li class="nav-item">
-              <a href="/about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item" style="padding-left: 10px">
-              <a
-                href="/download"
-                type="button"
-                target="_blank"
-                class="btn btn-success"
-                >Download</a
-              >
-            </li>
-          </ul>
-        </header>
-      </div>
-    </div>
+    <div class="header-bg" id="header-container"></div>
 
     <div class="container head-container" style="justify-content: center">
       <h1 style="font-size: 2.25rem">MANIT Study Portal</h1>
@@ -136,14 +80,12 @@
       </p>
     </div>
 
-    <p class="height"></p>
-    <p class="height"></p>
-    <p class="height"></p>
+    <p class="space"></p>
 
     <section>
       <div class="container text-center">
         <h2>Download for your Platform</h2>
-        <div style="height: 30px;"></div>
+        <div style="height: 30px"></div>
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card">
@@ -151,7 +93,7 @@
                 <i class="fab fa-windows feature-icon mb-3"></i>
                 <h2 class="card-title fs-3 fw-bold">Windows</h2>
                 <p class="text-muted mb-4">Compatible with Windows 10 and 11</p>
-                <button class="btn btn-primary-custom rounded-pill px-4 mb-4">
+                <button class="btn btn-primary-custom rounded-pill px-4">
                   Download for Windows
                 </button>
               </div>
@@ -166,7 +108,7 @@
                 <p class="text-muted mb-4">
                   Compatible with macOS 11 and later
                 </p>
-                <button class="btn btn-primary-custom rounded-pill px-4 mb-4">
+                <button class="btn btn-primary-custom rounded-pill px-4">
                   Download for macOS
                 </button>
               </div>
@@ -179,7 +121,7 @@
                 <i class="fab fa-android feature-icon mb-3"></i>
                 <h2 class="card-title fs-3 fw-bold">Android</h2>
                 <p class="text-muted mb-4">Android 8.0 and above</p>
-                <button class="btn btn-primary-custom rounded-pill px-4 mb-4">
+                <button class="btn btn-primary-custom rounded-pill px-4">
                   Download APK
                 </button>
               </div>
@@ -189,14 +131,14 @@
       </div>
     </section>
 
-    <p style="height: 50px;"></p>
+    <p style="height: 50px"></p>
     <section>
       <div class="container text-center">
         <h2>App Screenshots</h2>
-        <div style="height: 30px;"></div>
+        <div style="height: 30px"></div>
         <div class="row g-4">
           <div class="col-md-4">
-            <img class="mac" src="ss/mac1.png" alt="mac_ss1">
+            <img class="mac" src="ss/mac1.png" alt="mac_ss1" />
           </div>
         </div>
       </div>
