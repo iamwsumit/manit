@@ -1,897 +1,897 @@
 {
     "maths1": {
-        "name": "Mathematics 1",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "Continuity & Differentiability (Sec G)",
-                    "desc": "Partial Differentiation Assignment of section G",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/continuity_diff_assign.pdf"
-                },
-                {
-                    "title": "Continuity & Differentiability (Sec G)",
-                    "desc": "Partial Differentiation Assignment of section G with solution",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/continuity_diff_assign_sol.pdf"
-                },
-                {
-                    "title": "Continuity & Differentiability Tutorial (Sec G)",
-                    "desc": "Continuity & Differentiability Tutorial questions of section G",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/continuity_diff_tuto.pdf"
-                },
-                {
-                    "title": "Partial Differentiation Tutorial (Sec G)",
-                    "desc": "Partial Differentiation Tutorial questions of section G",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/partial_diff_tuto.pdf"
-                },
-                {
-                    "title": "Area by Integrals Tutorial (Sec G)",
-                    "desc": "Area by Integrals Tutorials questions of section G",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/aoc_tutorial.pdf"
-                },
-                {
-                    "title": "Vector Calculus (Sec G)",
-                    "desc": "Vector Calculus Assignment of section G",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/continuity_diff_assign.pdf"
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "Partial Differentiation",
-                    "desc": "Partial Differentiation Notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/partial_diff.pdf"
-                },
-                {
-                    "title": "Integrals",
-                    "desc": "Integrals Notes PDF by Adesh",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/integrals_by_adesh.pdf"
-                },
-                {
-                    "title": "Vector Calculus",
-                    "desc": "Vector Calculus Notes PDF by Adesh",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/vector.pdf"
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "End Term (2022-2023)",
-                    "desc": "End term test PDF of session 2022-23",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/end_term_2022-23.pdf"
-                },
-                {
-                    "title": "End Term 2022",
-                    "desc": "End term test PDF of session 2022",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/end_term_2022.pdf"
-                },
-                {
-                    "title": "Mid Term 2022",
-                    "desc": "Mid term test PDF of session 2022",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/mid_term_2022.pdf"
-                },
-                {
-                    "title": "Mini Test (2020-2021)",
-                    "desc": "Mini test PDF of session 2020-21",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/mini_2020-21.pdf"
-                }
-            ],
-            "Books": [
-                {
-                    "title": "BV Raman",
-                    "desc": "Mathematics book PDF of BV Raman",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/BV_Ramana.pdf"
-                },
-                {
-                    "title": "HK Das",
-                    "desc": "Mathematics book PDF of HK Das",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/Hk_Das_.pdf"
-                },
-                {
-                    "title": "Thomas Calculus",
-                    "desc": "Mathematics book PDF for Thomas Calculus",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/ThomasCalculus.pdf"
-                },
-                {
-                    "title": "RK Jain and Iyenger",
-                    "desc": "Mathematics book PDF of RK Jain and Iyenger",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/RK_Jain_and_Iyengar.pdf"
-                }
-            ]
-        }
+      "name": "Mathematics 1",
+      "data": {
+        "Assignments": [
+          {
+            "title": "Continuity & Differentiability (Sec G)",
+            "desc": "Partial Differentiation Assignment of section G",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/continuity_diff_assign.pdf"
+          },
+          {
+            "title": "Continuity & Differentiability (Sec G)",
+            "desc": "Partial Differentiation Assignment of section G with solution",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/continuity_diff_assign_sol.pdf"
+          },
+          {
+            "title": "Continuity & Differentiability Tutorial (Sec G)",
+            "desc": "Continuity & Differentiability Tutorial questions of section G",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/continuity_diff_tuto.pdf"
+          },
+          {
+            "title": "Partial Differentiation Tutorial (Sec G)",
+            "desc": "Partial Differentiation Tutorial questions of section G",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/partial_diff_tuto.pdf"
+          },
+          {
+            "title": "Area by Integrals Tutorial (Sec G)",
+            "desc": "Area by Integrals Tutorials questions of section G",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/aoc_tutorial.pdf"
+          },
+          {
+            "title": "Vector Calculus (Sec G)",
+            "desc": "Vector Calculus Assignment of section G",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/continuity_diff_assign.pdf"
+          }
+        ],
+        "Notes": [
+          {
+            "title": "Partial Differentiation",
+            "desc": "Partial Differentiation Notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/partial_diff.pdf"
+          },
+          {
+            "title": "Integrals",
+            "desc": "Integrals Notes PDF by Adesh",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/integrals_by_adesh.pdf"
+          },
+          {
+            "title": "Vector Calculus",
+            "desc": "Vector Calculus Notes PDF by Adesh",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/vector.pdf"
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "End Term (2022-2023)",
+            "desc": "End term test PDF of session 2022-23",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/end_term_2022-23.pdf"
+          },
+          {
+            "title": "End Term 2022",
+            "desc": "End term test PDF of session 2022",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/end_term_2022.pdf"
+          },
+          {
+            "title": "Mid Term 2022",
+            "desc": "Mid term test PDF of session 2022",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/mid_term_2022.pdf"
+          },
+          {
+            "title": "Mini Test (2020-2021)",
+            "desc": "Mini test PDF of session 2020-21",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/mini_2020-21.pdf"
+          }
+        ],
+        "Books": [
+          {
+            "title": "BV Raman",
+            "desc": "Mathematics book PDF of BV Raman",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/BV_Ramana.pdf"
+          },
+          {
+            "title": "HK Das",
+            "desc": "Mathematics book PDF of HK Das",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/Hk_Das_.pdf"
+          },
+          {
+            "title": "Thomas Calculus",
+            "desc": "Mathematics book PDF for Thomas Calculus",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/ThomasCalculus.pdf"
+          },
+          {
+            "title": "RK Jain and Iyenger",
+            "desc": "Mathematics book PDF of RK Jain and Iyenger",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/RK_Jain_and_Iyengar.pdf"
+          }
+        ]
+      }
     },
     "beee": {
-        "name": "Basic Electrical & Electronics Eng.",
-        "data": {
-            "BEEE Lab" : [
-                {
-                    "title" : "Lab Manual",
-                    "desc" : "BEEE Lab Manual PDF for 1-10 Experiments",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/lab/lab_records.pdf"
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "BEEE Introduction",
-                    "desc": "BEEE Introduction handwritten notes for BEEE",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/Intro.pdf"
-                },
-                {
-                    "title": "DC Circuit",
-                    "desc": "DC Circuit handwritten notes for BEEE",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/dc_ckt_ppt.pdf"
-                },
-                {
-                    "title": "Mesh Law",
-                    "desc": "DC Circuit Mesh Law handwritten notes for BEEE",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/Mesh.pdf"
-                },
-                {
-                    "title": "Transformer",
-                    "desc": "Transformer handwritten notes for BEEE",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/dc_ckt_ppt.pdf"
-                },
-                {
-                    "title": "Semiconductor & Transistor",
-                    "desc": "Semiconductor & Transistor handwritten notes for BEEE",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/semiconductor.pdf"
-                }
-            ],
-            "PYPs": [
-                {
-                  "title": "End Term 2024 (Sem - I)",
-                  "desc": "End Term 2024 Sem I test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2024_sem1.pdf"
-                },
-                {
-                  "title": "Mid Term 2024 (Sem - I) Sec - F",
-                  "desc": "Mid Term 2024 Sem I of Sec F test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2024_sem1_secf.pdf"
-                },
-                {
-                  "title": "Mid Term 2024 (Sem - I) Sec - G",
-                  "desc": "Mid Term 2024 Sem I of Sec G test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2024_sem1_secg.pdf"
-                },
-                {
-                  "title": "Mid Term 2024 (Sem - II)",
-                  "desc": "Mid Term 2024 Sem II test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2024_sem2.pdf"
-                },
-                  {
-                  "title": "End Term 2023 (Sem - II)",
-                  "desc": "End Term 2023 Sem II test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2023_sem2.pdf"
-                },
-                {
-                  "title": "End Term 2022",
-                  "desc": "End Term 2022 test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2022.pdf"
-                },
-                {
-                  "title": "End Term 2022 (Sem - I)",
-                  "desc": "End Term 2022 Sem I test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2022_sem1.pdf"
-                },
-                {
-                  "title": "Mid Term 2022",
-                  "desc": "Mid Term 2022 test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2022.pdf"
-                },
-                {
-                  "title": "Mid Term 2022 (Sem - II)",
-                  "desc": "Mid Term 2022 Sem II test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2022_sem2.pdf"
-                },
-                {
-                  "title": "Mini Test 2022",
-                  "desc": "Mini Test 2022 test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mini_test_2022.pdf"
-                },
-                {
-                  "title": "Mini Test 2022 Sec - G",
-                  "desc": "Mini Test 2022 Sec G test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mini_test_2022_secg.pdf"
-                }
-              ],
-            "Books": [
-                {
-                    "title": "BL Theraja",
-                    "desc": "BL Theraja book PDF for BEEE",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/books/BLTheraja.pdf"
-                },
-                {
-                    "title": "RK Rajput",
-                    "desc": "RK Rajput book PDF for BEEE",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/books/RK_Rajput.pdf"
-                },
-                {
-                    "title": "Semiconductor & Transistor",
-                    "desc": "Semiconductor & Transistor book PDF for BEEE",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/books/semiconductor.pdf"
-                },
-            ]
-        }
+      "name": "Basic Electrical & Electronics Eng.",
+      "data": {
+        "BEEE Lab": [
+          {
+            "title": "Lab Manual",
+            "desc": "BEEE Lab Manual PDF for 1-10 Experiments",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/lab/lab_records.pdf"
+          }
+        ],
+        "Notes": [
+          {
+            "title": "BEEE Introduction",
+            "desc": "BEEE Introduction handwritten notes for BEEE",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/Intro.pdf"
+          },
+          {
+            "title": "DC Circuit",
+            "desc": "DC Circuit handwritten notes for BEEE",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/dc_ckt_ppt.pdf"
+          },
+          {
+            "title": "Mesh Law",
+            "desc": "DC Circuit Mesh Law handwritten notes for BEEE",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/Mesh.pdf"
+          },
+          {
+            "title": "Transformer",
+            "desc": "Transformer handwritten notes for BEEE",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/dc_ckt_ppt.pdf"
+          },
+          {
+            "title": "Semiconductor & Transistor",
+            "desc": "Semiconductor & Transistor handwritten notes for BEEE",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/semiconductor.pdf"
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "End Term 2024 (Sem - I)",
+            "desc": "End Term 2024 Sem I test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2024_sem1.pdf"
+          },
+          {
+            "title": "Mid Term 2024 (Sem - I) Sec - F",
+            "desc": "Mid Term 2024 Sem I of Sec F test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2024_sem1_secf.pdf"
+          },
+          {
+            "title": "Mid Term 2024 (Sem - I) Sec - G",
+            "desc": "Mid Term 2024 Sem I of Sec G test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2024_sem1_secg.pdf"
+          },
+          {
+            "title": "Mid Term 2024 (Sem - II)",
+            "desc": "Mid Term 2024 Sem II test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2024_sem2.pdf"
+          },
+          {
+            "title": "End Term 2023 (Sem - II)",
+            "desc": "End Term 2023 Sem II test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2023_sem2.pdf"
+          },
+          {
+            "title": "End Term 2022",
+            "desc": "End Term 2022 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2022.pdf"
+          },
+          {
+            "title": "End Term 2022 (Sem - I)",
+            "desc": "End Term 2022 Sem I test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2022_sem1.pdf"
+          },
+          {
+            "title": "Mid Term 2022",
+            "desc": "Mid Term 2022 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2022.pdf"
+          },
+          {
+            "title": "Mid Term 2022 (Sem - II)",
+            "desc": "Mid Term 2022 Sem II test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2022_sem2.pdf"
+          },
+          {
+            "title": "Mini Test 2022",
+            "desc": "Mini Test 2022 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mini_test_2022.pdf"
+          },
+          {
+            "title": "Mini Test 2022 Sec - G",
+            "desc": "Mini Test 2022 Sec G test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mini_test_2022_secg.pdf"
+          }
+        ],
+        "Books": [
+          {
+            "title": "BL Theraja",
+            "desc": "BL Theraja book PDF for BEEE",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/books/BLTheraja.pdf"
+          },
+          {
+            "title": "RK Rajput",
+            "desc": "RK Rajput book PDF for BEEE",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/books/RK_Rajput.pdf"
+          },
+          {
+            "title": "Semiconductor & Transistor",
+            "desc": "Semiconductor & Transistor book PDF for BEEE",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/books/semiconductor.pdf"
+          }
+        ]
+      }
     },
     "m2": {
-        "name": "Mathematics 2",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "Sample Assignment",
-                    "desc": "A sample assignment for Maths 2",
-                    "link": "sample_assignment.pdf"
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "Sample Notes",
-                    "desc": "Sample notes for Maths 2",
-                    "link": "sample_notes.pdf"
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "Sample PYP",
-                    "desc": "A sample PYP for Maths 2",
-                    "link": "sample_pyp.pdf"
-                }
-            ],
-            "Books": [
-                {
-                    "title": "Sample Book",
-                    "desc": "A sample book for Maths 2",
-                    "link": "sample_book.pdf"
-                }
-            ]
-        }
+      "name": "Mathematics 2",
+      "data": {
+        "Assignments": [
+          {
+            "title": "Sample Assignment",
+            "desc": "A sample assignment for Maths 2",
+            "link": "sample_assignment.pdf"
+          }
+        ],
+        "Notes": [
+          {
+            "title": "Sample Notes",
+            "desc": "Sample notes for Maths 2",
+            "link": "sample_notes.pdf"
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "Sample PYP",
+            "desc": "A sample PYP for Maths 2",
+            "link": "sample_pyp.pdf"
+          }
+        ],
+        "Books": [
+          {
+            "title": "Sample Book",
+            "desc": "A sample book for Maths 2",
+            "link": "sample_book.pdf"
+          }
+        ]
+      }
     },
     "mechanics": {
-        "name": "Engineering Mechanics",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "Sample Assignment",
-                    "desc": "A sample assignment for Mechanics",
-                    "link": "sample_assignment.pdf"
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "Sample Notes",
-                    "desc": "Sample notes for Mechanics",
-                    "link": "sample_notes.pdf"
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "Sample PYP",
-                    "desc": "A sample PYP for Mechanics",
-                    "link": "sample_pyp.pdf"
-                }
-            ],
-            "Books": [
-                {
-                    "title": "Sample Book",
-                    "desc": "A sample book for Mechanics",
-                    "link": "sample_book.pdf"
-                }
-            ]
-        }
+      "name": "Engineering Mechanics",
+      "data": {
+        "Assignments": [
+          {
+            "title": "Sample Assignment",
+            "desc": "A sample assignment for Mechanics",
+            "link": "sample_assignment.pdf"
+          }
+        ],
+        "Notes": [
+          {
+            "title": "Sample Notes",
+            "desc": "Sample notes for Mechanics",
+            "link": "sample_notes.pdf"
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "Sample PYP",
+            "desc": "A sample PYP for Mechanics",
+            "link": "sample_pyp.pdf"
+          }
+        ],
+        "Books": [
+          {
+            "title": "Sample Book",
+            "desc": "A sample book for Mechanics",
+            "link": "sample_book.pdf"
+          }
+        ]
+      }
     },
     "chemistry": {
-        "name": "Engineering Chemistry",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "Polymers and Cement",
-                    "desc": "Polymers and Cement assignment of Sec - G (2024 Sem - I)",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/poly_cement_secg.pdf"
-                },
-                {
-                    "title": "Water",
-                    "desc": "Water assignment of Sec - G (2024 Sem - I)",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/water_secg.pdf"
-                },
-                {
-                    "title": "Corrosion",
-                    "desc": "Corrosion assignment of Sec - G (2024 Sem - I)",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/corrosion_secg.pdf"
-                },
-                {
-                    "title": "Lubricant",
-                    "desc": "Lubricants assignment of Sec - G (2024 Sem - I)",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/lubricant_secg.pdf"
-                }
-            ],
-            "Lab": [
-                {
-                    "title": "Lab Records",
-                    "desc": "Engineering Chemistry and Analytical Chemistry Lab Records PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/lab/lab_record.pdf"
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "Polymer",
-                    "desc": "Polymer handwritten notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/polymer.pdf"
-                },
-                {
-                    "title": "Polymer PPT",
-                    "desc": "Polymer PPT notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/polymers_ppt.pdf"
-                },
-                {
-                    "title": "Cement",
-                    "desc": "Cement handwritten notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/cement.pdf"
-                },
-                {
-                    "title": "Cement PPT",
-                    "desc": "Cement PPT notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/cement_ppt.pdf"
-                },
-                {
-                    "title": "Lubricant",
-                    "desc": "Lubricant handwritten notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/lubricant.pdf"
-                },
-                {
-                    "title": "Lubricant PPT",
-                    "desc": "Lubricant PPT notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/lubricants_ppt.pdf"
-                },
-                {
-                    "title": "Fuels",
-                    "desc": "Fuels handwritten notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/fuels.pdf"
-                },
-                {
-                    "title": "Fuels PPT",
-                    "desc": "Fuels PPT notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/fuels_ppt.pdf"
-                },
-                {
-                    "title": "Corrosion",
-                    "desc": "Corrosion handwritten notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/corrosion.pdf"
-                },
-                {
-                    "title": "Corrosion PPT",
-                    "desc": "Corrosion PPT notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/corrosion_ppt.pdf"
-                },
-                {
-                    "title": "Water PPT",
-                    "desc": "Water PPT notes PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/water_ppt.pdf"
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "Mini Test 2024 (Sec - F)",
-                    "desc": "Mini Test PDF of Section F",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/mini_test_2024_secf.pdf"
-                },
-                {
-                    "title": "Mid Term 2024",
-                    "desc": "Mid Term test pdf of 2024 1st semester",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/mid_term_2024_sem1.pdf"
-                },
-                {
-                    "title": "End Term 2024",
-                    "desc": "End Term test pdf of 2024 1st semester",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/end_term_2024_sem1.pdf"
-                },
-                {
-                    "title": "Mid + End Term 2023 (Sem - II)",
-                    "desc": "Mid term and end Term test pdf of 2023 2nd semester",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/mid_end_term_2023_sem2.pdf"
-                },
-                {
-                    "title": "End Term 2022 (Sem - II)",
-                    "desc": "End Term test pdf of 2022 2nd semester",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/end_term_2022_sem2.pdf"
-                },
-                {
-                    "title": "End Term 2021 (Sem - II)",
-                    "desc": "End Term test pdf of 2021 2nd semester",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/end_term_2021_sem2.pdf"
-                }
-            ],
-            "Books": [
-                {
-                    "title": "Jain and Jain",
-                    "desc": "Jain and Jain book for Chemistry",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/books/Jain_and_Jain_.pdf"
-                }
-            ]
-        }
+      "name": "Engineering Chemistry",
+      "data": {
+        "Assignments": [
+          {
+            "title": "Polymers and Cement",
+            "desc": "Polymers and Cement assignment of Sec - G (2024 Sem - I)",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/poly_cement_secg.pdf"
+          },
+          {
+            "title": "Water",
+            "desc": "Water assignment of Sec - G (2024 Sem - I)",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/water_secg.pdf"
+          },
+          {
+            "title": "Corrosion",
+            "desc": "Corrosion assignment of Sec - G (2024 Sem - I)",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/corrosion_secg.pdf"
+          },
+          {
+            "title": "Lubricant",
+            "desc": "Lubricants assignment of Sec - G (2024 Sem - I)",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/lubricant_secg.pdf"
+          }
+        ],
+        "Lab": [
+          {
+            "title": "Lab Records",
+            "desc": "Engineering Chemistry and Analytical Chemistry Lab Records PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/lab/lab_record.pdf"
+          }
+        ],
+        "Notes": [
+          {
+            "title": "Polymer",
+            "desc": "Polymer handwritten notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/polymer.pdf"
+          },
+          {
+            "title": "Polymer PPT",
+            "desc": "Polymer PPT notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/polymers_ppt.pdf"
+          },
+          {
+            "title": "Cement",
+            "desc": "Cement handwritten notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/cement.pdf"
+          },
+          {
+            "title": "Cement PPT",
+            "desc": "Cement PPT notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/cement_ppt.pdf"
+          },
+          {
+            "title": "Lubricant",
+            "desc": "Lubricant handwritten notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/lubricant.pdf"
+          },
+          {
+            "title": "Lubricant PPT",
+            "desc": "Lubricant PPT notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/lubricants_ppt.pdf"
+          },
+          {
+            "title": "Fuels",
+            "desc": "Fuels handwritten notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/fuels.pdf"
+          },
+          {
+            "title": "Fuels PPT",
+            "desc": "Fuels PPT notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/fuels_ppt.pdf"
+          },
+          {
+            "title": "Corrosion",
+            "desc": "Corrosion handwritten notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/corrosion.pdf"
+          },
+          {
+            "title": "Corrosion PPT",
+            "desc": "Corrosion PPT notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/corrosion_ppt.pdf"
+          },
+          {
+            "title": "Water PPT",
+            "desc": "Water PPT notes PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/water_ppt.pdf"
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "Mini Test 2024 (Sec - F)",
+            "desc": "Mini Test PDF of Section F",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/mini_test_2024_secf.pdf"
+          },
+          {
+            "title": "Mid Term 2024",
+            "desc": "Mid Term test pdf of 2024 1st semester",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/mid_term_2024_sem1.pdf"
+          },
+          {
+            "title": "End Term 2024",
+            "desc": "End Term test pdf of 2024 1st semester",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/end_term_2024_sem1.pdf"
+          },
+          {
+            "title": "Mid + End Term 2023 (Sem - II)",
+            "desc": "Mid term and end Term test pdf of 2023 2nd semester",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/mid_end_term_2023_sem2.pdf"
+          },
+          {
+            "title": "End Term 2022 (Sem - II)",
+            "desc": "End Term test pdf of 2022 2nd semester",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/end_term_2022_sem2.pdf"
+          },
+          {
+            "title": "End Term 2021 (Sem - II)",
+            "desc": "End Term test pdf of 2021 2nd semester",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/end_term_2021_sem2.pdf"
+          }
+        ],
+        "Books": [
+          {
+            "title": "Jain and Jain",
+            "desc": "Jain and Jain book for Chemistry",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/books/Jain_and_Jain_.pdf"
+          }
+        ]
+      }
     },
     "physics": {
-        "name": "Physics",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "Sample Assignment",
-                    "desc": "A sample assignment for Physics",
-                    "link": "sample_assignment.pdf"
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "Sample Notes",
-                    "desc": "Sample notes for Physics",
-                    "link": "sample_notes.pdf"
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "Sample PYP",
-                    "desc": "A sample PYP for Physics",
-                    "link": "sample_pyp.pdf"
-                }
-            ],
-            "Books": [
-                {
-                    "title": "Sample Book",
-                    "desc": "A sample book for Physics",
-                    "link": "sample_book.pdf"
-                }
-            ]
-        }
+      "name": "Physics",
+      "data": {
+        "Assignments": [
+          {
+            "title": "Sample Assignment",
+            "desc": "A sample assignment for Physics",
+            "link": "sample_assignment.pdf"
+          }
+        ],
+        "Notes": [
+          {
+            "title": "Sample Notes",
+            "desc": "Sample notes for Physics",
+            "link": "sample_notes.pdf"
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "Sample PYP",
+            "desc": "A sample PYP for Physics",
+            "link": "sample_pyp.pdf"
+          }
+        ],
+        "Books": [
+          {
+            "title": "Sample Book",
+            "desc": "A sample book for Physics",
+            "link": "sample_book.pdf"
+          }
+        ]
+      }
     },
     "evs": {
-        "name": "Environmental Science",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "Natural Resources Assignment",
-                    "desc": "Natural Resources assignment of Section G (2024 Sem - I)",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/natural_resources_2024_secg.pdf"
-                },
-                {
-                    "title": "Air Pollution Assignment",
-                    "desc": "Air Pollution assignment of Section G (2024 Sem - I)",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/air_pollution_secg_2024.pdf"
-                },
-                {
-                    "title": "Water Pollution Assignment",
-                    "desc": "Water Pollution assignment of Section G (2024 Sem - I)",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/water_pollution_secg_2024.pdf"
-                },
-                {
-                    "title": "Assignments Solution",
-                    "desc": "Assignments solution for Natural Resources, Air and water pollution by Dr. Saumya Mukharjee",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/Assignments_solutions.pdf"
-                },
-                {
-                    "title": "Assignment - 4 (Case Study)",
-                    "desc": "Assignment - 4 of Section G (2024 Sem - I)",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/assign4_secg.pdf"
-                },
-                {
-                    "title": "Assignment - 5 (Case Study)",
-                    "desc": "Assignment - 5 of Section G (2024 Sem - I)",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/assign5_secg.pdf"
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "Air Pollution PPT",
-                    "desc": "Biosphere and its pollution ppt",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/air_pol_ppt.pdf"
-                },
-                {
-                    "title": "Air Pollution",
-                    "desc": "Biosphere and its pollution handwritten pdf",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/air_pollution.pdf"
-                },
-                {
-                    "title": "Water Pollution PPT",
-                    "desc": "Hydrosphere and water pollution ppt",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/water_ppt.pdf"
-                },
-                {
-                    "title": "Water Pollution",
-                    "desc": "Biosphere and its pollution handwritten pdf",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/water.pdf"
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "Mini Test 2024 (Sem - 1)",
-                    "desc": "Mini Test Quiz of section G with solutions",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mini_test_secg_2024_sem1.pdf"
-                },
-                {
-                    "title": "Mid Term 2024 (Sem - 1)",
-                    "desc": "Mid term test pdf for semester 1 2024",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mid_term_2024_sem1.pdf"
-                },
-                {
-                    "title": "Mid Term 2024 Solutions (Sem - 1)",
-                    "desc": "End term test solution pdf by Dr. Saumya Mukharjee",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mini_test_secg_2024_sem1.pdf"
-                },
-                {
-                    "title": "End Term 2024 (Sem - 1)",
-                    "desc": "End term test pdf for semester 1 2024",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/end_term_2024_sem1.pdf"
-                },
-                {
-                    "title": "End Term 2024 Solutions (Sem - 1)",
-                    "desc": "End term test solution pdf by Dr. Saumya Mukharjee",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mini_test_secg_2024_sem1.pdf"
-                },
-                {
-                    "title": "Mid Term 2023 (Sem - 2)",
-                    "desc": "Mid term test pdf for semester 2 2023",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mid_term_2023_sem2.pdf"
-                },
-                {
-                    "title": "End Term 2022 (Sem - 2)",
-                    "desc": "End term test pdf for semester 2 2022",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/End_Offline(2022).pdf"
-                }
-            ],
-            "Books": [
-                {
-                    "title": "Natural Resources",
-                    "desc": "Natural Resources book PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/natural_resources.pdf"
-                },
-                {
-                    "title": "Atmosphere and Air Pollution",
-                    "desc": "Atmosphere book PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/atmosphere.pdf"
-                },
-                {
-                    "title": "Soil Pollution",
-                    "desc": "Soil Pollution book PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/soil_pollution.pdf"
-                },
-                {
-                    "title": "Water Pollution",
-                    "desc": "Water Pollution book PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/water_pollution.pdf"
-                },
-                {
-                    "title": "Unit V Environmental Management",
-                    "desc": "Unit V Environmental Management book PDF",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/Environmental_Management.pdf"
-                }
-            ]
-        }
+      "name": "Environmental Science",
+      "data": {
+        "Assignments": [
+          {
+            "title": "Natural Resources Assignment",
+            "desc": "Natural Resources assignment of Section G (2024 Sem - I)",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/natural_resources_2024_secg.pdf"
+          },
+          {
+            "title": "Air Pollution Assignment",
+            "desc": "Air Pollution assignment of Section G (2024 Sem - I)",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/air_pollution_secg_2024.pdf"
+          },
+          {
+            "title": "Water Pollution Assignment",
+            "desc": "Water Pollution assignment of Section G (2024 Sem - I)",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/water_pollution_secg_2024.pdf"
+          },
+          {
+            "title": "Assignments Solution",
+            "desc": "Assignments solution for Natural Resources, Air and water pollution by Dr. Saumya Mukharjee",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/Assignments_solutions.pdf"
+          },
+          {
+            "title": "Assignment - 4 (Case Study)",
+            "desc": "Assignment - 4 of Section G (2024 Sem - I)",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/assign4_secg.pdf"
+          },
+          {
+            "title": "Assignment - 5 (Case Study)",
+            "desc": "Assignment - 5 of Section G (2024 Sem - I)",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/assign5_secg.pdf"
+          }
+        ],
+        "Notes": [
+          {
+            "title": "Air Pollution PPT",
+            "desc": "Biosphere and its pollution ppt",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/air_pol_ppt.pdf"
+          },
+          {
+            "title": "Air Pollution",
+            "desc": "Biosphere and its pollution handwritten pdf",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/air_pollution.pdf"
+          },
+          {
+            "title": "Water Pollution PPT",
+            "desc": "Hydrosphere and water pollution ppt",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/water_ppt.pdf"
+          },
+          {
+            "title": "Water Pollution",
+            "desc": "Biosphere and its pollution handwritten pdf",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/water.pdf"
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "Mini Test 2024 (Sem - 1)",
+            "desc": "Mini Test Quiz of section G with solutions",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mini_test_secg_2024_sem1.pdf"
+          },
+          {
+            "title": "Mid Term 2024 (Sem - 1)",
+            "desc": "Mid term test pdf for semester 1 2024",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mid_term_2024_sem1.pdf"
+          },
+          {
+            "title": "Mid Term 2024 Solutions (Sem - 1)",
+            "desc": "End term test solution pdf by Dr. Saumya Mukharjee",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mini_test_secg_2024_sem1.pdf"
+          },
+          {
+            "title": "End Term 2024 (Sem - 1)",
+            "desc": "End term test pdf for semester 1 2024",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/end_term_2024_sem1.pdf"
+          },
+          {
+            "title": "End Term 2024 Solutions (Sem - 1)",
+            "desc": "End term test solution pdf by Dr. Saumya Mukharjee",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mini_test_secg_2024_sem1.pdf"
+          },
+          {
+            "title": "Mid Term 2023 (Sem - 2)",
+            "desc": "Mid term test pdf for semester 2 2023",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mid_term_2023_sem2.pdf"
+          },
+          {
+            "title": "End Term 2022 (Sem - 2)",
+            "desc": "End term test pdf for semester 2 2022",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/End_Offline(2022).pdf"
+          }
+        ],
+        "Books": [
+          {
+            "title": "Natural Resources",
+            "desc": "Natural Resources book PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/natural_resources.pdf"
+          },
+          {
+            "title": "Atmosphere and Air Pollution",
+            "desc": "Atmosphere book PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/atmosphere.pdf"
+          },
+          {
+            "title": "Soil Pollution",
+            "desc": "Soil Pollution book PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/soil_pollution.pdf"
+          },
+          {
+            "title": "Water Pollution",
+            "desc": "Water Pollution book PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/water_pollution.pdf"
+          },
+          {
+            "title": "Unit V Environmental Management",
+            "desc": "Unit V Environmental Management book PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/Environmental_Management.pdf"
+          }
+        ]
+      }
     },
     "biology": {
-        "name": "Biology for Engineers",
-        "data": {
-            "Notes": [
-                {
-                    "title": "Biomolecules",
-                    "desc": "Biomolecules JEE PPT notes",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/biomolecules.pdf"
-                },
-                {
-                    "title": "Life Process",
-                    "desc": "Class 10th Life Process PPT notes",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/LifeProcess.pdf"
-                },
-                {
-                    "title": "Fundamental Unit of Life",
-                    "desc": "Cell : The Fundamental Unit of Life class 10th PPT notes",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/unitoflife.pdf"
-                }
-            ],
-            "PYPs": [
-                {
-                  "title": "End Term 2024",
-                  "desc": "End Term 2024 test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/end_term_2024.pdf"
-                },
-                {
-                  "title": "Mid Term 2024 Sec - G",
-                  "desc": "Mid Term 2024 Sec G test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/mid_term_2024_secg.pdf"
-                },
-                {
-                  "title": "Mini Test 2024 Sec - G",
-                  "desc": "Mini Test 2024 Sec G test PDF",
-                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/mini_test_2024_secg.pdf"
-                }
-              ]
-        }
+      "name": "Biology for Engineers",
+      "data": {
+        "Notes": [
+          {
+            "title": "Biomolecules",
+            "desc": "Biomolecules JEE PPT notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/biomolecules.pdf"
+          },
+          {
+            "title": "Life Process",
+            "desc": "Class 10th Life Process PPT notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/LifeProcess.pdf"
+          },
+          {
+            "title": "Fundamental Unit of Life",
+            "desc": "Cell : The Fundamental Unit of Life class 10th PPT notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/unitoflife.pdf"
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "End Term 2024",
+            "desc": "End Term 2024 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/end_term_2024.pdf"
+          },
+          {
+            "title": "Mid Term 2024 Sec - G",
+            "desc": "Mid Term 2024 Sec G test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/mid_term_2024_secg.pdf"
+          },
+          {
+            "title": "Mini Test 2024 Sec - G",
+            "desc": "Mini Test 2024 Sec G test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/mini_test_2024_secg.pdf"
+          }
+        ]
+      }
     },
     "manufacturing-science": {
-        "name": "Manufacturing Science",
-        "data": {
-            "MS Lab": [
-                {
-                    "title": "Carpentary Manual",
-                    "desc": "Carpentary Lab Manual for Manufacturing Science",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Carpentry_.pdf"
-                },
-                {
-                    "title": "Fitting Manual",
-                    "desc": "Fitting Lab Manual for Manufacturing Science",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Fitting.pdf"
-                },
-                {
-                    "title": "Foundary Manual",
-                    "desc": "Foundary Lab Manual for Manufacturing Science",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Foundary.pdf"
-                },
-                {
-                    "title": "Welding Manual",
-                    "desc": "Welding Lab Manual for Manufacturing Science",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Welding.pdf"
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "Carpentary",
-                    "desc": "Carpentary detailed PPT notes for Manufacturing Science",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/carpentary.pdf"
-                },
-                {
-                    "title": "Fitting",
-                    "desc": "Fitting detailed PPT notes for Manufacturing Science",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/fitting.pdf"
-                },
-                {
-                    "title": "Foundary",
-                    "desc": "Foundary detailed PPT notes for Manufacturing Science",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/foundary.pdf"
-                },
-                {
-                    "title": "Welding",
-                    "desc": "Welding details PPT notes for Manufacturing Science",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/welding.pdf"
-                }
-            ],
-            "Short Notes" : [
-                [
-                    {
-                      "title": "Carpentary",
-                      "desc": "Carpentary short notes for Manufacturing Science",
-                      "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/carpentary.pdf"
-                    },
-                    {
-                      "title": "Foundary",
-                      "desc": "Foundary short notes for Manufacturing Science",
-                      "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/foundary.pdf"
-                    },
-                    {
-                      "title": "Fitting",
-                      "desc": "Fitting short notes for Manufacturing Science",
-                      "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/fitting.pdf"
-                    },
-                    {
-                      "title": "Welding",
-                      "desc": "Welding short notes for Manufacturing Science",
-                      "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/welding.pdf"
-                    }
-                  ]
-            ],
-            "PYPs": [
-                {
-                    "title": "End Term 2024",
-                    "desc": "End Term test PDF of 2024 Sem - I",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/end_term_2024.pdf"
-                },
-                {
-                    "title": "Mid Term 2023",
-                    "desc": "Mid Term test PDF of 2023",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/mid_term_2023.pdf"
-                },
-                {
-                    "title": "Mid Term 2022",
-                    "desc": "Mid Term test PDF of 2022",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/mid_term_2022.pdf"
-                },
-                {
-                    "title": "Mini Test 2022",
-                    "desc": "Mini test PDF of 2022",
-                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/mini_test_2022.pdf"
-                }
-            ]
-        }
+      "name": "Manufacturing Science",
+      "data": {
+        "MS Lab": [
+          {
+            "title": "Carpentary Manual",
+            "desc": "Carpentary Lab Manual for Manufacturing Science",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Carpentry_.pdf"
+          },
+          {
+            "title": "Fitting Manual",
+            "desc": "Fitting Lab Manual for Manufacturing Science",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Fitting.pdf"
+          },
+          {
+            "title": "Foundary Manual",
+            "desc": "Foundary Lab Manual for Manufacturing Science",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Foundary.pdf"
+          },
+          {
+            "title": "Welding Manual",
+            "desc": "Welding Lab Manual for Manufacturing Science",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Welding.pdf"
+          }
+        ],
+        "Notes": [
+          {
+            "title": "Carpentary",
+            "desc": "Carpentary detailed PPT notes for Manufacturing Science",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/carpentary.pdf"
+          },
+          {
+            "title": "Fitting",
+            "desc": "Fitting detailed PPT notes for Manufacturing Science",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/fitting.pdf"
+          },
+          {
+            "title": "Foundary",
+            "desc": "Foundary detailed PPT notes for Manufacturing Science",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/foundary.pdf"
+          },
+          {
+            "title": "Welding",
+            "desc": "Welding details PPT notes for Manufacturing Science",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/welding.pdf"
+          }
+        ],
+        "Short Notes": [
+          [
+            {
+              "title": "Carpentary",
+              "desc": "Carpentary short notes for Manufacturing Science",
+              "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/carpentary.pdf"
+            },
+            {
+              "title": "Foundary",
+              "desc": "Foundary short notes for Manufacturing Science",
+              "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/foundary.pdf"
+            },
+            {
+              "title": "Fitting",
+              "desc": "Fitting short notes for Manufacturing Science",
+              "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/fitting.pdf"
+            },
+            {
+              "title": "Welding",
+              "desc": "Welding short notes for Manufacturing Science",
+              "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/welding.pdf"
+            }
+          ]
+        ],
+        "PYPs": [
+          {
+            "title": "End Term 2024",
+            "desc": "End Term test PDF of 2024 Sem - I",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/end_term_2024.pdf"
+          },
+          {
+            "title": "Mid Term 2023",
+            "desc": "Mid Term test PDF of 2023",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/mid_term_2023.pdf"
+          },
+          {
+            "title": "Mid Term 2022",
+            "desc": "Mid Term test PDF of 2022",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/mid_term_2022.pdf"
+          },
+          {
+            "title": "Mini Test 2022",
+            "desc": "Mini test PDF of 2022",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/mini_test_2022.pdf"
+          }
+        ]
+      }
     },
     "graphics": {
-        "name": "Engineering Graphics",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Books": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ]
-        }
+      "name": "Engineering Graphics",
+      "data": {
+        "Assignments": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Notes": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Books": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ]
+      }
     },
     "computer-programming": {
-        "name": "Computer Programming",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Books": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ]
-        }
+      "name": "Computer Programming",
+      "data": {
+        "Assignments": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Notes": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Books": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ]
+      }
     },
     "communication-skills": {
-        "name": "Communication Skills",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Books": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ]
-        }
+      "name": "Communication Skills",
+      "data": {
+        "Assignments": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Notes": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Books": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ]
+      }
     },
     "yoga": {
-        "name": "Yoga",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Books": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ]
-        }
+      "name": "Yoga",
+      "data": {
+        "Assignments": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Notes": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Books": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ]
+      }
     },
     "phe": {
-        "name": "Physical Health Education",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Books": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ]
-        }
+      "name": "Physical Health Education",
+      "data": {
+        "Assignments": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Notes": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Books": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ]
+      }
     },
     "lsm": {
-        "name": "Life Skills Management",
-        "data": {
-            "Assignments": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Notes": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "PYPs": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ],
-            "Books": [
-                {
-                    "title": "",
-                    "desc": "",
-                    "link": ""
-                }
-            ]
-        }
+      "name": "Life Skills Management",
+      "data": {
+        "Assignments": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Notes": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "PYPs": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ],
+        "Books": [
+          {
+            "title": "",
+            "desc": "",
+            "link": ""
+          }
+        ]
+      }
     }
-}
+  }
