@@ -98,35 +98,115 @@
         }
     },
     "beee": {
-        "name": "Basic Electrical Eng.",
+        "name": "Basic Electrical & Electronics Eng.",
         "data": {
-            "Assignments": [
+            "BEEE Lab" : [
                 {
-                    "title": "Sample Assignment",
-                    "desc": "A sample assignment for BEE",
-                    "link": "sample_assignment.pdf"
+                    "title" : "Lab Manual",
+                    "desc" : "BEEE Lab Manual PDF for 1-10 Experiments",
+                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/lab/lab_records.pdf"
                 }
             ],
             "Notes": [
                 {
-                    "title": "Sample Notes",
-                    "desc": "Sample notes for BEE",
-                    "link": "sample_notes.pdf"
+                    "title": "BEEE Introduction",
+                    "desc": "BEEE Introduction handwritten notes for BEEE",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/Intro.pdf"
+                },
+                {
+                    "title": "DC Circuit",
+                    "desc": "DC Circuit handwritten notes for BEEE",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/dc_ckt_ppt.pdf"
+                },
+                {
+                    "title": "Mesh Law",
+                    "desc": "DC Circuit Mesh Law handwritten notes for BEEE",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/Mesh.pdf"
+                },
+                {
+                    "title": "Transformer",
+                    "desc": "Transformer handwritten notes for BEEE",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/dc_ckt_ppt.pdf"
+                },
+                {
+                    "title": "Semiconductor & Transistor",
+                    "desc": "Semiconductor & Transistor handwritten notes for BEEE",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/semiconductor.pdf"
                 }
             ],
             "PYPs": [
                 {
-                    "title": "Sample PYP",
-                    "desc": "A sample PYP for BEE",
-                    "link": "sample_pyp.pdf"
+                  "title": "End Term 2024 (Sem - I)",
+                  "desc": "End Term 2024 Sem I test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2024_sem1.pdf"
+                },
+                {
+                  "title": "Mid Term 2024 (Sem - I) Sec - F",
+                  "desc": "Mid Term 2024 Sem I of Sec F test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2024_sem1_secf.pdf"
+                },
+                {
+                  "title": "Mid Term 2024 (Sem - I) Sec - G",
+                  "desc": "Mid Term 2024 Sem I of Sec G test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2024_sem1_secg.pdf"
+                },
+                {
+                  "title": "Mid Term 2024 (Sem - II)",
+                  "desc": "Mid Term 2024 Sem II test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2024_sem2.pdf"
+                },
+                  {
+                  "title": "End Term 2023 (Sem - II)",
+                  "desc": "End Term 2023 Sem II test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2023_sem2.pdf"
+                },
+                {
+                  "title": "End Term 2022",
+                  "desc": "End Term 2022 test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2022.pdf"
+                },
+                {
+                  "title": "End Term 2022 (Sem - I)",
+                  "desc": "End Term 2022 Sem I test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/end_term_2022_sem1.pdf"
+                },
+                {
+                  "title": "Mid Term 2022",
+                  "desc": "Mid Term 2022 test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2022.pdf"
+                },
+                {
+                  "title": "Mid Term 2022 (Sem - II)",
+                  "desc": "Mid Term 2022 Sem II test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mid_term_2022_sem2.pdf"
+                },
+                {
+                  "title": "Mini Test 2022",
+                  "desc": "Mini Test 2022 test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mini_test_2022.pdf"
+                },
+                {
+                  "title": "Mini Test 2022 Sec - G",
+                  "desc": "Mini Test 2022 Sec G test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/pyq/mini_test_2022_secg.pdf"
                 }
-            ],
+              ],
             "Books": [
                 {
-                    "title": "Sample Book",
-                    "desc": "A sample book for BEE",
-                    "link": "sample_book.pdf"
-                }
+                    "title": "BL Theraja",
+                    "desc": "BL Theraja book PDF for BEEE",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/books/BLTheraja.pdf"
+                },
+                {
+                    "title": "RK Rajput",
+                    "desc": "RK Rajput book PDF for BEEE",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/books/RK_Rajput.pdf"
+                },
+                {
+                    "title": "Semiconductor & Transistor",
+                    "desc": "Semiconductor & Transistor book PDF for BEEE",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/books/semiconductor.pdf"
+                },
             ]
         }
     },
