@@ -111,27 +111,27 @@
           {
             "title": "BEEE Introduction",
             "desc": "BEEE Introduction handwritten notes for BEEE",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/Intro.pdf"
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/note/Intro.pdf"
           },
           {
             "title": "DC Circuit",
             "desc": "DC Circuit handwritten notes for BEEE",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/dc_ckt_ppt.pdf"
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/note/dc_ckt_ppt.pdf"
           },
           {
             "title": "Mesh Law",
             "desc": "DC Circuit Mesh Law handwritten notes for BEEE",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/Mesh.pdf"
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/note/Mesh.pdf"
           },
           {
             "title": "Transformer",
             "desc": "Transformer handwritten notes for BEEE",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/dc_ckt_ppt.pdf"
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/note/dc_ckt_ppt.pdf"
           },
           {
             "title": "Semiconductor & Transistor",
             "desc": "Semiconductor & Transistor handwritten notes for BEEE",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/notes/semiconductor.pdf"
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/beee/note/semiconductor.pdf"
           }
         ],
         "PYPs": [
