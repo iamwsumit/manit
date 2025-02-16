@@ -201,37 +201,127 @@
         "data": {
             "Assignments": [
                 {
-                    "title": "Sample Assignment",
-                    "desc": "A sample assignment for Chemistry",
-                    "link": "sample_assignment.pdf"
+                    "title": "Polymers and Cement",
+                    "desc": "Polymers and Cement assignment of Sec - G (2024 Sem - I)",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/poly_cement_secg.pdf"
+                },
+                {
+                    "title": "Water",
+                    "desc": "Water assignment of Sec - G (2024 Sem - I)",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/water_secg.pdf"
+                },
+                {
+                    "title": "Corrosion",
+                    "desc": "Corrosion assignment of Sec - G (2024 Sem - I)",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/corrosion_secg.pdf"
+                },
+                {
+                    "title": "Lubricant",
+                    "desc": "Lubricants assignment of Sec - G (2024 Sem - I)",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/assignments/lubricant_secg.pdf"
                 }
             ],
-            "Lab" : [
+            "Lab": [
                 {
-                    "title" : "Lab Records",
-                    "desc" : "Engineering Chemistry and Analytical Chemistry Lab Records PDF",
-                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/lab/lab_record.pdf"
+                    "title": "Lab Records",
+                    "desc": "Engineering Chemistry and Analytical Chemistry Lab Records PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/lab/lab_record.pdf"
                 }
             ],
             "Notes": [
                 {
-                    "title": "Sample Notes",
-                    "desc": "Sample notes for Chemistry",
-                    "link": "sample_notes.pdf"
+                    "title": "Polymer",
+                    "desc": "Polymer handwritten notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/polymer.pdf"
+                },
+                {
+                    "title": "Polymer PPT",
+                    "desc": "Polymer PPT notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/polymers_ppt.pdf"
+                },
+                {
+                    "title": "Cement",
+                    "desc": "Cement handwritten notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/cement.pdf"
+                },
+                {
+                    "title": "Cement PPT",
+                    "desc": "Cement PPT notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/cement_ppt.pdf"
+                },
+                {
+                    "title": "Lubricant",
+                    "desc": "Lubricant handwritten notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/lubricant.pdf"
+                },
+                {
+                    "title": "Lubricant PPT",
+                    "desc": "Lubricant PPT notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/lubricants_ppt.pdf"
+                },
+                {
+                    "title": "Fuels",
+                    "desc": "Fuels handwritten notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/fuels.pdf"
+                },
+                {
+                    "title": "Fuels PPT",
+                    "desc": "Fuels PPT notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/fuels_ppt.pdf"
+                },
+                {
+                    "title": "Corrosion",
+                    "desc": "Corrosion handwritten notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/corrosion.pdf"
+                },
+                {
+                    "title": "Corrosion PPT",
+                    "desc": "Corrosion PPT notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/corrosion_ppt.pdf"
+                },
+                {
+                    "title": "Water PPT",
+                    "desc": "Water PPT notes PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/Notes/water_ppt.pdf"
                 }
             ],
             "PYPs": [
                 {
-                    "title": "Sample PYP",
-                    "desc": "A sample PYP for Chemistry",
-                    "link": "sample_pyp.pdf"
+                    "title": "Mini Test 2024 (Sec - F)",
+                    "desc": "Mini Test PDF of Section F",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/mini_test_2024_secf.pdf"
+                },
+                {
+                    "title": "Mid Term 2024",
+                    "desc": "Mid Term test pdf of 2024 1st semester",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/mid_term_2024_sem1.pdf"
+                },
+                {
+                    "title": "End Term 2024",
+                    "desc": "End Term test pdf of 2024 1st semester",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/end_term_2024_sem1.pdf"
+                },
+                {
+                    "title": "Mid + End Term 2023 (Sem - II)",
+                    "desc": "Mid term and end Term test pdf of 2023 2nd semester",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/mid_end_term_2023_sem2.pdf"
+                },
+                {
+                    "title": "End Term 2022 (Sem - II)",
+                    "desc": "End Term test pdf of 2022 2nd semester",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/end_term_2022_sem2.pdf"
+                },
+                {
+                    "title": "End Term 2021 (Sem - II)",
+                    "desc": "End Term test pdf of 2021 2nd semester",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/end_term_2021_sem2.pdf"
                 }
             ],
             "Books": [
                 {
-                    "title": "Sample Book",
-                    "desc": "A sample book for Chemistry",
-                    "link": "sample_book.pdf"
+                    "title": "Jain and Jain",
+                    "desc": "Jain and Jain book for Chemistry",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/books/Jain_and_Jain_.pdf"
                 }
             ]
         }
