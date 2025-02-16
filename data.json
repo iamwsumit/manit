@@ -565,34 +565,40 @@
     "biology": {
         "name": "Biology for Engineers",
         "data": {
-            "Assignments": [
-                {
-                    "title": "Sample Assignment",
-                    "desc": "A sample assignment for Biology",
-                    "link": "sample_assignment.pdf"
-                }
-            ],
             "Notes": [
                 {
-                    "title": "Sample Notes",
-                    "desc": "Sample notes for Biology",
-                    "link": "sample_notes.pdf"
+                    "title": "Biomolecules",
+                    "desc": "Biomolecules JEE PPT notes",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/biomolecules.pdf"
+                },
+                {
+                    "title": "Life Process",
+                    "desc": "Class 10th Life Process PPT notes",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/LifeProcess.pdf"
+                },
+                {
+                    "title": "Fundamental Unit of Life",
+                    "desc": "Cell : The Fundamental Unit of Life class 10th PPT notes",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/unitoflife.pdf"
                 }
             ],
             "PYPs": [
                 {
-                    "title": "Sample PYP",
-                    "desc": "A sample PYP for Biology",
-                    "link": "sample_pyp.pdf"
-                }
-            ],
-            "Books": [
+                  "title": "End Term 2024",
+                  "desc": "End Term 2024 test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/end_term_2024.pdf"
+                },
                 {
-                    "title": "Sample Book",
-                    "desc": "A sample book for Biology",
-                    "link": "sample_book.pdf"
+                  "title": "Mid Term 2024 Sec - G",
+                  "desc": "Mid Term 2024 Sec G test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/mid_term_2024_secg.pdf"
+                },
+                {
+                  "title": "Mini Test 2024 Sec - G",
+                  "desc": "Mini Test 2024 Sec G test PDF",
+                  "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/mini_test_2024_secg.pdf"
                 }
-            ]
+              ]
         }
     },
     "manufacturing-science": {
