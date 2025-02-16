@@ -18,14 +18,36 @@
     <script type="module" src="/scripts/firebase-analytics.js"></script>
 
     <title>About Me</title>
+
+    <meta property="og:url" content="https://manitfirst.web.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="MANIT Study Portal" />
+    <meta
+      property="og:description"
+      content="A comprehensive open-source study portal for students of NIT Bhopal,
+      available as a web application and a Flutter-based cross-platform app
+      for Android, Windows, and macOS. The portal provides notes, previous
+      year question papers (PYQs), assignments, and books for different
+      subjects, organized in a structured manner."
+    />
+    <meta
+      property="og:image"
+      content="https://manitfirst.web.app/assets/manit.png"
+    />
+    <link rel="shortcut icon" href="../assets/manit.png" type="image/x-icon" />
+    <meta
+      name="description"
+      content="A comprehensive open-source study portal for students of NIT Bhopal. The portal provides notes, previous
+    year question papers (PYQs), assignments, and books for different
+    subjects, organized in a structured manner."
+    />
   </head>
   <style>
     h1 {
-      font-size: 2.25rem;
+      font-size: 2rem;
       font-weight: bold;
     }
     p {
-      line-height: 1.8;
       font-size: 1.25rem;
       color: #555;
     }
@@ -33,24 +55,113 @@
       color: var(--bs-primary);
       font-weight: 600;
     }
+
+    .card {
+      background-color: white;
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      font-weight: bold;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .gap {
+      margin-top: 10px;
+      column-gap: 15px;
+    }
+
+    .gap li {
+      background-color: var(--bs-primary);
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .gap i {
+      color: white;
+    }
+
+    span {
+      font-weight: bold;
+      color: black;
+    }
+
+    .item-container {
+      display: grid;
+      row-gap: 10px;
+      column-gap: 1rem;
+    }
+
+    @media (min-width: 0px) {
+      .item-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (min-width: 900px) {
+      .item-container {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (min-width: 1504px) {
+      .item-container {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
   </style>
   <body>
     <div id="main-container">
       <div class="header-bg" id="header-container"></div>
 
-      <div class="container py-3">
+      <div style="height: 20px;"></div>
+
+      <div class="container py-3 card">
         <h1 class="mb-3">About Me</h1>
         <p>
-          Hello and welcome! I'm <span class="highlight">Sumit Kumar</span>, I
-          am a first-year student studying
-          <span class="highlight">Mechanical Engineering</span> at Maulana Azad
-          National Institute of Technology, Bhopal, India. <br />
-          A comprehensive open-source study portal for students of NIT Bhopal,
-          available as a web application and a Flutter-based cross-platform app
-          for Android, Windows, and macOS. The portal provides notes, previous
-          year question papers (PYQs), assignments, and books for different
-          subjects, organized in a structured manner.
+          Hello and welcome! I am <span>Sumit Kumar</span>, a passionate and
+          driven Android & Full Stack Developer with over 4 years of hands-on
+          experience in programming. Currently, I am pursuing my B.Tech at NIT
+          Bhopal, where I am honing my technical and problem-solving skills
+          alongside my academic journey.<br />
+          My expertise spans across multiple programming languages and
+          frameworks, including Java, PHP, JavaScript, Flutter, MYSQL and
+          WordPress, with a core focus on Android and backend development. I
+          specialize in creating extensions for blockly platform like MIT App
+          Inventor. My passion for coding fuels my desire to continuously learn
+          and innovate. <br />
         </p>
+        <ul class="nav-md-4 list-unstyled d-flex gap">
+          <li>
+            <a
+              class="text-body-secondary"
+              href="https://linkedin.com/in/iamwsumit"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="text-body-secondary"
+              href="mailto:me@sumitkmr.com"
+              target="_blank"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="text-body-secondary"
+              href="https://github.com/iamwsumit"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
       </div>
     </div>
 

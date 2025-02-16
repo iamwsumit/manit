@@ -29,7 +29,7 @@ class Dimen {
     return TextStyle(
         fontSize: 14,
         fontWeight: FontWeight.w600,
-        color: Theme.of(context).unselectedWidgetColor);
+        color: Theme.of(context).textTheme.bodySmall?.color);
   }
 
   static const BorderRadius listViewCardRadius =

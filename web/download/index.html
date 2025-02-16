@@ -29,12 +29,12 @@
         color: var(--bs-primary);
       }
 
-      .screenshot-container {
+      imgshot-container {
         overflow-x: auto;
         white-space: nowrap;
         scrollbar-width: none;
       }
-      .screenshot-container::-webkit-scrollbar {
+      imgshot-container::-webkit-scrollbar {
         display: none;
       }
 
@@ -59,14 +59,69 @@
         height: 10px;
       }
 
-      .mac {
-        width: 700px;
+      .platform-section {
+        margin-bottom: 1rem;
+      }
+
+      .platform-header {
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #e0e0e0;
+        text-align: start;
+      }
+
+      .platform-name {
+        font-size: 1.75rem;
+        color: #333;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+      }
+
+      .platform-resolution {
+        color: #666;
+        font-size: 0.875rem;
+      }
+
+      .screenshots-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow-x: auto;
+        padding: 0.5rem 0;
+      }
+
+      img {
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 0.75rem;
       }
 
       .card-title {
         margin-bottom: 5px;
       }
     </style>
+
+    <meta property="og:url" content="https://manitfirst.web.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="MANIT Study Portal" />
+    <meta
+      property="og:description"
+      content="A comprehensive open-source study portal for students of NIT Bhopal,
+  available as a web application and a Flutter-based cross-platform app
+  for Android, Windows, and macOS. The portal provides notes, previous
+  year question papers (PYQs), assignments, and books for different
+  subjects, organized in a structured manner."
+    />
+    <meta
+      property="og:image"
+      content="https://manitfirst.web.app/assets/manit.png"
+    />
+    <link rel="shortcut icon" href="../assets/manit.png" type="image/x-icon" />
+    <meta
+      name="description"
+      content="A comprehensive open-source study portal for students of NIT Bhopal. The portal provides notes, previous
+    year question papers (PYQs), assignments, and books for different
+    subjects, organized in a structured manner."
+    />
   </head>
   <body>
     <div id="main-container">
@@ -92,9 +147,7 @@
                 <div class="text-center">
                   <i class="fab fa-windows feature-icon mb-3"></i>
                   <h2 class="card-title fs-3 fw-bold">Windows</h2>
-                  <p class="text-muted mb-4">
-                    Compatible with Windows 10 and 11
-                  </p>
+                  <p class="text-muted mb-4">Windows 10 and 11</p>
                   <button class="btn btn-primary-custom rounded-pill px-4">
                     Download for Windows
                   </button>
@@ -107,9 +160,7 @@
                 <div class="text-center">
                   <i class="fab fa-apple feature-icon mb-3"></i>
                   <h2 class="card-title fs-3 fw-bold">macOS</h2>
-                  <p class="text-muted mb-4">
-                    Compatible with macOS 11 and later
-                  </p>
+                  <p class="text-muted mb-4">macOS 11 and later</p>
                   <button class="btn btn-primary-custom rounded-pill px-4">
                     Download for macOS
                   </button>
@@ -124,7 +175,7 @@
                   <h2 class="card-title fs-3 fw-bold">Android</h2>
                   <p class="text-muted mb-4">Android 8.0 and above</p>
                   <button class="btn btn-primary-custom rounded-pill px-4">
-                    Download APK
+                    Download for Android
                   </button>
                 </div>
               </div>
@@ -138,9 +189,36 @@
         <div class="container text-center">
           <h2>App Screenshots</h2>
           <div style="height: 30px"></div>
-          <div class="row g-4">
-            <div class="col-md-4">
-              <img class="mac" src="ss/mac1.png" alt="mac_ss1" />
+          <div class="platform-section macOS">
+            <div class="platform-header">
+              <h3 class="platform-name">macOS</h3>
+            </div>
+            <div class="screenshots-container">
+                  <img src="ss/mac1.png" alt="macOS Desktop" />
+                  <img src="ss/mac1.png" alt="macOS Finder" />
+                  <img src="ss/mac1.png" alt="macOS Settings" />
+            </div>
+          </div>
+
+          <div class="platform-section windows">
+            <div class="platform-header">
+              <h3 class="platform-name">Windows</h3>
+            </div>
+            <div class="screenshots-container">
+                  <img src="ss/mac1.png" alt="Windows Desktop" />
+                  <img src="ss/mac1.png" alt="Windows Explorer" />
+                  <img src="ss/mac1.png" alt="Windows Settings" />
+            </div>
+          </div>
+
+          <div class="platform-section android">
+            <div class="platform-header">
+              <h3 class="platform-name">Android</h3>
+            </div>
+            <div class="screenshots-container">
+                  <img src="https://sumitkmr.com/ai2store/assets/img/gallery/gallery-4.png" alt="Android Home" />
+                  <img src="ss/mac1.png" alt="Android Apps" />
+                  <img src="ss/mac1.png" alt="Android Settings" />
             </div>
           </div>
         </div>

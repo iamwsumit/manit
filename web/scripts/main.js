@@ -1,4 +1,4 @@
-const navbar = `      <div class="container">
+const navbar = `<div class="container">
         <header class="d-flex flex-wrap py-3 mb-4">
           <a
             href="/"
@@ -58,17 +58,17 @@ const footer = `<div class="container">
             <li class="ms-3">
               <a
                 class="text-body-secondary"
-                href="https://linkedin.com/in/iamwsumit"
+                href="https://linkedin.com/in/iamwsumit" target="_blank"
                 ><i class="fa-brands fa-linkedin-in"></i
               ></a>
             </li>
             <li class="ms-3">
-              <a class="text-body-secondary" href="mailto:me@sumitkmr.com"
+              <a class="text-body-secondary" href="mailto:me@sumitkmr.com" target="_blank"
                 ><i class="fa-regular fa-envelope"></i
               ></a>
             </li>
             <li class="ms-3">
-              <a class="text-body-secondary" href="https://github.com/iamwsumit"
+              <a class="text-body-secondary" href="https://github.com/iamwsumit" target="_blank"
                 ><i class="fa-brands fa-github"></i
               ></a>
             </li>

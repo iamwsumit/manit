@@ -115,15 +115,6 @@ class MyTheme extends ChangeNotifier {
     }
   }
 
-  // static const Color halkaPrimary = Color(0x42388E3C); // Lighter blue, fully opaque
   static const Color primary = Colors.orange;
   static const Color halkaPrimary = Color(0xFFFFE0B2); // Lighter blue, fully opaque
-  // static const Color primary = Color(0xFF0d6efd);
-  // static const Color primary = Color(0xFF388E3C);
-  static const Color errorColor = Color(0xFFD32F2F);
-  static const Color errorLightColor = Color(0x40D32F2F);
-  static const Color successColor = Color(0xFF388E3C);
-  static const Color successLight = Color(0x40388E3C);
-  static const Color reviewColor = Color(0xFF5D3FD3);
-  static const Color reviewLightColor = Color(0x405D3FD3);
 }

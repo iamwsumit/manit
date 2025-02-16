@@ -61,14 +61,14 @@ class DownloadDialogState extends State<DownloadDialog> {
                   children: [
                     Text(
                       download,
-                      style: Dimen.getListViewSubTitleStyle(context).copyWith(color: Colors.white),
+                      style: Dimen.getListViewSubTitleStyle(context),
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.center,
                     ),
                     Text(
                       '${(progress * 100).toStringAsFixed(0)}%',
-                      style: Dimen.getListViewSubTitleStyle(context).copyWith(color: Colors.white),
+                      style: Dimen.getListViewSubTitleStyle(context),
                       maxLines: 1,
                       textAlign: TextAlign.center,
                     ),

@@ -43,7 +43,7 @@ class SubjectState extends State<Subject> {
 
     if (sData.keys.isEmpty) {
       Future.microtask(() {
-        Utils.showToast(msg: 'Invalid Subject or data not found');
+        Utils.showToast(msg: 'No Data for this subject');
         if (context.mounted) {
           dismissDialog();
         }

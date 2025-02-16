@@ -63,8 +63,8 @@ class HomeState extends State<Home> {
           icon: FontAwesomeIcons.boltLightning,
           text: 'Basic Electrical Eng.'),
       SubjectCard(
-          id: 'maths2',
-          data: json['maths2'] ?? {},
+          id: 'm2',
+          data: json['m2'] ?? {},
           icon: FontAwesomeIcons.squareRootVariable,
           text: 'Mathematics 2'),
       SubjectCard(
@@ -111,22 +111,7 @@ class HomeState extends State<Home> {
           id: 'communication-skills',
           data: json['communication-skills'] ?? {},
           icon: FontAwesomeIcons.comments,
-          text: 'Communication Skills'),
-      SubjectCard(
-          id: 'yoga',
-          data: json['yoga'] ?? {},
-          icon: FontAwesomeIcons.tree,
-          text: 'Yoga'),
-      SubjectCard(
-          id: 'phe',
-          data: json['phe'] ?? {},
-          icon: FontAwesomeIcons.tableTennisPaddleBall,
-          text: 'Physical Health Education'),
-      SubjectCard(
-          id: 'lsm',
-          data: json['lsm'] ?? {},
-          icon: FontAwesomeIcons.kitchenSet,
-          text: 'Life Skills Management')
+          text: 'Communication Skills')
     ];
     super.initState();
   }
@@ -266,21 +251,6 @@ class HomeState extends State<Home> {
               builder: (c, i) {
                 return items.elementAt(i);
               });
-          // List<Widget> children = [];
-          // int i = 0;
-          // while (i < items.length) {
-          //   List<Widget> l = [];
-          //   for (int i2 = 0; i2 < crossAxisCount; i2++) {
-          //     if (i >= items.length) {
-          //       l.add(const Expanded(child: SizedBox()));
-          //     } else {
-          //       l.add(items.elementAt(i));
-          //     }
-          //     i++;
-          //   }
-          //   children.add(Row(spacing: 10, children: l));
-          // }
-          // return Column(spacing: 10, children: children);
         }),
       );
     });
