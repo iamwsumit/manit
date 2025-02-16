@@ -518,32 +518,94 @@
     "manufacturing-science": {
         "name": "Manufacturing Science",
         "data": {
-            "Assignments": [
+            "MS Lab": [
                 {
-                    "title": "Sample Assignment",
-                    "desc": "A sample assignment for Manufacturing Science",
-                    "link": "sample_assignment.pdf"
+                    "title": "Carpentary Manual",
+                    "desc": "Carpentary Lab Manual for Manufacturing Science",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Carpentry_.pdf"
+                },
+                {
+                    "title": "Fitting Manual",
+                    "desc": "Fitting Lab Manual for Manufacturing Science",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Fitting.pdf"
+                },
+                {
+                    "title": "Foundary Manual",
+                    "desc": "Foundary Lab Manual for Manufacturing Science",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Foundary.pdf"
+                },
+                {
+                    "title": "Welding Manual",
+                    "desc": "Welding Lab Manual for Manufacturing Science",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/lab/Welding.pdf"
                 }
             ],
             "Notes": [
                 {
-                    "title": "Sample Notes",
-                    "desc": "Sample notes for Manufacturing Science",
-                    "link": "sample_notes.pdf"
+                    "title": "Carpentary",
+                    "desc": "Carpentary detailed PPT notes for Manufacturing Science",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/carpentary.pdf"
+                },
+                {
+                    "title": "Fitting",
+                    "desc": "Fitting detailed PPT notes for Manufacturing Science",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/fitting.pdf"
+                },
+                {
+                    "title": "Foundary",
+                    "desc": "Foundary detailed PPT notes for Manufacturing Science",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/foundary.pdf"
+                },
+                {
+                    "title": "Welding",
+                    "desc": "Welding details PPT notes for Manufacturing Science",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/welding.pdf"
                 }
+            ],
+            "Short Notes" : [
+                [
+                    {
+                      "title": "Carpentary",
+                      "desc": "Carpentary short notes for Manufacturing Science",
+                      "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/carpentary.pdf"
+                    },
+                    {
+                      "title": "Foundary",
+                      "desc": "Foundary short notes for Manufacturing Science",
+                      "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/foundary.pdf"
+                    },
+                    {
+                      "title": "Fitting",
+                      "desc": "Fitting short notes for Manufacturing Science",
+                      "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/fitting.pdf"
+                    },
+                    {
+                      "title": "Welding",
+                      "desc": "Welding short notes for Manufacturing Science",
+                      "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/welding.pdf"
+                    }
+                  ]
             ],
             "PYPs": [
                 {
-                    "title": "Sample PYP",
-                    "desc": "A sample PYP for Manufacturing Science",
-                    "link": "sample_pyp.pdf"
-                }
-            ],
-            "Books": [
+                    "title": "End Term 2024",
+                    "desc": "End Term test PDF of 2024 Sem - I",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/end_term_2024.pdf"
+                },
                 {
-                    "title": "Sample Book",
-                    "desc": "A sample book for Manufacturing Science",
-                    "link": "sample_book.pdf"
+                    "title": "Mid Term 2023",
+                    "desc": "Mid Term test PDF of 2023",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/mid_term_2023.pdf"
+                },
+                {
+                    "title": "Mid Term 2022",
+                    "desc": "Mid Term test PDF of 2022",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/mid_term_2022.pdf"
+                },
+                {
+                    "title": "Mini Test 2022",
+                    "desc": "Mini test PDF of 2022",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/mini_test_2022.pdf"
                 }
             ]
         }
