@@ -206,6 +206,13 @@
                     "link": "sample_assignment.pdf"
                 }
             ],
+            "Lab" : [
+                {
+                    "title" : "Lab Records",
+                    "desc" : "Engineering Chemistry and Analytical Chemistry Lab Records PDF",
+                    "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/lab/lab_record.pdf"
+                }
+            ],
             "Notes": [
                 {
                     "title": "Sample Notes",
@@ -267,30 +274,120 @@
         "data": {
             "Assignments": [
                 {
-                    "title": "Sample Assignment",
-                    "desc": "A sample assignment for EVS",
-                    "link": "sample_assignment.pdf"
+                    "title": "Natural Resources Assignment",
+                    "desc": "Natural Resources assignment of Section G (2024 Sem - I)",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/natural_resources_2024_secg.pdf"
+                },
+                {
+                    "title": "Air Pollution Assignment",
+                    "desc": "Air Pollution assignment of Section G (2024 Sem - I)",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/air_pollution_secg_2024.pdf"
+                },
+                {
+                    "title": "Water Pollution Assignment",
+                    "desc": "Water Pollution assignment of Section G (2024 Sem - I)",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/water_pollution_secg_2024.pdf"
+                },
+                {
+                    "title": "Assignments Solution",
+                    "desc": "Assignments solution for Natural Resources, Air and water pollution by Dr. Saumya Mukharjee",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/Assignments_solutions.pdf"
+                },
+                {
+                    "title": "Assignment - 4 (Case Study)",
+                    "desc": "Assignment - 4 of Section G (2024 Sem - I)",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/assign4_secg.pdf"
+                },
+                {
+                    "title": "Assignment - 5 (Case Study)",
+                    "desc": "Assignment - 5 of Section G (2024 Sem - I)",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/assignments/assign5_secg.pdf"
                 }
             ],
             "Notes": [
                 {
-                    "title": "Sample Notes",
-                    "desc": "Sample notes for EVS",
-                    "link": "sample_notes.pdf"
+                    "title": "Air Pollution PPT",
+                    "desc": "Biosphere and its pollution ppt",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/air_pol_ppt.pdf"
+                },
+                {
+                    "title": "Air Pollution",
+                    "desc": "Biosphere and its pollution handwritten pdf",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/air_pollution.pdf"
+                },
+                {
+                    "title": "Water Pollution PPT",
+                    "desc": "Hydrosphere and water pollution ppt",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/water_ppt.pdf"
+                },
+                {
+                    "title": "Water Pollution",
+                    "desc": "Biosphere and its pollution handwritten pdf",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/Notes/water.pdf"
                 }
             ],
             "PYPs": [
                 {
-                    "title": "Sample PYP",
-                    "desc": "A sample PYP for EVS",
-                    "link": "sample_pyp.pdf"
+                    "title": "Mini Test 2024 (Sem - 1)",
+                    "desc": "Mini Test Quiz of section G with solutions",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mini_test_secg_2024_sem1.pdf"
+                },
+                {
+                    "title": "Mid Term 2024 (Sem - 1)",
+                    "desc": "Mid term test pdf for semester 1 2024",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mid_term_2024_sem1.pdf"
+                },
+                {
+                    "title": "Mid Term 2024 Solutions (Sem - 1)",
+                    "desc": "End term test solution pdf by Dr. Saumya Mukharjee",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mini_test_secg_2024_sem1.pdf"
+                },
+                {
+                    "title": "End Term 2024 (Sem - 1)",
+                    "desc": "End term test pdf for semester 1 2024",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/end_term_2024_sem1.pdf"
+                },
+                {
+                    "title": "End Term 2024 Solutions (Sem - 1)",
+                    "desc": "End term test solution pdf by Dr. Saumya Mukharjee",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mini_test_secg_2024_sem1.pdf"
+                },
+                {
+                    "title": "Mid Term 2023 (Sem - 2)",
+                    "desc": "Mid term test pdf for semester 2 2023",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/mid_term_2023_sem2.pdf"
+                },
+                {
+                    "title": "End Term 2022 (Sem - 2)",
+                    "desc": "End term test pdf for semester 2 2022",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/PYQs/End_Offline(2022).pdf"
                 }
             ],
             "Books": [
                 {
-                    "title": "Sample Book",
-                    "desc": "A sample book for EVS",
-                    "link": "sample_book.pdf"
+                    "title": "Natural Resources",
+                    "desc": "Natural Resources book PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/natural_resources.pdf"
+                },
+                {
+                    "title": "Atmosphere and Air Pollution",
+                    "desc": "Atmosphere book PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/atmosphere.pdf"
+                },
+                {
+                    "title": "Soil Pollution",
+                    "desc": "Soil Pollution book PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/soil_pollution.pdf"
+                },
+                {
+                    "title": "Water Pollution",
+                    "desc": "Water Pollution book PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/water_pollution.pdf"
+                },
+                {
+                    "title": "Unit V Environmental Management",
+                    "desc": "Unit V Environmental Management book PDF",
+                    "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/evs/books/Environmental_Management.pdf"
                 }
             ]
         }
