@@ -213,32 +213,70 @@
     "m2": {
       "name": "Mathematics 2",
       "data": {
-        "Assignments": [
-          {
-            "title": "Sample Assignment",
-            "desc": "A sample assignment for Maths 2",
-            "link": "sample_assignment.pdf"
-          }
-        ],
         "Notes": [
           {
-            "title": "Sample Notes",
-            "desc": "Sample notes for Maths 2",
-            "link": "sample_notes.pdf"
+            "title": "Function of Complex Variables",
+            "desc": "Function of Complex Variables handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/notes/complex.pdf"
+          },
+          {
+            "title": "Fourier Series",
+            "desc": "Fourier Series handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/notes/fourier.pdf"
+          },
+          {
+            "title": "Laplace Transformation + SDE",
+            "desc": "Laplace Transformation and SDE handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/notes/laplace.pdf"
+          },
+          {
+            "title": "Matrices",
+            "desc": "Matrices handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/notes/matrices.pdf"
+          },
+          {
+            "title": "Partial Differential Equations",
+            "desc": "Partial Differential Equation handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/notes/pde.pdf"
+          },
+          {
+            "title": "Short Notes",
+            "desc": "Handwritten Short Notes notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/notes/short_notes.pdf"
           }
         ],
         "PYPs": [
           {
-            "title": "Sample PYP",
-            "desc": "A sample PYP for Maths 2",
-            "link": "sample_pyp.pdf"
+            "title": "End Term 2021",
+            "desc": "End Term test PDF of 2021 for Maths 2",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/pyq/end_term_2021.pdf"
+          },
+          {
+            "title": "Test Paper 2023 (Sem - I)",
+            "desc": "Mini Test + Mid and End Term combined PDF of 2023 for Maths 2",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/pyq/2023_paper.pdf"
           }
         ],
         "Books": [
           {
-            "title": "Sample Book",
-            "desc": "A sample book for Maths 2",
-            "link": "sample_book.pdf"
+            "title": "BV Raman",
+            "desc": "Mathematics book PDF of BV Raman",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/BV_Ramana.pdf"
+          },
+          {
+            "title": "HK Das",
+            "desc": "Mathematics book PDF of HK Das",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/Hk_Das_.pdf"
+          },
+          {
+            "title": "Thomas Calculus",
+            "desc": "Mathematics book PDF for Thomas Calculus",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/ThomasCalculus.pdf"
+          },
+          {
+            "title": "RK Jain and Iyenger",
+            "desc": "Mathematics book PDF of RK Jain and Iyenger",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/RK_Jain_and_Iyengar.pdf"
           }
         ]
       }
@@ -246,32 +284,80 @@
     "mechanics": {
       "name": "Engineering Mechanics",
       "data": {
-        "Assignments": [
-          {
-            "title": "Sample Assignment",
-            "desc": "A sample assignment for Mechanics",
-            "link": "sample_assignment.pdf"
-          }
-        ],
         "Notes": [
           {
-            "title": "Sample Notes",
-            "desc": "Sample notes for Mechanics",
-            "link": "sample_notes.pdf"
+            "title": "Shear Force and Bending Moment (Sec F)",
+            "desc": "Shear Force and Bending Moment handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/notes/Shear_Force_and_BM.pdf"
+          },
+          {
+            "title": "Truss",
+            "desc": "Truss handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/notes/Truss.pdf"
+          },
+          {
+            "title": "Centre of Gravity",
+            "desc": "Centre of Gravity handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/notes/centre_of_gravity.pdf"
+          },
+          {
+            "title": "Force System",
+            "desc": "Force System handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/notes/forces_moments.pdf"
+          },
+          {
+            "title": "Shear Force and Bending Moment (Sec G)",
+            "desc": "Shear Force and Bending Moment handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/notes/shear_force_bending_moment.pdf"
           }
         ],
         "PYPs": [
           {
-            "title": "Sample PYP",
-            "desc": "A sample PYP for Mechanics",
-            "link": "sample_pyp.pdf"
+            "title": "End Term 2022 (Sem - II)",
+            "desc": "End Term 2022 Sem II test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/pyq/end_term_2022_sem2.pdf"
+          },
+          {
+            "title": "End Term 2022 (Sem - I)",
+            "desc": "End Term 2022 Sem I test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/pyq/end_term_2022.pdf"
+          },
+          {
+            "title": "Mini Test 2022",
+            "desc": "Mini Test 2022 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/pyq/mini_test_2022.pdf"
+          },
+          {
+            "title": "End Term 2021",
+            "desc": "End Term 2021 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/pyq/end_term_2021.pdf"
+          },
+          {
+            "title": "Mini Test 2021",
+            "desc": "Mini Test 2021 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/pyq/mini_test_2021.pdf"
+          },
+          {
+            "title": "Mini Test 2020",
+            "desc": "Mini Test 2020 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/pyq/mini_test_2020.pdf"
           }
         ],
         "Books": [
           {
-            "title": "Sample Book",
-            "desc": "A sample book for Mechanics",
-            "link": "sample_book.pdf"
+            "title": "RC Hibbeler",
+            "desc": "Engineering Mechanics reference book by RC Hibbeler 12th Edition",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/books/hibbeler.pdf"
+          },
+          {
+            "title": "RK Rajput",
+            "desc": "Engineering Mechanics reference book by RK Rajput",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/books/RK_Rajput.pdf"
+          },
+          {
+            "title": "J L Meriam & Kraige",
+            "desc": "Engineering Mechanics reference book by Meriam & Kraige 6th Edition",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/books/meriam_kraige.pdf"
           }
         ]
       }
@@ -762,105 +848,6 @@
     },
     "communication-skills": {
       "name": "Communication Skills",
-      "data": {
-        "Assignments": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
-        "Notes": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
-        "PYPs": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
-        "Books": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ]
-      }
-    },
-    "yoga": {
-      "name": "Yoga",
-      "data": {
-        "Assignments": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
-        "Notes": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
-        "PYPs": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
-        "Books": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ]
-      }
-    },
-    "phe": {
-      "name": "Physical Health Education",
-      "data": {
-        "Assignments": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
-        "Notes": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
-        "PYPs": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
-        "Books": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ]
-      }
-    },
-    "lsm": {
-      "name": "Life Skills Management",
       "data": {
         "Assignments": [
           {
