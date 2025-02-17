@@ -63,7 +63,6 @@ class SubjectState extends State<Subject> {
   }
 
   Widget buildWidget(List<dynamic> values) {
-    debugPrint(values.toString());
     return LayoutBuilder(
       builder: (context, constraints) {
         double maxW = constraints.maxWidth;
@@ -75,7 +74,6 @@ class SubjectState extends State<Subject> {
           itemCount: values.length,
           builder: (context, index) {
             final item = values[index];
-              debugPrint(item['title'].toString());
             return ListCard(
               index: index,
               title: item['title'],

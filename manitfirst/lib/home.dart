@@ -1,18 +1,17 @@
 import 'dart:io';
 
+import 'package:aptabase_flutter/aptabase_flutter.dart';
 import 'package:auto_height_grid_view/auto_height_grid_view.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:manitfirst/announcement.dart';
 import 'package:manitfirst/comps/subject_card.dart';
 import 'package:manitfirst/pdfview.dart';
-import 'package:manitfirst/subject.dart';
 import 'package:manitfirst/utils/data.dart';
 import 'package:manitfirst/utils/dimen.dart';
 import 'package:manitfirst/utils/storage.dart';
 import 'package:manitfirst/utils/theme.dart';
 import 'package:manitfirst/utils/utility.dart';
-import 'package:onesignal_flutter/onesignal_flutter.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 
@@ -41,6 +40,7 @@ class HomeState extends State<Home> {
 
   @override
   void initState() {
+    Aptabase.instance.trackEvent('user', {});
     Data.setData(LocalStorage.getString('data'));
     json = Data.getData();
     utils = Utils(context: context);
@@ -235,15 +235,15 @@ class HomeState extends State<Home> {
         resizeToAvoidBottomInset: false,
         body: LayoutBuilder(builder: (context, constraints) {
           double maxW = constraints.maxWidth;
-          int crossAxisCount = maxW < 400
+          int crossAxisCount = maxW < 562
               ? 1
-              : (maxW < 604
+              : (maxW < 825
                   ? 2
                   : (maxW < 1091
                       ? 3
-                      : maxW < 1300
+                      : maxW < 1400
                           ? 4
-                          : (maxW < 1600 ? 5 : 6)));
+                          : (maxW < 1640 ? 5 : 6)));
           return AutoHeightGridView(
               padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 15),
               crossAxisCount: crossAxisCount,

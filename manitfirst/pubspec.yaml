@@ -41,14 +41,15 @@ dependencies:
   flutter_json: ^0.0.4
   provider: ^6.1.2
   toastification: ^2.3.0
-  syncfusion_flutter_pdfviewer: ^28.1.41
+  syncfusion_flutter_pdfviewer: ^28.1.37
   dio: ^5.7.0
   font_awesome_flutter: ^10.8.0
   permission_handler: ^11.3.1
   share_plus: ^10.1.4
   auto_height_grid_view: ^1.0.0
   crypto: ^3.0.6
-  syncfusion_flutter_core: ^28.2.5
+  syncfusion_flutter_core: ^28.1.37
+  aptabase_flutter:
 
 dev_dependencies:
   flutter_test:

@@ -1,3 +1,4 @@
+import 'package:aptabase_flutter/aptabase_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:manitfirst/splash.dart';
 import 'package:manitfirst/utils/storage.dart';
@@ -12,7 +13,13 @@ void main() async {
 
   final MyTheme theme = MyTheme();
   await theme.loadTheme();
+
+  // Initializing OneSignal
   OneSignal.initialize('18f8141f-389d-447e-89c5-d2b3f1e124e6');
+  
+  // Initialize Analytics
+  await Aptabase.init('A-US-2667321784');
+  
   runApp(ChangeNotifierProvider(
       create: (context) => MyTheme(), child: const MyApp()));
 }
