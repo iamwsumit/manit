@@ -649,7 +649,6 @@
           }
         ],
         "Short Notes": [
-          [
             {
               "title": "Carpentary",
               "desc": "Carpentary short notes for Manufacturing Science",
@@ -670,7 +669,6 @@
               "desc": "Welding short notes for Manufacturing Science",
               "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/welding.pdf"
             }
-          ]
         ],
         "PYPs": [
           {

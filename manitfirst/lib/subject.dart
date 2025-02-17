@@ -75,9 +75,8 @@ class SubjectState extends State<Subject> {
           itemCount: values.length,
           builder: (context, index) {
             final item = values[index];
-              debugPrint('Index : $item');
+              debugPrint(item['title'].toString());
             return ListCard(
-              key: ValueKey('${item['title']}_$index'), // Add a unique key
               index: index,
               title: item['title'],
               desc: item['desc'],
