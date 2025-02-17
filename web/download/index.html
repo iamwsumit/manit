@@ -83,16 +83,22 @@
       }
 
       .screenshots-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
         overflow-x: auto;
         padding: 0.5rem 0;
+        gap: 1rem;
       }
 
-      img {
-        border-radius: 8px;
-        overflow: hidden;
-        margin-bottom: 0.75rem;
+      .android .screenshot {
+        background-color: var(--halkaPrimary);
+        border-radius: 12px;
+        padding: 15px;
+      }
+
+      .android img {
+        border-radius: 12px;
+        width: 250px;
+        height: auto;
       }
 
       .card-title {
@@ -106,13 +112,6 @@
         column-gap: 1rem;
         max-width: 700px;
         margin: auto;
-      }
-
-      @media (max-width : 542px){
-        .platform-container {
-          grid-template-columns: 1fr;
-          padding: 10px;
-        }
       }
 
     </style>
@@ -165,7 +164,7 @@
                 <h2 class="card-title fs-3 fw-bold">Windows</h2>
                 <p class="text-muted mb-4">Windows 10 and 11</p>
                 <button class="btn btn-primary-custom rounded-pill px-4">
-                  Download for Windows
+                  Will be available soon
                 </button>
               </div>
             </div>
@@ -175,9 +174,9 @@
                 <i class="fab fa-android feature-icon mb-3"></i>
                 <h2 class="card-title fs-3 fw-bold">Android</h2>
                 <p class="text-muted mb-4">Android 8.0 and above</p>
-                <button class="btn btn-primary-custom rounded-pill px-4">
+                <a href="https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/StudyPortal.apk" class="btn btn-primary-custom rounded-pill px-4">
                   Download for Android
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -190,28 +189,47 @@
           <h2>App Screenshots</h2>
           <div style="height: 30px"></div>
 
-          <div class="platform-section windows">
-            <div class="platform-header">
-              <h3 class="platform-name">Windows</h3>
-            </div>
-            <div class="screenshots-container">
-              <img src="ss/mac1.png" alt="Windows Desktop" />
-              <img src="ss/mac1.png" alt="Windows Explorer" />
-              <img src="ss/mac1.png" alt="Windows Settings" />
-            </div>
-          </div>
-
           <div class="platform-section android">
             <div class="platform-header">
               <h3 class="platform-name">Android</h3>
             </div>
             <div class="screenshots-container">
-              <img
-                src="https://sumitkmr.com/ai2store/assets/img/gallery/gallery-4.png"
+              <div class="screenshot">
+                <img
+                src="ss/android/ss1.jpg"
                 alt="Android Home"
-              />
-              <img src="ss/mac1.png" alt="Android Apps" />
-              <img src="ss/mac1.png" alt="Android Settings" />
+                />
+              </div>
+              <div class="screenshot">
+                <img
+                src="ss/android/ss2.jpg"
+                alt="Android Home"
+                />
+              </div>
+              <div class="screenshot">
+                <img
+                src="ss/android/ss3.jpg"
+                alt="Android Home"
+                />
+              </div>
+              <div class="screenshot">
+                <img
+                src="ss/android/ss4.jpg"
+                alt="Android Home"
+                />
+              </div>
+              <div class="screenshot">
+                <img
+                src="ss/android/ss5.jpg"
+                alt="Android Home"
+                />
+              </div>
+              <div class="screenshot">
+                <img
+                src="ss/android/ss6.jpg"
+                alt="Android Home"
+                />
+              </div>
             </div>
           </div>
         </div>
