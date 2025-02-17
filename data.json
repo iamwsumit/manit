@@ -853,32 +853,38 @@
     "graphics": {
       "name": "Engineering Graphics",
       "data": {
-        "Assignments": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
-        "Notes": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
         "PYPs": [
           {
-            "title": "",
-            "desc": "",
-            "link": ""
+            "title": "End Term 2023 (Sem - II)",
+            "desc": "End Term 2023 Sem II test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/end_term_2023_sem2.pdf"
+          },
+          {
+            "title": "Mid Term 2023 (Sem - I)",
+            "desc": "Mid Term 2023 Sem I test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/mid_term_2023_sem1.pdf"
+          },
+          {
+            "title": "Mid Term 2022 (Sem - I)",
+            "desc": "Mid Term 2022 Sem I test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/mid_term_2022_sem1.pdf"
+          },
+          {
+            "title": "End Term 2021 (Sem - II)",
+            "desc": "End Term 2021 Sem II test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/end_term_2021_sem2.pdf"
+          },
+          {
+            "title": "Mini Test 2020 (Sem - I)",
+            "desc": "Mini Test 2020 Sem I test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/mini_test_2020_sem1.pdf"
           }
         ],
         "Books": [
           {
-            "title": "",
-            "desc": "",
-            "link": ""
+            "title": "Agarwal and Agarwal",
+            "desc": "Engineering Drawing book by Agarwal and Agarwal 2nd Edition",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/books/Agarwal_and_Agarwal.pdf"
           }
         ]
       }
@@ -962,32 +968,65 @@
     "communication-skills": {
       "name": "Communication Skills",
       "data": {
-        "Assignments": [
-          {
-            "title": "",
-            "desc": "",
-            "link": ""
-          }
-        ],
         "Notes": [
           {
-            "title": "",
-            "desc": "",
-            "link": ""
+            "title": "Barriers to Communication",
+            "desc": "Barriers to Communication handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/notes/Barriers.pdf"
+          },
+          {
+            "title": "Seven Cs of Communication",
+            "desc": "Seven Cs of Communication handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/notes/Seven_Cs.pdf"
+          },
+          {
+            "title": "Oral Communication Skills",
+            "desc": "Oral Communication Skills handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/notes/oral.pdf"
           }
         ],
         "PYPs": [
           {
-            "title": "",
-            "desc": "",
-            "link": ""
+            "title": "Mid Term 2023 (Sem - I)",
+            "desc": "Mid Term 2023 Sem I test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/pyq/mid_term_2023_sem1.pdf"
+          },
+          {
+            "title": "End Term 2022 (Sem - II)",
+            "desc": "End Term 2022 Sem II test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/pyq/end_term_2022_sem2.pdf"
+          },
+          {
+            "title": "Mid Term 2022 (Sem - I)",
+            "desc": "Mid Term 2022 Sem I test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/pyq/mid_term_2022_sem1.pdf"
+          },
+          {
+            "title": "Mid Term 2022 (Sem - II)",
+            "desc": "Mid Term 2022 Sem II test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/pyq/mid_term_2022_sem2.pdf"
+          },
+          {
+            "title": "End Term 2021 (Sem - I)",
+            "desc": "End Term 2021 Sem I test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/pyq/end_term_2021_sem1.pdf"
+          },
+          {
+            "title": "End Term 2021 (Sem - II)",
+            "desc": "End Term 2021 Sem II test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/pyq/end_term_2021_sem2.pdf"
           }
         ],
         "Books": [
           {
-            "title": "",
-            "desc": "",
-            "link": ""
+            "title": "Technical Communication",
+            "desc": "Technical Community book PDF by Meenakshi Raman 3rd Edition",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/books/Meenakshi_Raman.pdf"
+          },
+          {
+            "title": "Business Communication",
+            "desc": "Business Community book PDF by PD Chaturvedi & Mukesh Chaturvedi",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/books/PD_Chaturvedi.pdf"
           }
         ]
       }
