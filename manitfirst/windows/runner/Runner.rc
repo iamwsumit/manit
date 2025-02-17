@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.sumit.manitfirst" "\0"
-            VALUE "FileDescription", "manitfirst" "\0"
+            VALUE "FileDescription", "Manit Study Portal" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "manitfirst" "\0"
+            VALUE "InternalName", "Manit Study Portal" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.sumit.manitfirst. All rights reserved." "\0"
-            VALUE "OriginalFilename", "manitfirst.exe" "\0"
-            VALUE "ProductName", "manitfirst" "\0"
+            VALUE "OriginalFilename", "manitstudyportal.exe" "\0"
+            VALUE "ProductName", "Manit Study Portal" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
