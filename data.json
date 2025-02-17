@@ -495,32 +495,102 @@
     "physics": {
       "name": "Physics",
       "data": {
-        "Assignments": [
+        "Physics Lab": [
           {
-            "title": "Sample Assignment",
-            "desc": "A sample assignment for Physics",
-            "link": "sample_assignment.pdf"
+            "title": "Lab Records",
+            "desc": "Lab Records for Exp (1-14) for physics lab",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/lab/lab_records.pdf"
           }
         ],
         "Notes": [
           {
-            "title": "Sample Notes",
-            "desc": "Sample notes for Physics",
-            "link": "sample_notes.pdf"
+            "title": "Ballistics",
+            "desc": "Ballistics handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/Ballistics.pdf"
+          },
+          {
+            "title": "Laser",
+            "desc": "Laser handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/Laser.pdf"
+          },
+          {
+            "title": "Nuclear",
+            "desc": "Nuclear handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/Nuclear.pdf"
+          },
+          {
+            "title": "Quantum Mechanics (2)",
+            "desc": "Quantum Mechanics 2 handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/Quantum_2.pdf"
+          },
+          {
+            "title": "Quantum Mechanics",
+            "desc": "Quantum Mechanics handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/Quantum Mechanics_.pdf"
+          },
+          {
+            "title": "Theory of Relativity",
+            "desc": "Theory of Relativity handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/Theory_of_Relativity_.pdf"
+          },
+          {
+            "title": "Wave Optics",
+            "desc": "Wave Optics handwritten notes",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/wave_optics.pdf"
           }
         ],
         "PYPs": [
           {
-            "title": "Sample PYP",
-            "desc": "A sample PYP for Physics",
-            "link": "sample_pyp.pdf"
+            "title": "End Term 2023",
+            "desc": "End Term 2023 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/end_term_2023.pdf"
+          },
+          {
+            "title": "Mid Term 2023 (Sem - I)",
+            "desc": "Mid Term 2023 Sem I test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mid_term_2023_sem1.pdf"
+          },
+          {
+            "title": "Mid Term 2023",
+            "desc": "Mid Term 2023 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mid_term_2023.pdf"
+          },
+          {
+            "title": "Mini Term 2022",
+            "desc": "Mini Term 2022 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mini_term_2022.pdf"
+          },
+          {
+            "title": "Mid Term 2022 (Sem - I)",
+            "desc": "Mid Term 2022 Sem I test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mid_term_2022_sem1.pdf"
+          },
+          {
+            "title": "End Term 2021",
+            "desc": "End Term 2021 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/end_term_2021.pdf"
+          },
+          {
+            "title": "Mid Term Sol 2021",
+            "desc": "Mid Term Sol 2021 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mid_term_sol_2021.pdf"
+          },
+          {
+            "title": "Mini Test 2020",
+            "desc": "Mini Test 2020 test PDF",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mini_test_2020.pdf"
           }
         ],
         "Books": [
           {
-            "title": "Sample Book",
-            "desc": "A sample book for Physics",
-            "link": "sample_book.pdf"
+            "title": "M.N. Avadhanulu & P.G. Kshirsagar",
+            "desc": "Engineering Physics reference book by M.N. Avadhanulu & P.G. Kshirsagar",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/books/Avadhanulu_Kshirsagar.pdf"
+          },
+          {
+            "title": "K Malik & Ajay Kumar",
+            "desc": "Physics reference book by Hitendra K Malik & Ajay Kumar Singh",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/books/RK_Rajput.pdf"
           }
         ]
       }
