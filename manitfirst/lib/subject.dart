@@ -56,12 +56,14 @@ class SubjectState extends State<Subject> {
       tabValues[e.key] = List<dynamic>.from(e.value);
     }
 
+
     setState(() {
       isLoading = false;
     });
   }
 
   Widget buildWidget(List<dynamic> values) {
+    debugPrint(values.toString());
     return LayoutBuilder(
       builder: (context, constraints) {
         double maxW = constraints.maxWidth;
@@ -73,6 +75,7 @@ class SubjectState extends State<Subject> {
           itemCount: values.length,
           builder: (context, index) {
             final item = values[index];
+              debugPrint('Index : $item');
             return ListCard(
               key: ValueKey('${item['title']}_$index'), // Add a unique key
               index: index,

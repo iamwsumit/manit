@@ -225,7 +225,7 @@ class HomeState extends State<Home> {
                           title: Text('Desktop App',
                               style: Dimen.getSidebarTextStyle(context)),
                           onTap: () => Utils.launch(
-                              "https://manitfirst.web.app/downloads"))
+                              "https://manitfirst.web.app/download"))
                       : const SizedBox()
                 ],
               )
