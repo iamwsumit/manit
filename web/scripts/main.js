@@ -25,6 +25,9 @@ const navbar = `<div class="container">
             <li class="nav-item">
               <a href="../assets/syllabus.pdf" target="_blank" class="nav-link">Syllabus</a>
             </li>
+            <li id="announcement" class="nav-item">
+              <a href="../announcement" class="nav-link">Announcements</a>
+            </li>
             <li id="contact" class="nav-item">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLZ65QXJPEjMZ7ggU-LTG1r2ZlMUl_j46FB4YQo4-YKHJ0vw/viewform?usp=header" class="nav-link" target="_blank">Contact</a>
             </li>
@@ -35,7 +38,6 @@ const navbar = `<div class="container">
               <a
                 href="../download/"
                 type="button"
-                target="_blank"
                 class="btn btn-success"
                 >Download</a
               >
@@ -83,6 +85,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     if (url.includes('about')){
         document.querySelector('#about a').classList.add('nav-active');
+    } else if (url.includes('announcement')){
+      document.querySelector('#announcement a').classList.add('nav-active');
     } else {
         document.querySelector('#home a').classList.add('nav-active');
     }

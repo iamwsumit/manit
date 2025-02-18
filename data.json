@@ -500,6 +500,11 @@
             "title": "Lab Records",
             "desc": "Lab Records for Exp (1-14) for physics lab",
             "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/lab/lab_records.pdf"
+          },
+          {
+            "title": "Observation Records",
+            "desc": "Observation copy Records for Exp (1-14) for physics lab",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/lab/observations.pdf"
           }
         ],
         "Notes": [
@@ -514,8 +519,8 @@
             "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/Laser.pdf"
           },
           {
-            "title": "Nuclear",
-            "desc": "Nuclear handwritten notes",
+            "title": "Nuclear Physics",
+            "desc": "Nuclear Physics handwritten notes",
             "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/Nuclear.pdf"
           },
           {

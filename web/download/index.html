@@ -29,15 +29,6 @@
         color: var(--bs-primary);
       }
 
-      imgshot-container {
-        overflow-x: auto;
-        white-space: nowrap;
-        scrollbar-width: none;
-      }
-      imgshot-container::-webkit-scrollbar {
-        display: none;
-      }
-
       h2 {
         font-size: 1.75rem;
         font-weight: 700;
@@ -89,15 +80,21 @@
         gap: 1rem;
       }
 
-      .android .screenshot {
+      .screenshots-container .screenshot {
         background-color: var(--halkaPrimary);
-        border-radius: 12px;
-        padding: 15px;
+        border-radius: 8px;
+        padding: 12px;
       }
 
       .android img {
-        border-radius: 12px;
-        width: 250px;
+        border-radius: 8px;
+        max-width: 250px;
+        height: auto;
+      }
+
+      .windows img {
+        border-radius: 8px;
+        width: 615px;
         height: auto;
       }
 
@@ -112,6 +109,12 @@
         column-gap: 1rem;
         max-width: 700px;
         margin: auto;
+      }
+
+      @media (max-width: 526px){
+        .platform-container {
+          grid-template-columns: 1fr;
+        }
       }
 
     </style>
@@ -228,6 +231,51 @@
                 <img
                 src="ss/android/ss6.jpg"
                 alt="Android Home"
+                />
+              </div>
+            </div>
+          </div>
+          <div style="height: 30px"></div>
+
+          <div class="platform-section windows">
+            <div class="platform-header">
+              <h3 class="platform-name">Windows</h3>
+            </div>
+            <div class="screenshots-container">
+              <div class="screenshot">
+                <img
+                src="ss/windows/ss1.jpeg"
+                alt="Window sreenshot"
+                />
+              </div>
+              <div class="screenshot">
+                <img
+                src="ss/windows/ss2.jpeg"
+                alt="Window sreenshot"
+                />
+              </div>
+              <div class="screenshot">
+                <img
+                src="ss/windows/ss3.jpeg"
+                alt="Window sreenshot"
+                />
+              </div>
+              <div class="screenshot">
+                <img
+                src="ss/windows/ss4.jpeg"
+                alt="Window sreenshot"
+                />
+              </div>
+              <div class="screenshot">
+                <img
+                src="ss/windows/ss5.jpeg"
+                alt="Window sreenshot"
+                />
+              </div>
+              <div class="screenshot">
+                <img
+                src="ss/windows/ss6.jpeg"
+                alt="Window sreenshot"
                 />
               </div>
             </div>

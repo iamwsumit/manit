@@ -21,14 +21,12 @@
 
     <meta property="og:url" content="https://manitfirst.web.app/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="MANIT Study Portal" />
+    <meta property="og:title" content="About me" />
     <meta
       property="og:description"
-      content="A comprehensive open-source study portal for students of NIT Bhopal,
-      available as a web application and a Flutter-based cross-platform app
-      for Android, Windows, and macOS. The portal provides notes, previous
-      year question papers (PYQs), assignments, and books for different
-      subjects, organized in a structured manner."
+      content="Hello and welcome! I am Sumit Kumar, a passionate and
+      driven Android & Full Stack Developer with over 4 years of hands-on
+      experience in programming."
     />
     <meta
       property="og:image"
@@ -37,17 +35,17 @@
     <link rel="shortcut icon" href="../assets/manit.png" type="image/x-icon" />
     <meta
       name="description"
-      content="A comprehensive open-source study portal for students of NIT Bhopal. The portal provides notes, previous
-    year question papers (PYQs), assignments, and books for different
-    subjects, organized in a structured manner."
+      content="Hello and welcome! I am Sumit Kumar, a passionate and
+      driven Android & Full Stack Developer with over 4 years of hands-on
+      experience in programming."
     />
   </head>
   <style>
-    h1 {
+    #main-container h1 {
       font-size: 2rem;
       font-weight: bold;
     }
-    p {
+    #main-container p {
       font-size: 1.25rem;
       color: #555;
     }
@@ -86,14 +84,14 @@
       color: white;
     }
 
-    span {
+    #main-container span {
       font-weight: bold;
       color: black;
     }
 
     .item-container {
       display: grid;
-      row-gap: 10px;
+      row-gap: 1rem;
       column-gap: 1rem;
     }
 
@@ -103,15 +101,21 @@
       }
     }
 
-    @media (min-width: 900px) {
+    @media (min-width: 500px) {
       .item-container {
         grid-template-columns: 1fr 1fr;
       }
     }
 
-    @media (min-width: 1504px) {
+    @media (min-width: 1004px) {
       .item-container {
         grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+
+    @media (min-width: 1504px) {
+      .item-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
       }
     }
   </style>
@@ -119,14 +123,14 @@
     <div id="main-container">
       <div class="header-bg" id="header-container"></div>
 
-      <div style="height: 20px;"></div>
+      <div style="height: 20px"></div>
 
       <div class="container py-3 card">
         <h1 class="mb-3">About Me</h1>
         <p>
           Hello and welcome! I am <span>Sumit Kumar</span>, a passionate and
           driven Android & Full Stack Developer with over 4 years of hands-on
-          experience in programming. Currently, I am pursuing my B.Tech at NIT
+          experience in programming. Currently, I am pursuing my B.Tech in Mechanical Engineering at NIT
           Bhopal, where I am honing my technical and problem-solving skills
           alongside my academic journey.<br />
           My expertise spans across multiple programming languages and
@@ -162,6 +166,99 @@
             ></a>
           </li>
         </ul>
+      </div>
+      <div class="container mt-4 mb-4">
+        <h2 class="mb-4">Contributors</h2>
+        <div class="item-container">
+          <div class="container py-3 card">
+            <h3 class="mb-1">Ujjwal Varshney</h3>
+            <p>First Year Student in Mechanical Department</p>
+            <ul class="nav-md-4 list-unstyled d-flex gap">
+              <li>
+                <a
+                  class="text-body-secondary"
+                  href="hhttps://www.linkedin.com/in/ujjawal-varshney-2649aa265/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="text-body-secondary"
+                  href="mailto:ujjawalvarshney77@gmail.com"
+                  target="_blank"
+                  ><i class="fa-regular fa-envelope"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="container py-3 card">
+            <h3 class="mb-1">Upendar Tripathi</h3>
+            <p>First Year Student in Mechanical Department</p>
+            <ul class="nav-md-4 list-unstyled d-flex gap">
+              <li>
+                <a
+                  class="text-body-secondary"
+                  href="https://www.linkedin.com/in/upendra-tripathi-644ba4351/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="text-body-secondary"
+                  href="mailto:utripathi2006@gmail.com"
+                  target="_blank"
+                  ><i class="fa-regular fa-envelope"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="container py-3 card">
+            <h3 class="mb-1">Ankit Gangwar</h3>
+            <p>First Year Student in Mechanical Department</p>
+            <ul class="nav-md-4 list-unstyled d-flex gap">
+              <li>
+                <a
+                  class="text-body-secondary"
+                  href="https://www.linkedin.com/in/ankit-gangwar-9513431b4"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="text-body-secondary"
+                  href="mailto:ankitgangwar1082006@gmail.com"
+                  target="_blank"
+                  ><i class="fa-regular fa-envelope"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="container py-3 card">
+            <h3 class="mb-1">Shubh Kumar</h3>
+            <p>First Year Student in Mechanical Department</p>
+            <ul class="nav-md-4 list-unstyled d-flex gap">
+              <li>
+                <a
+                  class="text-body-secondary"
+                  href="https://www.linkedin.com/in/shubh-kumar-4b9154348"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="text-body-secondary"
+                  href="mailto:sgupta8675@gmail.com"
+                  target="_blank"
+                  ><i class="fa-regular fa-envelope"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 

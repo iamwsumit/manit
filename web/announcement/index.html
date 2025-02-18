@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="../assets/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/home.css" />
+    <script src="../scripts/main.js"></script>
+
+    <script type="module" src="../scripts/firebase-analytics.js"></script>
+
+    <title>Announcements</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <meta property="og:url" content="https://manitfirst.web.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="MANIT Study Portal" />
+    <meta
+      property="og:description"
+      content="A comprehensive open-source study portal for students of NIT Bhopal,
+      available as a web application and a Flutter-based cross-platform app
+      for Android, Windows, and macOS. The portal provides notes, previous
+      year question papers (PYQs), assignments, and books for different
+      subjects, organized in a structured manner."
+    />
+    <meta
+      property="og:image"
+      content="https://manitfirst.web.app/assets/manit.png"
+    />
+    <link rel="shortcut icon" href="../assets/manit.png" type="image/x-icon" />
+    <meta
+      name="description"
+      content="A comprehensive open-source study portal for students of NIT Bhopal. The portal provides notes, previous
+    year question papers (PYQs), assignments, and books for different
+    subjects, organized in a structured manner."
+    />
+    <style>
+      .announcements-container {
+        display: grid;
+        gap: 20px;
+      }
+
+      @media (min-width: 504px) {
+        .announcements-container {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (min-width: 900px) {
+        .announcements-container {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .announcements-container {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+      }
+
+      .announcement-card {
+        background: white;
+        border-radius: 10px;
+        border: 2px solid #e9eef2;
+        cursor: pointer;
+      }
+
+      .card-content {
+        padding: 16px;
+      }
+
+      .header-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+      }
+
+      .author,
+      .date {
+        color: #666;
+        font-size: 0.875rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .title {
+        font-weight: bold;
+        font-size: 16px;
+        color: #333;
+        margin: 8px 0 5px 0;
+      }
+
+      .description {
+        color: #666;
+        font-size: 14px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-container">
+      <div class="header-bg" id="header-container"></div>
+      <div class="container" id="announcements"></div>
+    </div>
+    <div class="header-bg py-2 mt-5" id="footer-container"></div>
+
+    <script>
+      async function fetchAnnouncements() {
+        try {
+          const response = await fetch(
+            "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/announcement.json"
+          );
+          const data = await response.json();
+          return data.notifications;
+        } catch (error) {
+          console.error("Error fetching announcements:", error);
+          return [];
+        }
+      }
+
+      function createAnnouncementCard(announcement) {
+        const card = document.createElement("div");
+        card.className = "announcement-card";
+
+        if (announcement.link) {
+          card.onclick = () => window.open(announcement.link, "_blank");
+        }
+
+        card.innerHTML = `
+                <div class="card-content">
+                    <div class="header-row">
+                        <span class="author">${announcement.author}</span>
+                        <span class="date">${announcement.date}</span>
+                    </div>
+                    <h3 class="title">${announcement.title}</h3>
+                    <p class="description">${announcement.desc}</p>
+                </div>
+            `;
+
+        return card;
+      }
+
+      async function initializeAnnouncements() {
+        const container = document.getElementById("announcements");
+        const announcements = await fetchAnnouncements();
+
+        if (announcements.length === 0) {
+          container.innerHTML = "<p>No announcements available.</p>";
+          return;
+        }
+
+        announcements.forEach((announcement) => {
+          const card = createAnnouncementCard(announcement);
+          container.appendChild(card);
+        });
+
+        container.classList.add("announcements-container");
+      }
+
+      document.addEventListener("DOMContentLoaded", initializeAnnouncements);
+    </script>
+  </body>
+</html>

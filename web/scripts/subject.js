@@ -46,7 +46,7 @@ function onPageLoad() {
         lastLayoutId = e.target.value;
       });
 
-      document.querySelector(`#${list[0]}`).style.display = "grid";
+      document.getElementById(`${list[0]}`).style.display = "grid";
       lastLayoutId = list[0];
     } else {
       alert("Subject not found");
