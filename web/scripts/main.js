@@ -23,7 +23,7 @@ const navbar = `<div class="container">
               >
             </li>
             <li class="nav-item">
-              <a href="../assets/syllabus.pdf" target="_blank" class="nav-link">Syllabus</a>
+              <a href="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/assets/syllabus.pdf" target="_blank" class="nav-link">Syllabus</a>
             </li>
             <li id="announcement" class="nav-item">
               <a href="../announcement" class="nav-link">Announcements</a>
