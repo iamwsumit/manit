@@ -71,7 +71,7 @@ class Utils {
   }
 
   static void shareApp() {
-    String message = '📚 MANIT first-years, unite! 🎉 First year hitting you hard? The Study Portal is here to save the day! 🙌 Get all notes, assignments, and PYPs in one place. No more frantic searching or hustle! 💻📱 Available on mobile & desktop, and it even works offline, so you can study on the go or from the comfort of your room, even without internet access! Download the MANIT Study Portal now.\n\nLink: https://manitfirst.web.app/download';
+    String message = '📚 MANIT first-years, unite! 🎉 First year hitting you hard? \nThe Study Portal is here to save the day! 🙌 Get all notes, assignments, and PYPs in one place. No more frantic searching or hustle! \n💻📱 Available on mobile & desktop, and it even works offline, so you can study on the go or from the comfort of your room, even without internet access! \nDownload the MANIT Study Portal now.\n\nLink: https://manitfirst.web.app/download';
     Share.share(message);
   }
 

@@ -57,6 +57,7 @@ class SplashState extends State<Splash> {
 
   Future<void> fetchData() async {
     try {
+      debugPrint('Fetching data...');
       final client = http.Client();
       final response = await client
           .get(Uri.parse(
@@ -102,7 +103,7 @@ class SplashState extends State<Splash> {
   }
 
   void openHome() {
-    Navigator.push(
+    Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (context) => const Home()));
   }
 }

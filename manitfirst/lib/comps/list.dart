@@ -1,4 +1,7 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:manitfirst/android_pdfview.dart';
 import 'package:manitfirst/pdfview.dart';
 import 'package:manitfirst/subject.dart';
 import '../utils/dimen.dart';
@@ -33,10 +36,15 @@ class ListCard extends StatelessWidget {
     Navigator.push(
         context,
         MaterialPageRoute(
-            builder: (context) => PDFView(
-                filePath: filePath,
-                title: title,
-                fileType: isDownloaded ? 2 : 0)));
+            builder: (context) => Platform.isAndroid
+                ? AndroidPDFView(
+                    filePath: filePath,
+                    title: title,
+                    fileType: isDownloaded ? 2 : 0)
+                : PDFView(
+                    filePath: filePath,
+                    title: title,
+                    fileType: isDownloaded ? 2 : 0)));
   }
 
   @override

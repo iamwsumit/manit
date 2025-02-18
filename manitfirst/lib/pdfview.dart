@@ -1,13 +1,14 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:manitfirst/utils/theme.dart';
 import 'package:syncfusion_flutter_core/theme.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
+
+import 'comps/pdfcontrols.dart';
 
 class PDFView extends StatefulWidget {
   final String filePath;
   final String title;
-  final int fileType; // 0 for URL, 1 for asset and 2 for downloaded files
+  final int fileType;
 
   const PDFView({
     super.key,
@@ -22,20 +23,45 @@ class PDFView extends StatefulWidget {
 
 class PDFViewState extends State<PDFView> {
   final PdfViewerController _pdfViewerController = PdfViewerController();
-  double _currentWidth = 600; // Initial width matching your constraints
+  double _currentWidth = 600;
   int _currentPage = 1;
   int _totalPages = 0;
+  bool _isInitialized = false;
+
+  // Cache key for the current document
+  late final String _cacheKey;
 
   @override
   void initState() {
     super.initState();
-    _pdfViewerController.addListener(() {
-      if (mounted) {
-        setState(() {
-          _currentPage = _pdfViewerController.pageNumber;
-        });
-      }
+    _cacheKey = widget.filePath.hashCode.toString();
+    _pdfViewerController.addListener(_handlePageChange);
+
+    // Delayed initialization to improve initial load time
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _initializePdfViewer();
     });
+  }
+
+  void _handlePageChange() {
+    if (mounted && _pdfViewerController.pageNumber != _currentPage) {
+      setState(() {
+        _currentPage = _pdfViewerController.pageNumber;
+      });
+    }
+  }
+
+  Future<void> _initializePdfViewer() async {
+    setState(() {
+      _isInitialized = true;
+    });
+  }
+
+  @override
+  void dispose() {
+    _pdfViewerController.removeListener(_handlePageChange);
+    _pdfViewerController.dispose();
+    super.dispose();
   }
 
   @override
@@ -50,7 +76,9 @@ class PDFViewState extends State<PDFView> {
       ),
       resizeToAvoidBottomInset: false,
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-      body: Column(
+      body: !_isInitialized
+          ? const Center(child: CircularProgressIndicator())
+          : Column(
         children: [
           Expanded(
             child: Container(
@@ -64,181 +92,110 @@ class PDFViewState extends State<PDFView> {
                 child: SfPdfViewerTheme(
                   data: SfPdfViewerThemeData(
                     backgroundColor: Colors.transparent,
-                    progressBarColor: MyTheme.primary,
+                    progressBarColor: Theme.of(context).primaryColor,
                   ),
-                  child: _buildPdfViewer(),
+                  child: _buildOptimizedPdfViewer(),
                 ),
               ),
             ),
           ),
-          PDFBottomControls(
-            controller: _pdfViewerController,
-            currentWidth: _currentWidth,
-            onWidthChanged: (width) {
-              setState(() => _currentWidth = width);
-            },
-            currentPage: _currentPage,
-            totalPages: _totalPages,
-          ),
+          if (_isInitialized)
+            PDFBottomControls(
+              controller: _pdfViewerController,
+              currentWidth: _currentWidth,
+              onWidthChanged: (width) {
+                setState(() => _currentWidth = width);
+              },
+              currentPage: _currentPage,
+              totalPages: _totalPages,
+            ),
         ],
       ),
     );
   }
 
-  Widget _buildPdfViewer() {
-    return widget.fileType == 1
-        ? SfPdfViewer.asset(
-            widget.filePath,
-            controller: _pdfViewerController,
-            interactionMode: PdfInteractionMode.pan,
-            maxZoomLevel: 5,
-            onDocumentLoaded: (details) {
-              setState(() {
-                _totalPages = details.document.pages.count;
-              });
-            },
-          )
-        : widget.fileType == 2
-            ? SfPdfViewer.file(
-                File(widget.filePath),
-                controller: _pdfViewerController,
-                interactionMode: PdfInteractionMode.pan,
-                maxZoomLevel: 5,
-                onDocumentLoaded: (details) {
-                  setState(() {
-                    _totalPages = details.document.pages.count;
-                  });
-                },
-              )
-            : SfPdfViewer.network(
-                widget.filePath,
-                controller: _pdfViewerController,
-                interactionMode: PdfInteractionMode.pan,
-                maxZoomLevel: 5,
-                onDocumentLoaded: (details) {
-                  setState(() {
-                    _totalPages = details.document.pages.count;
-                  });
-                },
-              );
-  }
-}
-
-class PDFBottomControls extends StatelessWidget {
-  final PdfViewerController controller;
-  final Function(double) onWidthChanged;
-  final double currentWidth;
-  final int currentPage;
-  final int totalPages;
-
-  const PDFBottomControls({
-    Key? key,
-    required this.controller,
-    required this.onWidthChanged,
-    required this.currentWidth,
-    required this.currentPage,
-    required this.totalPages,
-  }) : super(key: key);
-
-  void _decreaseWidth() {
-    final newWidth = currentWidth * 0.9; // Decrease by 10%
-    if (newWidth >= 500) {
-      onWidthChanged(newWidth);
+  Widget _buildOptimizedPdfViewer() {
+    Widget buildViewer(dynamic source) {
+      return source is String
+          ? (widget.fileType == 1
+          ? SfPdfViewer.asset(source,
+        key: ValueKey('asset_${_cacheKey}'),
+        controller: _pdfViewerController,
+        interactionMode: PdfInteractionMode.pan,
+        maxZoomLevel: 5.0,
+        enableDoubleTapZooming: false,
+        enableTextSelection: false,
+        pageSpacing: 0,
+        onDocumentLoaded: (PdfDocumentLoadedDetails details) {
+          setState(() {
+            _totalPages = details.document.pages.count;
+          });
+        },
+        canShowScrollHead: false,
+        enableDocumentLinkAnnotation: false,
+        initialZoomLevel: 1.0,
+        canShowHyperlinkDialog: false,
+        canShowPaginationDialog: false,
+        canShowTextSelectionMenu: false,
+        canShowPasswordDialog: false,
+        canShowSignaturePadDialog: false,
+        scrollDirection: PdfScrollDirection.vertical,
+      )
+          : SfPdfViewer.network(source,
+        key: ValueKey('network_${_cacheKey}'),
+        controller: _pdfViewerController,
+        interactionMode: PdfInteractionMode.pan,
+        maxZoomLevel: 5.0,
+        enableDoubleTapZooming: false,
+        enableTextSelection: false,
+        pageSpacing: 0,
+        onDocumentLoaded: (PdfDocumentLoadedDetails details) {
+          setState(() {
+            _totalPages = details.document.pages.count;
+          });
+        },
+        canShowScrollHead: false,
+        enableDocumentLinkAnnotation: false,
+        initialZoomLevel: 1.0,
+        canShowHyperlinkDialog: false,
+        canShowPaginationDialog: false,
+        canShowTextSelectionMenu: false,
+        canShowPasswordDialog: false,
+        canShowSignaturePadDialog: false,
+        scrollDirection: PdfScrollDirection.vertical,
+      ))
+          : SfPdfViewer.file(source,
+        key: ValueKey('file_${_cacheKey}'),
+        controller: _pdfViewerController,
+        interactionMode: PdfInteractionMode.pan,
+        maxZoomLevel: 5.0,
+        enableDoubleTapZooming: false,
+        enableTextSelection: false,
+        pageSpacing: 0,
+        onDocumentLoaded: (PdfDocumentLoadedDetails details) {
+          setState(() {
+            _totalPages = details.document.pages.count;
+          });
+        },
+        canShowScrollHead: false,
+        enableDocumentLinkAnnotation: false,
+        initialZoomLevel: 1.0,
+        canShowHyperlinkDialog: false,
+        canShowPaginationDialog: false,
+        canShowTextSelectionMenu: false,
+        canShowPasswordDialog: false,
+        canShowSignaturePadDialog: false,
+        scrollDirection: PdfScrollDirection.vertical,
+      );
     }
-  }
 
-  void _increaseWidth() {
-    final newWidth = currentWidth * 1.1; // Increase by 10%
-    if (newWidth <= 1200) {
-      onWidthChanged(newWidth);
+    switch (widget.fileType) {
+      case 1:
+        return buildViewer(widget.filePath);
+      case 2:
+        return buildViewer(File(widget.filePath));
+      default:
+        return buildViewer(widget.filePath);
     }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    bool show = MediaQuery.sizeOf(context).width > 550;
-    final Color? color = Theme.of(context).textTheme.bodySmall?.color;
-    return Container(
-      decoration: BoxDecoration(
-        color: Theme.of(context).scaffoldBackgroundColor,
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.1),
-            blurRadius: 4,
-            offset: const Offset(0, -2),
-          ),
-        ],
-      ),
-      child: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              const SizedBox(),
-              IconButton(
-                icon: Icon(Icons.zoom_out, color: color),
-                onPressed: () {
-                  controller.zoomLevel =
-                      (controller.zoomLevel - 0.25).clamp(0.25, 5.0);
-                },
-                tooltip: 'Zoom Out',
-              ),
-              const SizedBox(width: 16),
-              if (show) ...[
-                IconButton(
-                  icon: Icon(Icons.width_normal, color: color),
-                  onPressed: _decreaseWidth,
-                  tooltip: 'Decrease Width',
-                ),
-              ],
-              const SizedBox(width: 16),
-              IconButton(
-                icon: Icon(
-                  Icons.arrow_back_ios,
-                  color: color,
-                ),
-                onPressed:
-                    currentPage > 1 ? () => controller.previousPage() : null,
-                tooltip: 'Previous Page',
-              ),
-              const SizedBox(width: 8),
-              Text(
-                '$currentPage / $totalPages',
-                style: TextStyle(
-                    fontSize: 16, fontWeight: FontWeight.w500, color: color),
-              ),
-              const SizedBox(width: 8),
-              IconButton(
-                icon: Icon(Icons.arrow_forward_ios, color: color),
-                onPressed: currentPage < totalPages
-                    ? () => controller.nextPage()
-                    : null,
-                tooltip: 'Next Page',
-              ),
-              const SizedBox(width: 16),
-              if (show) ...[
-                IconButton(
-                  icon: Icon(Icons.width_wide, color: color),
-                  onPressed: _increaseWidth,
-                  tooltip: 'Increase Width',
-                ),
-              ],
-              const SizedBox(width: 16),
-              IconButton(
-                icon: Icon(Icons.zoom_in, color: color),
-                color: color,
-                onPressed: () {
-                  controller.zoomLevel =
-                      (controller.zoomLevel + 0.25).clamp(0.25, 5.0);
-                },
-                tooltip: 'Zoom In',
-              ),
-              const SizedBox()
-            ],
-          ),
-        ),
-      ),
-    );
   }
 }

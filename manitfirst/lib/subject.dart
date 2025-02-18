@@ -56,7 +56,6 @@ class SubjectState extends State<Subject> {
       tabValues[e.key] = List<dynamic>.from(e.value);
     }
 
-
     setState(() {
       isLoading = false;
     });
@@ -66,7 +65,8 @@ class SubjectState extends State<Subject> {
     return LayoutBuilder(
       builder: (context, constraints) {
         double maxW = constraints.maxWidth;
-        int crossAxisCount = maxW < 900 ? 1 : (maxW < 1504 ? 2 : (maxW < 1800 ? 3 : 4));
+        int crossAxisCount =
+            maxW < 900 ? 1 : (maxW < 1504 ? 2 : (maxW < 1800 ? 3 : 4));
 
         return AutoHeightGridView(
           padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 15),
@@ -78,7 +78,7 @@ class SubjectState extends State<Subject> {
               index: index,
               title: item['title'],
               desc: item['desc'],
-              isDownloaded: isDownloaded(item['link']),
+              isDownloaded: isDownloaded(dirPath, item['link']),
               download: download,
               removeFile: removeFile,
               link: item['link'],
@@ -89,10 +89,11 @@ class SubjectState extends State<Subject> {
     );
   }
 
-  bool isDownloaded(String fileName) {
+  static bool isDownloaded(var dirPath, String fileName) {
     try {
       fileName = getFileName(fileName);
       final file = File('$dirPath/$fileName');
+      debugPrint('IsDownloaded : ${file.path}');
       return file.existsSync();
     } catch (e) {
       debugPrint("Error checking if file is downloaded: $e");
@@ -173,7 +174,8 @@ class SubjectState extends State<Subject> {
             received = count;
             total = totalSize;
             double progress = (received / total);
-            String download = '${formatFileSize(received)} of ${formatFileSize(total)}';
+            String download =
+                '${formatFileSize(received)} of ${formatFileSize(total)}';
             dialogKey.currentState?.updateProgress(progress, download);
           }
         },
@@ -233,7 +235,9 @@ class SubjectState extends State<Subject> {
         resizeToAvoidBottomInset: false,
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         body: TabBarView(
-          children: tabs.map((tab) => buildWidget(tabValues[tab.text] ?? [])).toList(),
+          children: tabs
+              .map((tab) => buildWidget(tabValues[tab.text] ?? []))
+              .toList(),
         ),
       ),
     );

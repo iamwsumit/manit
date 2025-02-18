@@ -1,9 +1,11 @@
 import 'dart:io';
 
-import 'package:aptabase_flutter/aptabase_flutter.dart';
+// import 'package:aptabase_flutter/aptabase_flutter.dart';
 import 'package:auto_height_grid_view/auto_height_grid_view.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:manitfirst/android_pdfview.dart';
 import 'package:manitfirst/announcement.dart';
 import 'package:manitfirst/comps/subject_card.dart';
 import 'package:manitfirst/pdfview.dart';
@@ -40,7 +42,7 @@ class HomeState extends State<Home> {
 
   @override
   void initState() {
-    Aptabase.instance.trackEvent('user', {});
+    // Aptabase.instance.trackEvent('user', {});
     Data.setData(LocalStorage.getString('data'));
     json = Data.getData();
     utils = Utils(context: context);
@@ -179,10 +181,15 @@ class HomeState extends State<Home> {
                       onTap: () => Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => PDFView(
-                                  filePath: 'assets/syllabus.pdf',
-                                  title: 'BTech Syllabus',
-                                  fileType: 1)))),
+                              builder: (context) => Platform.isAndroid
+                                  ? AndroidPDFView(
+                                      filePath: 'assets/syllabus.pdf',
+                                      title: 'BTech Syllabus',
+                                      fileType: 1)
+                                  : PDFView(
+                                      filePath: 'assets/syllabus.pdf',
+                                      title: 'BTech Syllabus',
+                                      fileType: 1)))),
                   const SizedBox(height: 8),
                   const Divider(height: Dimen.sidebar_divider_thickness),
                   ListTile(
