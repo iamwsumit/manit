@@ -79,18 +79,17 @@ const footer = `<div class="container">
       </div>`;
 
 document.addEventListener("DOMContentLoaded", function () {
-  
-    const url = window.document.location.href;
-    document.querySelector('#header-container').innerHTML = navbar;
-    
-    if (url.includes('about')){
-        document.querySelector('#about a').classList.add('nav-active');
-    } else if (url.includes('announcement')){
-      document.querySelector('#announcement a').classList.add('nav-active');
-    } else {
-        document.querySelector('#home a').classList.add('nav-active');
-    }
+  const url = window.document.location.href;
+  document.querySelector("#header-container").innerHTML = navbar;
 
-    document.querySelector('#footer-container').innerHTML = footer;
-    
+  if (url.includes("about")) {
+    document.querySelector("#about a").classList.add("nav-active");
+  } else if (url.includes("announcement")) {
+    document.querySelector("#announcement a").classList.add("nav-active");
+  } else if (url.includes("download")) {
+  } else {
+    document.querySelector("#home a").classList.add("nav-active");
+  }
+
+  document.querySelector("#footer-container").innerHTML = footer;
 });

@@ -2,6 +2,13 @@
     "notifications" : [
         {
             "author" : "By Sumit Kumar",
+            "date" : "19 Feb 2025",
+            "title" : "Desktop App Available",
+            "desc" : "Study Portal for Desktop windows is available now, click to download now.",
+            "link" : "https://manitfirst.web.app/download"
+        },
+        {
+            "author" : "By Sumit Kumar",
             "date" : "17 Feb 2025",
             "title" : "Report Bugs",
             "desc" : "If you find any bugs or mistakes in any resources or app, please contact us and report them for a fix.",
