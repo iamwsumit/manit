@@ -50,7 +50,7 @@ dependencies:
   crypto: ^3.0.6
   flutter_pdfview:
   aptabase_flutter:
-  syncfusion_flutter_core: ^28.2.6
+#  syncfusion_flutter_core: ^28.2.6
 
 dev_dependencies:
   flutter_test:
