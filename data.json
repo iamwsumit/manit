@@ -952,11 +952,38 @@
   "graphics": {
     "name": "Engineering Graphics",
     "data": {
+      "Assignments" : [
+        {
+          "title": "Geometrical Construction",
+          "desc": "Geometrical Construction assignment",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/assign/Geometrical_Construction.pdf"
+        },
+        {
+          "title": "Orthographic Projection",
+          "desc": "Orthographic Projection assignment",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/assign/Orthographic_Projection.pdf"
+        },
+        {
+          "title": "Projection of Points",
+          "desc": "Projection of Points assignment",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/assign/Projection_of_Points.pdf"
+        }
+      ],
       "PYPs": [
         {
           "title" : "Mini Test 2025 (Sem - II)",
           "desc" : "Mini test PDF of section G 2025 (Sem - II)",
           "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/mini_sem2_2025.pdf"
+        },
+        {
+          "title" : "Mid Term 2024 (Sem - I)",
+          "desc" : "Mid term test PDF 2024 (Sem - I)",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/mid_term_2024_sem1.pdf"
+        },
+        {
+          "title" : "End Term 2024 (Sem - I)",
+          "desc" : "End term test PDF 2024 (Sem - I)",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/end_term_2024_sem1.pdf"
         },
         {
           "title": "End Term 2023 (Sem - II)",
