@@ -917,7 +917,12 @@
       ],
       "PYPs": [
         {
-          "title": "End Term 2024",
+          "title": "Mid Term 2024 (Sem - I)",
+          "desc": "Mid Term test PDF of 2024 Sem - I",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/mid_2024_sem1.pdf"
+        },
+        {
+          "title": "End Term 2024 (Sem - I)",
           "desc": "End Term test PDF of 2024 Sem - I",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/pyq/end_term_2024.pdf"
         },
