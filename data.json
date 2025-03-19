@@ -110,7 +110,7 @@
   "beee": {
     "name": "Basic Electrical & Electronics Eng.",
     "data": {
-      "BEEE Lab": [
+      "Lab": [
         {
           "title": "Lab Manual",
           "desc": "BEEE Lab Manual PDF for 1-10 Experiments",
@@ -299,7 +299,7 @@
   "mechanics": {
     "name": "Engineering Mechanics",
     "data": {
-      "Mechanics Lab" : [
+      "Lab" : [
         {
           "title" : "Lab Records",
           "desc" : "Engineering Mechanics Lab Records PDF", 
@@ -323,7 +323,7 @@
           "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/assign/ass3.pdf"
         }
       ],
-      "Notes 2024" : [
+      "Notes-2024" : [
         {
           "title": "Centroid and MOI",
           "desc": "Centroid and MOI handwritten notes by Sanskriti Jain",
@@ -571,7 +571,7 @@
   "physics": {
     "name": "Physics",
     "data": {
-      "Physics Lab": [
+      "Lab": [
         {
           "title": "Lab Records",
           "desc": "Lab Records for Exp (1-14) for physics lab",
@@ -610,7 +610,7 @@
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/assign/wave_optics.pdf"
         }
       ],
-      "Notes 2024" : [
+      "Notes-2024" : [
         {
           "title": "Bethe's Law",
           "desc": "Bethe's Law handwritten notes by Sanskriti Jain",
@@ -987,7 +987,7 @@
   "manufacturing-science": {
     "name": "Manufacturing Science",
     "data": {
-      "MS Lab": [
+      "Lab": [
         {
           "title": "Carpentary Manual",
           "desc": "Carpentary Lab Manual for Manufacturing Science",
@@ -1031,7 +1031,7 @@
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/notes/welding.pdf"
         }
       ],
-      "Short Notes": [
+      "Short-Notes": [
           {
             "title": "Carpentary",
             "desc": "Carpentary short notes for Manufacturing Science",
