@@ -996,14 +996,81 @@
   "computer-programming": {
     "name": "Computer Programming",
     "data": {
+      "Assignments" : [
+          {
+            "title": "Assignment 1",
+            "desc": "Assignment 1 Section E",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/Assignment_1.pdf"
+          },
+          {
+            "title": "Lab Assignment",
+            "desc": "Lab Assignment Section E",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/Lab_Assignment.pdf"
+          },
+          {
+            "title": "Lab Assignment 2",
+            "desc": "Lab Assignment 2 Section E",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/Lab_assignment_2.pdf"
+          },
+          {
+            "title": "Lab Manual Programs",
+            "desc": "Lab Manual Programs Section E",
+            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/manual.pdf"
+          }
+      ],
       "Notes": [
         {
-          "title": "CP Notes",
-          "desc": "Computer Programming handwritten notes",
-          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/notes/notes.pdf"
+          "title": "All Programs",
+          "desc": "All Class Programs handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/notes/All_Programs.pdf"
+        },
+        {
+          "title": "Arrays",
+          "desc": "Arrays handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/notes/arrays.pdf"
+        },
+        {
+          "title": "Functions",
+          "desc": "Functions handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/notes/functions.pdf"
+        },
+        {
+          "title": "Switch Case",
+          "desc": "Switch Case handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/notes/switch_case.pdf"
+        },
+        {
+          "title": "Increment and Decrement",
+          "desc": "Increment and Decrement handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/notes/Increment_and_Decrement.pdf"
+        },
+        {
+          "title": "Class Notes",
+          "desc": "Class Notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/notes/class_notes.pdf"
+        },
+        {
+          "title": "Pointers",
+          "desc": "Pointers handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/notes/pointers.pdf"
         }
       ],
       "PYPs": [
+        {
+          "title": "Mini Test 2024 (Sem - I)",
+          "desc": "Mini test PDF of Section E (Sem - I)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/pyq/mini_2024_sem1_sece.pdf"
+        },
+        {
+          "title": "Mid Term 2024 (Sem - I)",
+          "desc": "Mid Term 2024 Sem I test PDF",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/pyq/mid_term_2024_sem1.pdf"
+        },
+        {
+          "title": "End Term 2024 (Sem - I)",
+          "desc": "End Term 2024 Sem I test PDF",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/pyq/end_term_2024_sem1.pdf"
+        },
         {
           "title": "End Term 2023 (Sem - I)",
           "desc": "End Term 2023 Sem I test PDF",
