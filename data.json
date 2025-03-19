@@ -53,6 +53,11 @@
       ],
       "PYPs": [
         {
+          "title" : "Mid Term 2024 (Sem - I)",
+          "desc" : "Mid term test PDF 2024 (Sem - I)",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/mid_term_2024_sem1.pdf"
+        },
+        {
           "title" : "End Term 2024 (Sem - I)",
           "desc" : "End term test PDF 2024 (Sem - I)",
           "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/m1_end_2024.pdf"
