@@ -475,12 +475,12 @@
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/mini_test_2024_secf.pdf"
         },
         {
-          "title": "Mid Term 2024",
+          "title": "Mid Term 2024 (Sem - I)",
           "desc": "Mid Term test pdf of 2024 1st semester",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/mid_term_2024_sem1.pdf"
         },
         {
-          "title": "End Term 2024",
+          "title": "End Term 2024 (Sem - I)",
           "desc": "End Term test pdf of 2024 1st semester",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/chemistry/pyq/end_term_2024_sem1.pdf"
         },
@@ -748,37 +748,99 @@
   "biology": {
     "name": "Biology for Engineers",
     "data": {
+      "Syllabus" : [
+        {
+          "title" : "Biology Syllabus",
+          "desc" : "Biology for Engineers Syllabus PDF",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/syllabus.pdf"
+        }
+      ],
       "Notes": [
         {
-          "title": "Biomolecules",
-          "desc": "Biomolecules JEE PPT notes",
-          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/biomolecules.pdf"
+          "title": "Epidemiology",
+          "desc": "Epidemiology PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/Epidemiology.pdf"
         },
         {
-          "title": "Life Process",
-          "desc": "Class 10th Life Process PPT notes",
-          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/LifeProcess.pdf"
+          "title": "Cell Cycle",
+          "desc": "Cell Cycle PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/cell_cycle.pdf"
         },
         {
-          "title": "Fundamental Unit of Life",
-          "desc": "Cell : The Fundamental Unit of Life class 10th PPT notes",
-          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/unitoflife.pdf"
+          "title": "Plant Cell Organelles",
+          "desc": "Plant Cell Organelles PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/plant_cell_organelles.pdf"
+        },
+        {
+          "title": "Structure of Plant Cell",
+          "desc": "Structure of Plant Cell PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/struc_plant_cell.pdf"
+        },
+        {
+          "title": "Prokaryotic and Eukaryotic Cells",
+          "desc": "Prokaryotic and Eukaryotic Cells PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/Prokaryotic_and_Eukaryotic_Cells.pdf"
+        },
+        {
+          "title": "Cells as Foundation of Life",
+          "desc": "Cells as Foundation of Life PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/cells_as_foundation_of_life.pdf"
+        },
+        {
+          "title": "Protein Functions",
+          "desc": "Protein Functions PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/protiens_function.pdf"
+        },
+        {
+          "title": "Amino Acids and Peptides",
+          "desc": "Amino Acids and Peptides PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/amino_acids_peptides.pdf"
+        },
+        {
+          "title": "Gene and Cell Therapy",
+          "desc": "Gene and Cell Therapy PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/gene_cell_therapy.pdf"
+        },
+        {
+          "title": "Recombinant DNA Technology and Genetic Engineering",
+          "desc": "Recombinant DNA Technology and Genetic Engineering PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/rDNA_technology_and_genetic_engineering.pdf"
+        },
+        {
+          "title": "Biochips and DNA Chips",
+          "desc": "Biochips and DNA Chips PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/biochips_and_dna_chips.pdf"
+        },
+        {
+          "title": "Nutrition and Digestion",
+          "desc": "Nutrition and Digestion PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/nutrition_digestion.pdf"
+        },
+          {
+          "title": "Recombinant DNA Technology and Cloning",
+          "desc": "Recombinant DNA Technology and Cloning PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/recombinant.pdf"
         }
       ],
       "PYPs": [
         {
-          "title": "End Term 2024",
-          "desc": "End Term 2024 test PDF",
+          "title": "End Term 2024 (Sem - I)",
+          "desc": "End Term 2024 test PDF (Sem - I)",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/end_term_2024.pdf"
         },
         {
-          "title": "Mid Term 2024 Sec - G",
-          "desc": "Mid Term 2024 Sec G test PDF",
+          "title": "Mid Term 2024 Sec - G (Sem - I)",
+          "desc": "Mid Term 2024 Sec G test PDF (Sem - I)",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/mid_term_2024_secg.pdf"
         },
         {
-          "title": "Mini Test 2024 Sec - G",
-          "desc": "Mini Test 2024 Sec G test PDF",
+          "title": "Mid Term 2024 Sec - F (Sem - I)",
+          "desc": "Mid Term 2024 Sec F test PDF (Sem - I)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/mid_term_2024_secf.pdf"
+        },
+        {
+          "title": "Mini Test 2024 Sec - G (Sem - I)",
+          "desc": "Mini Test 2024 Sec G test PDF (Sem - I)",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/pyq/mini_test_2024_secg.pdf"
         }
       ]
