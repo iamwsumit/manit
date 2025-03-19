@@ -306,6 +306,50 @@
           "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/lab/lab.pdf"
         }
       ],
+      "Assignments" : [
+        {
+          "title" : "Assignment 1",
+          "desc" : "Assignment 1 Section E",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/assign/ass1.pdf"
+        },
+        {
+          "title" : "Assignment 2",
+          "desc" : "Assignment 2 Section E",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/assign/ass2.pdf"
+        },
+        {
+          "title" : "Assignment 3",
+          "desc" : "Assignment 3 Section E",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/assign/ass3.pdf"
+        }
+      ],
+      "Notes (2024)" : [
+        {
+          "title": "Centroid and MOI",
+          "desc": "Centroid and MOI handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/notes/sanskriti/Centroid_And_MOI.pdf"
+        },
+        {
+          "title": "Friction",
+          "desc": "Friction handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/notes/sanskriti/Friction.pdf"
+        },
+        {
+          "title": "Moment Of Inertia",
+          "desc": "MOI handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/notes/sanskriti/MOI.pdf"
+        },
+        {
+          "title": "Shear Force and Bending Moment",
+          "desc": "Shear Force and Bending Moment handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/notes/sanskriti/Shear_Force_And_Bending_Moment.pdf"
+        },
+        {
+          "title": "Trusses",
+          "desc": "Trusses handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/notes/sanskriti/Trusses.pdf"
+        }
+      ],
       "Notes": [
         {
           "title": "Shear Force and Bending Moment (Sec F)",
@@ -334,6 +378,16 @@
         }
       ],
       "PYPs": [
+        {
+          "title": "Mid Term 2024 (Sem - I)",
+          "desc": "Mid Term 2024 Sem I test PDF",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/pyq/mid_term_2024_sem1.pdf"
+        },
+        {
+          "title": "End Term 2024 (Sem - I)",
+          "desc": "End Term 2024 Sem I test PDF",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/pyq/end_term_2024_sem1.pdf"
+        },
         {
           "title": "End Term 2022 (Sem - II)",
           "desc": "End Term 2022 Sem II test PDF",
