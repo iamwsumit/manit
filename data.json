@@ -1074,6 +1074,31 @@
     "data": {
       "Notes": [
         {
+          "title": "Communication Notes SK",
+          "desc": "Communication Notes SK PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/notes/Comunicaton_Notes_SK.pdf"
+        },
+        {
+          "title": "Samples of GDs",
+          "desc": "Samples of GDs PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/notes/Samples_of_GDs.pdf"
+        },
+        {
+          "title": "Technical Report Writing 2",
+          "desc": "Technical Report Writing 2 PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/notes/Technical_Report_Writing-2.pdf"
+        },
+        {
+          "title": "Communication Notes",
+          "desc": "Communication PPT notes by Dr. Deepak Kumar",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/notes/Communication.pdf"
+        },
+        {
+          "title": "Paragraph Writing",
+          "desc": "Paragraph Writing PPT notes",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/notes/Paragraph_writing.pdf"
+        },
+        {
           "title": "Barriers to Communication",
           "desc": "Barriers to Communication handwritten notes",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/notes/Barriers.pdf"
@@ -1090,6 +1115,16 @@
         }
       ],
       "PYPs": [
+        {
+          "title": "Mid Term 2024 (Sem - I)",
+          "desc": "Mid Term 2024 Sem I test PDF",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/pyq/mid_term_2024_sem1.pdf"
+        },
+        {
+          "title": "End Term 2024 (Sem - I)",
+          "desc": "End Term 2024 Sem I test PDF",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/pyq/end_term_2024_sem1.pdf"
+        },
         {
           "title": "Mid Term 2023 (Sem - I)",
           "desc": "Mid Term 2023 Sem I test PDF",
