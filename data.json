@@ -583,6 +583,70 @@
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/lab/observations.pdf"
         }
       ],
+      "Assignments" : [
+        {
+          "title" : "Assignments Solved (Sec - E)",
+          "desc" : "Assignment Solution of Section E by Sanskriti Jain",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/assign/ass_sol.pdf"
+        },
+        {
+          "title": "Nuclear Physics",
+          "desc": "Nuclear Physics Assignment Section E",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/assign/nuclear_physics.pdf"
+        },
+        {
+          "title": "Quantum Mechanics",
+          "desc": "Quantum Mechanics Assignment Section E",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/assign/quantum_mechanics.pdf"
+        },
+        {
+          "title": "Semiconductor",
+          "desc": "Semiconductor Assignment Section E",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/assign/semiconductor.pdf"
+        },
+        {
+          "title": "Wave Optics",
+          "desc": "Wave Optics Assignment Section E",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/assign/wave_optics.pdf"
+        }
+      ],
+      "Notes (2024)" : [
+        {
+          "title": "Bethe's Law",
+          "desc": "Bethe's Law handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/sanskriti/Bethe_s_Law.pdf"
+        },
+        {
+          "title": "Nuclear Physics",
+          "desc": "Nuclear Physics handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/sanskriti/Nuclear_Physics.pdf"
+        },
+        {
+          "title": "Theory of Relativity",
+          "desc": "Theory of Relativity handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/sanskriti/Theory_Of_Relativity.pdf"
+        },
+        {
+          "title": "Semiconductor",
+          "desc": "Semiconductor handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/sanskriti/semiconductor.pdf"
+        },
+        {
+          "title": "Laser",
+          "desc": "Laser handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/sanskriti/Laser.pdf"
+        },
+        {
+          "title": "Quantum Physics",
+          "desc": "Quantum Physics handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/sanskriti/Quantum_Physics.pdf"
+        },
+        {
+          "title": "Wave Optics",
+          "desc": "Wave Optics handwritten notes by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/sanskriti/Wave_optics.pdf"
+        }
+      ],
       "Notes": [
         {
           "title": "Ballistics",
@@ -625,6 +689,21 @@
           "title": "Mini Test 2025 (Sem - II)",
           "desc" : "Mini test PDF of section G 2025 (Sem - II)",
           "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mini_sem2_2025.pdf"
+        },
+        {
+          "title": "Mini Test 2024 (Sem - I)",
+          "desc" : "Mini test PDF of section E 2024 (Sem - I)",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mini_2024_sem1_sece.pdf"
+        },
+        {
+          "title": "Mid Term 2024 (Sem - I)",
+          "desc" : "Mid Term PDF 2024 (Sem - I)",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mid_term_2024_sem1.pdf"
+        },
+        {
+          "title": "End Term 2024 (Sem - I)",
+          "desc" : "End Term PDF 2024 (Sem - I)",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/end_term_2024_sem1.pdf"
         },
         {
           "title": "End Term 2023",
