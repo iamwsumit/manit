@@ -664,7 +664,7 @@
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/Nuclear.pdf"
         },
         {
-          "title": "Quantum Mechanics (2)",
+          "title": "Quantum Mechanics Set - 2",
           "desc": "Quantum Mechanics 2 handwritten notes",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/Quantum_2.pdf"
         },
@@ -677,6 +677,11 @@
           "title": "Theory of Relativity",
           "desc": "Theory of Relativity handwritten notes",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/Theory_of_Relativity_.pdf"
+        },
+        {
+          "title" : "Solid State & Semiconductor",
+          "desc" : "Solid State & Semiconductor Handwritten Notes",
+          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/notes/solid_state.pdf"
         },
         {
           "title": "Wave Optics",
