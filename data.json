@@ -53,14 +53,14 @@
       ],
       "PYPs": [
         {
-          "title" : "Mid Term 2024 (Sem - I)",
-          "desc" : "Mid term test PDF 2024 (Sem - I)",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/mid_term_2024_sem1.pdf"
+          "title": "Mid Term 2024 (Sem - I)",
+          "desc": "Mid term test PDF 2024 (Sem - I)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/mid_term_2024_sem1.pdf"
         },
         {
-          "title" : "End Term 2024 (Sem - I)",
-          "desc" : "End term test PDF 2024 (Sem - I)",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/m1_end_2024.pdf"
+          "title": "End Term 2024 (Sem - I)",
+          "desc": "End term test PDF 2024 (Sem - I)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m1/pyq/m1_end_2024.pdf"
         },
         {
           "title": "End Term (2022-2023)",
@@ -223,6 +223,23 @@
   "m2": {
     "name": "Mathematics 2",
     "data": {
+      "Assignments": [
+        {
+          "title": "Matrices",
+          "desc": "Matrices assignment section G 2025",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/assignments/matrix.pdf"
+        },
+        {
+          "title": "Laplace Transformation",
+          "desc": "Laplace Transformation assignment section G 2025",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/assignments/matrix.pdf"
+        },
+        {
+          "title": "Fourier Series & Transform",
+          "desc": "Fourier Series and transform assignment section G 2025",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/assignments/matrix.pdf"
+        }
+      ],
       "Notes": [
         {
           "title": "Function of Complex Variables",
@@ -257,9 +274,14 @@
       ],
       "PYPs": [
         {
-          "title" : "Mini Test 2025 (Sem - II)",
-          "desc" : "Mini test PDF of section G 2025 (Sem - II)",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/pyq/mini_sem2_2025.pdf"
+          "title": "Mid Term 2025 (Sem - II)",
+          "desc": "Mid Term PDF of section G 2025 (Sem - II)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/pyq/mid_term_2025_sem2.pdf"
+        },
+        {
+          "title": "Mini Test 2025 (Sem - II)",
+          "desc": "Mini test PDF of section G 2025 (Sem - II)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/pyq/mini_sem2_2025.pdf"
         },
         {
           "title": "End Term 2021",
@@ -299,31 +321,31 @@
   "mechanics": {
     "name": "Engineering Mechanics",
     "data": {
-      "Lab" : [
+      "Lab": [
         {
-          "title" : "Lab Records",
-          "desc" : "Engineering Mechanics Lab Records PDF", 
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/lab/lab.pdf"
+          "title": "Lab Records",
+          "desc": "Engineering Mechanics Lab Records PDF",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/lab/lab.pdf"
         }
       ],
-      "Assignments" : [
+      "Assignments": [
         {
-          "title" : "Assignment 1",
-          "desc" : "Assignment 1 Section E",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/assign/ass1.pdf"
+          "title": "Assignment 1",
+          "desc": "Assignment 1 Section E",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/assign/ass1.pdf"
         },
         {
-          "title" : "Assignment 2",
-          "desc" : "Assignment 2 Section E",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/assign/ass2.pdf"
+          "title": "Assignment 2",
+          "desc": "Assignment 2 Section E",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/assign/ass2.pdf"
         },
         {
-          "title" : "Assignment 3",
-          "desc" : "Assignment 3 Section E",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/assign/ass3.pdf"
+          "title": "Assignment 3",
+          "desc": "Assignment 3 Section E",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/assign/ass3.pdf"
         }
       ],
-      "Notes-2024" : [
+      "Notes-2024": [
         {
           "title": "Centroid and MOI",
           "desc": "Centroid and MOI handwritten notes by Sanskriti Jain",
@@ -378,6 +400,11 @@
         }
       ],
       "PYPs": [
+        {
+          "title": "Mid Term 2025 (Sem - II)",
+          "desc": "Mid Term 2025 Sem II test PDF",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/pyq/mid_term_2025_sem2.pdf"
+        },
         {
           "title": "Mid Term 2024 (Sem - I)",
           "desc": "Mid Term 2024 Sem I test PDF",
@@ -583,11 +610,11 @@
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/lab/observations.pdf"
         }
       ],
-      "Assignments" : [
+      "Assignments": [
         {
-          "title" : "Assignments Solved (Sec - E)",
-          "desc" : "Assignment Solution of Section E by Sanskriti Jain",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/assign/ass_sol.pdf"
+          "title": "Assignments Solved (Sec - E)",
+          "desc": "Assignment Solution of Section E by Sanskriti Jain",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/assign/ass_sol.pdf"
         },
         {
           "title": "Nuclear Physics",
@@ -610,7 +637,7 @@
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/assign/wave_optics.pdf"
         }
       ],
-      "Notes-2024" : [
+      "Notes-2024": [
         {
           "title": "Bethe's Law",
           "desc": "Bethe's Law handwritten notes by Sanskriti Jain",
@@ -686,24 +713,29 @@
       ],
       "PYPs": [
         {
+          "title": "Mid Term 2025 (Sem - II)",
+          "desc": "Mid Term PDF of section G 2025 (Sem - II)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mid_term_2025_sem2.pdf"
+        },
+        {
           "title": "Mini Test 2025 (Sem - II)",
-          "desc" : "Mini test PDF of section G 2025 (Sem - II)",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mini_sem2_2025.pdf"
+          "desc": "Mini test PDF of section G 2025 (Sem - II)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mini_sem2_2025.pdf"
         },
         {
           "title": "Mini Test 2024 (Sem - I)",
-          "desc" : "Mini test PDF of section E 2024 (Sem - I)",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mini_2024_sem1_sece.pdf"
+          "desc": "Mini test PDF of section E 2024 (Sem - I)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mini_2024_sem1_sece.pdf"
         },
         {
           "title": "Mid Term 2024 (Sem - I)",
-          "desc" : "Mid Term PDF 2024 (Sem - I)",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mid_term_2024_sem1.pdf"
+          "desc": "Mid Term PDF 2024 (Sem - I)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/mid_term_2024_sem1.pdf"
         },
         {
           "title": "End Term 2024 (Sem - I)",
-          "desc" : "End Term PDF 2024 (Sem - I)",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/end_term_2024_sem1.pdf"
+          "desc": "End Term PDF 2024 (Sem - I)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/end_term_2024_sem1.pdf"
         },
         {
           "title": "End Term 2023",
@@ -886,11 +918,11 @@
   "biology": {
     "name": "Biology for Engineers",
     "data": {
-      "Syllabus" : [
+      "Syllabus": [
         {
-          "title" : "Biology Syllabus",
-          "desc" : "Biology for Engineers Syllabus PDF",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/syllabus.pdf"
+          "title": "Biology Syllabus",
+          "desc": "Biology for Engineers Syllabus PDF",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/syllabus.pdf"
         }
       ],
       "Notes": [
@@ -954,7 +986,7 @@
           "desc": "Nutrition and Digestion PPT notes",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/nutrition_digestion.pdf"
         },
-          {
+        {
           "title": "Recombinant DNA Technology and Cloning",
           "desc": "Recombinant DNA Technology and Cloning PPT notes",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/biology/notes/recombinant.pdf"
@@ -1032,26 +1064,26 @@
         }
       ],
       "Short-Notes": [
-          {
-            "title": "Carpentary",
-            "desc": "Carpentary short notes for Manufacturing Science",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/carpentary.pdf"
-          },
-          {
-            "title": "Foundary",
-            "desc": "Foundary short notes for Manufacturing Science",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/foundary.pdf"
-          },
-          {
-            "title": "Fitting",
-            "desc": "Fitting short notes for Manufacturing Science",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/fitting.pdf"
-          },
-          {
-            "title": "Welding",
-            "desc": "Welding short notes for Manufacturing Science",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/welding.pdf"
-          }
+        {
+          "title": "Carpentary",
+          "desc": "Carpentary short notes for Manufacturing Science",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/carpentary.pdf"
+        },
+        {
+          "title": "Foundary",
+          "desc": "Foundary short notes for Manufacturing Science",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/foundary.pdf"
+        },
+        {
+          "title": "Fitting",
+          "desc": "Fitting short notes for Manufacturing Science",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/fitting.pdf"
+        },
+        {
+          "title": "Welding",
+          "desc": "Welding short notes for Manufacturing Science",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/manufacturing-science/short_notes/welding.pdf"
+        }
       ],
       "PYPs": [
         {
@@ -1085,7 +1117,7 @@
   "graphics": {
     "name": "Engineering Graphics",
     "data": {
-      "Assignments" : [
+      "Assignments": [
         {
           "title": "Geometrical Construction",
           "desc": "Geometrical Construction assignment",
@@ -1104,19 +1136,24 @@
       ],
       "PYPs": [
         {
-          "title" : "Mini Test 2025 (Sem - II)",
-          "desc" : "Mini test PDF of section G 2025 (Sem - II)",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/mini_sem2_2025.pdf"
+          "title": "Mid Term 2025 (Sem - II)",
+          "desc": "Mid Term PDF of section G 2025 (Sem - II)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/mid_term_2025_sem2.pdf"
         },
         {
-          "title" : "Mid Term 2024 (Sem - I)",
-          "desc" : "Mid term test PDF 2024 (Sem - I)",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/mid_term_2024_sem1.pdf"
+          "title": "Mini Test 2025 (Sem - II)",
+          "desc": "Mini test PDF of section G 2025 (Sem - II)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/mini_sem2_2025.pdf"
         },
         {
-          "title" : "End Term 2024 (Sem - I)",
-          "desc" : "End term test PDF 2024 (Sem - I)",
-          "link" : "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/end_term_2024_sem1.pdf"
+          "title": "Mid Term 2024 (Sem - I)",
+          "desc": "Mid term test PDF 2024 (Sem - I)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/mid_term_2024_sem1.pdf"
+        },
+        {
+          "title": "End Term 2024 (Sem - I)",
+          "desc": "End term test PDF 2024 (Sem - I)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/end_term_2024_sem1.pdf"
         },
         {
           "title": "End Term 2023 (Sem - II)",
@@ -1156,27 +1193,27 @@
   "computer-programming": {
     "name": "Computer Programming",
     "data": {
-      "Assignments" : [
-          {
-            "title": "Assignment 1",
-            "desc": "Assignment 1 Section E",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/Assignment_1.pdf"
-          },
-          {
-            "title": "Lab Assignment",
-            "desc": "Lab Assignment Section E",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/Lab_Assignment.pdf"
-          },
-          {
-            "title": "Lab Assignment 2",
-            "desc": "Lab Assignment 2 Section E",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/Lab_assignment_2.pdf"
-          },
-          {
-            "title": "Lab Manual Programs",
-            "desc": "Lab Manual Programs Section E",
-            "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/manual.pdf"
-          }
+      "Assignments": [
+        {
+          "title": "Assignment 1",
+          "desc": "Assignment 1 Section E",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/Assignment_1.pdf"
+        },
+        {
+          "title": "Lab Assignment",
+          "desc": "Lab Assignment Section E",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/Lab_Assignment.pdf"
+        },
+        {
+          "title": "Lab Assignment 2",
+          "desc": "Lab Assignment 2 Section E",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/Lab_assignment_2.pdf"
+        },
+        {
+          "title": "Lab Manual Programs",
+          "desc": "Lab Manual Programs Section E",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/assignments/manual.pdf"
+        }
       ],
       "Notes": [
         {
@@ -1216,6 +1253,11 @@
         }
       ],
       "PYPs": [
+        {
+          "title": "Mid Term 2025 (Sem - II)",
+          "desc": "Mid Term 2025 test paper (Sem - II)",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/pyq/mid_term_2025_sem2.pdf"
+        },
         {
           "title": "Mini Test 2024 (Sem - I)",
           "desc": "Mini test PDF of Section E (Sem - I)",
@@ -1342,6 +1384,11 @@
         }
       ],
       "PYPs": [
+        {
+          "title": "Mid Term 2025 (Sem - II)",
+          "desc": "Mid Term 2025 Sem II test PDF",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/pyq/mid_term_2025_sem2.pdf"
+        },
         {
           "title": "Mid Term 2024 (Sem - I)",
           "desc": "Mid Term 2024 Sem I test PDF",
