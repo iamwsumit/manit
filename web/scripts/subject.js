@@ -3,7 +3,14 @@ let data = {};
 async function loadData() {
   try {
     const response = await fetch(
-      "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/data.json"
+      "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/data.json",
+      {
+        cache: "no-store",
+        headers: {
+          "Cache-Control": "no-cache",
+          Pragma: "no-cache",
+        },
+      }
     );
     data = await response.json();
     onPageLoad();
@@ -40,7 +47,6 @@ function onPageLoad() {
       });
 
       selectComp.addEventListener("change", (e) => {
-        
         document.querySelector(`#${e.target.value}`).style.display = "grid";
         document.getElementById(lastLayoutId).style.display = "none";
         lastLayoutId = e.target.value;
@@ -76,12 +82,14 @@ function buildTabData(tab, data) {
         </div>
         </div>`;
     container.appendChild(card);
-    card.querySelector('#download').addEventListener('click', () => {
-        document.location.href = link;
+    card.querySelector("#download").addEventListener("click", () => {
+      document.location.href = link;
     });
-    card.querySelector('#view').addEventListener('click', () => {
-        const googleDocsUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(link)}`;
-        window.open(googleDocsUrl, '_blank');
+    card.querySelector("#view").addEventListener("click", () => {
+      const googleDocsUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(
+        link
+      )}`;
+      window.open(googleDocsUrl, "_blank");
     });
   });
 
