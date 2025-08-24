@@ -2,16 +2,10 @@ let data = {};
 
 async function loadData() {
   try {
-    const response = await fetch(
-      "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/data.json",
-      {
-        cache: "no-store",
-        headers: {
-          "Cache-Control": "no-cache",
-          Pragma: "no-cache",
-        },
-      }
-    );
+    const timestamp = new Date().getTime();
+    const url = `https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/data.json?_=${timestamp}`;
+
+    const response = await fetch(url);
     data = await response.json();
     onPageLoad();
   } catch (error) {
