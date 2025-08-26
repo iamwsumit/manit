@@ -6,6 +6,13 @@
             "title" : "Report Bugs",
             "desc" : "If you find any bugs or mistakes in any resources or app, please contact us and report them for a fix.",
             "link" : "https://docs.google.com/forms/d/e/1FAIpQLSdLZ65QXJPEjMZ7ggU-LTG1r2ZlMUl_j46FB4YQo4-YKHJ0vw/viewform?usp=header"
+        },
+                {
+            "author" : "By Sumit Kumar",
+            "date" : "27 Aug 2025",
+            "title" : "Second Year Resources",
+            "desc" : "We are working on adding resources for second year students, we will be requiring your help to make it happen. Please send your branch's resources if you have any.",
+            "link" : "https://docs.google.com/forms/d/e/1FAIpQLSdLZ65QXJPEjMZ7ggU-LTG1r2ZlMUl_j46FB4YQo4-YKHJ0vw/viewform?usp=header"
         }
     ]
 }
