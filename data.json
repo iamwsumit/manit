@@ -274,6 +274,11 @@
       ],
       "PYPs": [
         {
+          "title": "End Term 2025 (Sem - II)",
+          "desc": "End Term 2025 test paper (Sem - II) - Mathematics II",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/pyq/m2_end_2025.pdf"
+        },
+        {
           "title": "Mid Term 2025 (Sem - II)",
           "desc": "Mid Term PDF of section G 2025 (Sem - II)",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/m2/pyq/mid_term_2025_sem2.pdf"
@@ -400,6 +405,11 @@
         }
       ],
       "PYPs": [
+        {
+          "title": "End Term 2025 (Sem - II)",
+          "desc": "End Term 2025 test paper (Sem - II) - Mechanics",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/mechanics/pyq/mechanics_s2_end_2025.pdf"
+        },
         {
           "title": "Mid Term 2025 (Sem - II)",
           "desc": "Mid Term 2025 Sem II test PDF",
@@ -712,6 +722,11 @@
         }
       ],
       "PYPs": [
+        {
+          "title": "End Term 2025 (Sem - II)",
+          "desc": "End Term 2025 test paper (Sem - II) - Physics",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/physics/pyq/phy_end_term_s2_2025.pdf"
+        },
         {
           "title": "Mid Term 2025 (Sem - II)",
           "desc": "Mid Term PDF of section G 2025 (Sem - II)",
@@ -1136,6 +1151,11 @@
       ],
       "PYPs": [
         {
+          "title": "End Term 2025 (Sem - II)",
+          "desc": "End Term 2025 test paper (Sem - II) - Engineering Graphics",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/eg_s2_2025_end.pdf"
+        },
+        {
           "title": "Mid Term 2025 (Sem - II)",
           "desc": "Mid Term PDF of section G 2025 (Sem - II)",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/graphics/pyq/mid_term_2025_sem2.pdf"
@@ -1253,6 +1273,11 @@
         }
       ],
       "PYPs": [
+        {
+          "title": "End Term 2025 (Sem - II)",
+          "desc": "End Term 2025 test paper (Sem - II) - Computer Programming",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/computer-programming/pyq/cp_2025_s2_end.pdf"
+        },
         {
           "title": "Mid Term 2025 (Sem - II)",
           "desc": "Mid Term 2025 test paper (Sem - II)",
@@ -1385,6 +1410,11 @@
       ],
       "PYPs": [
         {
+          "title": "End Term 2025 (Sem - II)",
+          "desc": "End Term 2025 test paper (Sem - II) - Communication Skills",
+          "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/pyq/communication_end_s2_2025.pdf"
+        },
+        {
           "title": "Mid Term 2025 (Sem - II)",
           "desc": "Mid Term 2025 Sem II test PDF",
           "link": "https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/content/communication-skills/pyq/mid_term_2025_sem2.pdf"
@@ -1443,9 +1473,5 @@
         }
       ]
     }
-  },
-  "me213":{
-    "name" : "Material Science & Engineering",
-    "data" : {}
   }
 }
