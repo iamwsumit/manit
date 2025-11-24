@@ -25,14 +25,11 @@ const navbar = `<div class="container">
             <li class="nav-item">
               <a href="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/iamwsumit/manit/refs/heads/main/web/assets/syllabus.pdf" target="_blank" class="nav-link">Syllabus</a>
             </li>
-            <li id="announcement" class="nav-item">
-              <a href="../announcement" class="nav-link">Announcements</a>
-            </li>
             <li id="contact" class="nav-item">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLZ65QXJPEjMZ7ggU-LTG1r2ZlMUl_j46FB4YQo4-YKHJ0vw/viewform?usp=header" class="nav-link" target="_blank">Contact</a>
             </li>
-            <li id="about" class="nav-item">
-              <a href="../about" class="nav-link">About</a>
+            <li id="open-source" class="nav-item">
+              <a href="https://github.com/iamwsumit/manit" target="_blank" class="nav-link">Source Code</a>
             </li>
             <li class="nav-item" style="padding-left: 10px">
               <a
